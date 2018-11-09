@@ -1,0 +1,57 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/address/address",
+    "pages/addressUpt/addressUpt",
+    "pages/prodetail/prodetail",
+    "pages/personal/personal",
+    "pages/welfare/welfare",
+    "pages/judge/judge",
+    "pages/category/category",
+    "pages/prolist/prolist",
+    "pages/limit/limit",
+    "pages/cart/cart"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网易严选",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#b4282d",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/menu/home.png",
+        "selectedIconPath": "images/menu/home-select.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "images/menu/category.png",
+        "selectedIconPath": "images/menu/category-select.png"
+      },
+      {
+        "pagePath": "pages/judge/judge",
+        "text": "好评",
+        "iconPath": "images/menu/judge.png",
+        "selectedIconPath": "images/menu/judge-select.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/menu/cart.png",
+        "selectedIconPath": "images/menu/cart-select.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "images/menu/user.png",
+        "selectedIconPath": "images/menu/user-select.png"
+      }
+    ]
+  }
+}
