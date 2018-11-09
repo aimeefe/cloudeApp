@@ -4,9 +4,6 @@
 [微信小程序手册地址] https://developers.weixin.qq.com/miniprogram/dev/
 [小程序云开发手册地址] https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
 
-# 下载：
-git clone https://github.com/aimeefe/cloudApp.git
-
 # 目录结构：
 · client - 客户端
   1. components：存放组件
