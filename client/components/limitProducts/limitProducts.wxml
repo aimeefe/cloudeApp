@@ -1,0 +1,18 @@
+<!--components/limitProducts/limitProducts.wxml-->
+<view class='comp-pro ex-class'>
+  <view class='comp-item' data-id="{{item._id}}" bindtap="linkToDetail" wx:for="{{data.list}}" wx:key="{{item._id}}">
+    <image class='comp-pic' src="{{item.imgUrl}}"/>
+    <view class='comp-info'>
+      <text class='comp-name'>{{item.name}}</text>
+      <text class='comp-desc'>{{item.desc}}</text>
+      <view class='comp-price'>
+        <view class='comp-price-now'>限时价<text>¥{{item.discountPrice}}</text></view>
+        <view class='comp-price-history'>原价<text>¥{{item.price}}</text></view>
+      </view>
+      <view class='comp-opt'>
+        <text class='comp-stock'>还剩{{item.stock}}件</text>
+        <Button class='comp-btn'>马上抢</Button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,164 @@
+.welfare-page {
+  background-color: #f4f4f4;
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  height: 350rpx;
+  background: #e8bdb7;
+  overflow: hidden;
+}
+.banner image {
+  width: 100%;
+}
+.banner-type2 {
+  height: 260rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu {
+  background: #fff;
+  border-bottom: 1rpx solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.menu text {
+  width: 20%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: #7F7F7F;
+  display: block;
+}
+.menu-current {
+  background: #faeeee;
+  color: #B4282D !important;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.box {
+  background: #fff;
+  padding-bottom: 20rpx;
+  margin-bottom: 20rpx;
+}
+.box-mt {
+  margin-top: 80rpx;
+}
+.box-title {
+  font-size: 34rpx;
+  color: #000;
+  font-weight: bold;
+  padding: 46rpx 0;
+  text-align: center;
+}
+.banner-type2 .box-title {
+  padding: 0;
+  line-height: 1;
+}
+.box-desc {
+  font-size: 28rpx;
+  color: #999;
+  line-height: 1;
+  text-align: center;
+  padding-top: 20rpx;
+}
+.box-voucher-item {
+  background: #fafafa url(http://yanxuan.nosdn.127.net/b21a72626a91e6993a498278d8469277.jpg?imageView&quality=75) no-repeat center;
+  background-size: 100% 100%;
+  height: 272rpx;
+  display: flex;
+  margin: 0 20rpx 30rpx;
+}
+.box-voucher-item image {
+  width: 272rpx;
+  height: 100%;
+}
+.box-voucher-right {
+  padding: 30rpx 24rpx;
+  flex: 1;
+}
+.box-voucher-right text {
+  line-height: 1;
+}
+.box-voucher-name {
+  font-size: 30rpx;
+  color: #000;
+  font-weight: bold;
+}
+.box-voucher-rule {
+  padding: 18rpx 0;
+  font-size: 26rpx;
+  color: #333;
+}
+.box-voucher-date {
+  color: #999;
+  font-size: 24rpx;
+}
+.box-voucher-btn {
+  font-size: 28rpx;
+  color: #fff;
+  width: 176rpx;
+  height: 58rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F48F18;
+  margin-top: 38rpx;
+  border-radius: 4rpx;
+}
+.box-rule {
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #333;
+}
+/* 特价产品 */
+.box-special {
+  border-top: 1px solid #d9d9d9;
+}
+.box-special .comp-item {
+  width: 50%;
+  border-right: 1px solid #d9d9d9;
+  border-bottom:  1px solid #d9d9d9;
+  box-sizing: border-box;
+  padding: 30rpx;
+  margin-bottom: 0;
+}
+.box-special .comp-item:nth-of-type(2n) {
+  border-right: 0;
+}
+.box-special .comp-pic {
+  background: none;
+}
+.banner-special {
+  background: url(http://yanxuan.nosdn.127.net/d9cc7075672e1179b3e7e05a30728484.jpg) no-repeat center;
+  background-size: cover;
+}
+.banner-good {
+  background: url(http://yanxuan.nosdn.127.net/3007ee13a205d83f329891e38ed0e3ec.jpg) no-repeat center;
+  background-size: cover;
+}
+.banner-hot {
+  background: url(http://yanxuan.nosdn.127.net/1ebaef326b286642484acbd4d4b48572.jpg) no-repeat center;
+  background-size: cover;
+}
+.banner-new {
+  background: url(http://yanxuan.nosdn.127.net/58e5d75216f38fa3d3ddc54126eb9bbb.jpg) no-repeat center;
+  background-size: cover;
+}

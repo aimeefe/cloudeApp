@@ -1,0 +1,56 @@
+<!-- 个人中心 -->
+<view class='personal-section'>
+  <view class='user'>
+    <image class='user-portait' src="{{userInfo.avatarUrl || 'https://img.zcool.cn/community/01e0ae58ae3d72a801219c77fadb52.png@1280w_1l_2o_100sh.png'}}"/>
+    <view class='info' bindtap="handleLogin">
+      <text class='name'>{{userInfo ? userInfo.nickName : '未登录'}}</text>
+      <text class='desc' wx:if="{{userInfo}}">微信用户</text>
+      <button class='desc' wx:else open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="handleLogin">点击此处登录</button>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/0.png'/>
+      <text class='cate-name'>我的订单</text>
+    </view>
+    <view class='item' bindtap="showTipModal">
+      <image class='icon' src='../../images/personal/1.png'/>
+      <text class='cate-name'>我的拼团</text>
+    </view>
+    <view class='item' bindtap="showTipModal">
+      <image class='icon' src='../../images/personal/2.png'/>
+      <text class='cate-name'>我的积分</text>
+    </view>
+    <view class='item' bindtap="showTipModal">
+      <image class='icon' src='../../images/personal/3.png'/>
+      <text class='cate-name'>退换/售后</text>
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/4.png'/>
+      <text class='cate-name'>优惠券</text>
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/5.png'/>
+      <text class='cate-name'>红包</text>
+    </view>
+    <navigator url="../address/address" class='item'>
+      <image class='icon' src='../../images/personal/6.png'/>
+      <text class='cate-name'>地址管理</text>
+    </navigator>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/7.png'/>
+      <text class='cate-name'>联系客服</text>
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/8.png'/>
+      <text class='cate-name'>用户反馈</text>
+    </view>
+    <view class='item'>
+      <image class='icon' src='../../images/personal/9.png'/>
+      <text class='cate-name'>帮助中心</text>
+    </view>
+  </view>
+  <view class='accout' wx:if="userInfo" bindtap="handleLogout">
+    <text>退出账号</text>
+  </view>
+</view>

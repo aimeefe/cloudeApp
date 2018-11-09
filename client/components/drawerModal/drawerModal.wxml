@@ -1,0 +1,7 @@
+<!--components/drawerModal/drawerModal.wxml-->
+<view class='comp-shadow' wx-if="{{show}}">
+  <view class="comp-bg {{showBg ? 'comp-active' : ''}}" bindtap="hideModal"></view>
+  <view class='comp-modal'  animation="{{animationData}}">
+    <slot></slot>
+  </view>
+</view>

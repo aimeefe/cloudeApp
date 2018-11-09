@@ -1,0 +1,90 @@
+{
+    "_id": "100001",
+    "imgUrl": "http://yanxuan.nosdn.127.net/8c3d04702653010fda6b8f9d1008f722.png?imageView&quality=65&thumbnail=330x330",
+    "name": "榴莲泡泡 120克*3盒",
+    "desc": "猫山王榴莲，一口爆浆",
+    "price": "118",
+    "discountPrice": "",
+    "stock": "100",
+}
+{
+    "_id": "100002",
+    "imgUrl": "http://yanxuan.nosdn.127.net/65a4b7c6757168912a05ad55e22c817f.png?imageView&quality=65&thumbnail=330x330",
+    "name": "妙曲奇遇记曲奇礼盒 520克",
+    "desc": "六种口味，酥香脆爽",
+    "price": "78",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100003",
+    "imgUrl": "http://yanxuan.nosdn.127.net/1859e09f7e7457d919aaf6d4dba89563.png?imageView&quality=65&thumbnail=330x330",
+    "name": "女生零食礼盒",
+    "desc": "多味礼赠，一盒齐全",
+    "price": "128",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100004",
+    "imgUrl": "http://yanxuan.nosdn.127.net/76157cdac144787be9f8238264586fc9.png?imageView&quality=65&thumbnail=330x330",
+    "name": "雪麸蛋糕",
+    "desc": "松软香甜 一口倾心",
+    "price": "9.9",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100005",
+    "imgUrl": "http://yanxuan.nosdn.127.net/1141df2356995d14c4ad69c1e6b52695.png?imageView&quality=65&thumbnail=330x330",
+    "name": "黄山烧饼 21克*8枚",
+    "desc": "徽风皖韵，酥香糯爽",
+    "price": "12.8",
+    "discountPrice": "",
+    "stock": "97",
+}
+{
+    "_id": "100006",
+    "imgUrl": "http://yanxuan.nosdn.127.net/66b9f1638c0517d179262f14ed1345f9.png?imageView&quality=65&thumbnail=330x330",
+    "name": "细腻松软，入口绵柔",
+    "desc": "绿豆糕 160克",
+    "price": "15.2",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100007",
+    "imgUrl": "http://yanxuan.nosdn.127.net/45661fa96b49d6a1748952d054537cf7.png?imageView&quality=65&thumbnail=330x330",
+    "name": "茶香酥 200克",
+    "desc": "酥香红茶，桃仁夹心",
+    "price": "25",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100008",
+    "imgUrl": "http://yanxuan.nosdn.127.net/65a4b7c6757168912a05ad55e22c817f.png?imageView&quality=65&thumbnail=330x330",
+    "name": "妙曲奇遇记曲奇礼盒 520克",
+    "desc": "六种口味，酥香脆爽",
+    "price": "78",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100009",
+    "imgUrl": "http://yanxuan.nosdn.127.net/ee0a6caa81b9af66af6f9219a5c2047e.png?imageView&quality=65&thumbnail=330x330",
+    "name": "酥饼界的小仙女",
+    "desc": "千层星云酥 60克*3枚",
+    "price": "78",
+    "discountPrice": "",
+    "stock": "90",
+}
+{
+    "_id": "100010",
+    "imgUrl": "http://yanxuan.nosdn.127.net/f44adc91fc2449fc1a13eeb0ba14acc2.png?imageView&quality=65&thumbnail=330x330",
+    "name": "法式松饼 20克*8枚",
+    "desc": "外形素雅，口感小清新",
+    "price": "28",
+    "discountPrice": "",
+    "stock": "90",
+}

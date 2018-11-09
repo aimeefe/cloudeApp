@@ -1,0 +1,42 @@
+<!-- 评价 -->
+<view class='judge-section'>
+  <view class='judge-item' wx:for="{{judges}}" wx:key="{{index}}">
+    <view class='user-bar'>
+      <view class='user'>
+        <image class='user-portait' src='{{item.user.portait}}'/>
+        <view class='user-info'>
+          <view>
+            <text class='user-name'>{{item.user.name}}</text>
+            <!-- <image class='user-level' src=''/> -->
+          </view>
+          <view class='date'>{{item.judge.date}}</view>
+        </view>
+      </view>
+      <view class='score'>
+        <image class='score-item' wx:for="{{item.judge.score}}" wx:key="{{index}}" src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
+      </view>
+    </view>
+    <view class='content'>
+      <view class='desc-bar'>
+        <text class='desc'>{{item.judge.desc}}</text>
+        <swiper class='desc-pic' interval="{{3000}}" duration="{{500}}">
+          <swiper-item wx:for="{{item.judge.images}}" wx:key="{{index}}">
+            <image class='desc-pic' src="{{item}}"/>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class='product-bar'>
+        <view class='product'>
+          <image class='product-pic' src='{{item.product.imgUrl}}'/>
+          <view class='product-info'>
+            <text class='product-name'>{{item.product.name}}</text>
+            <text class='product-price'>¥ {{item.product.price}}</text>
+          </view>
+        </view>
+        <navigator url='../prodetail/prodetail?id={{item.product.id}}'>
+          <view class='detail-btn'>查看</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

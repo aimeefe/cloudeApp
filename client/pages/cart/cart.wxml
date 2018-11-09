@@ -1,0 +1,16 @@
+<!-- 购物车 -->
+<import src='../template/template.wxml'/>
+
+<view class='cart-section'>
+  <template is="promise"></template>
+  <view class='empty'>
+    <image class='empty-icon' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noCart-a8fe3f12e5.png'/>
+    <text class='desc'>去添加点什么吧</text>
+  </view>
+  <view class='recommend'>
+    <view class='recommend-title'>
+      <text class='u-title'>猜你喜欢</text>
+    </view>
+    <my-product data="{{recommend}}"/>
+  </view>
+</view>

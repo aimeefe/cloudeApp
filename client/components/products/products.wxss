@@ -1,0 +1,58 @@
+/* 公共产品 - 每行2个 */
+.comp-pro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.comp-item {
+  width: 332rpx;
+  margin-bottom: 55rpx;
+}
+.comp-pic{
+  height: 332rpx;
+  width: 100%;
+  border-radius: 8rpx;
+  background: #f4f4f4;
+}
+.comp-info {
+  padding-top: 24rpx;
+}
+.comp-label{
+  display: flex;
+  align-items: center;
+}
+.comp-label text {
+  padding: 6rpx 16rpx;
+  margin-right: 6rpx;
+  line-height: 1;
+  font-size: 20rpx;
+  color: #fff;
+  background: #d7817d;
+  letter-spacing: 1rpx;
+  display: inline-block;
+}
+.comp-name {
+  line-height: 1;
+  padding: 15rpx 0;
+  font-size: 28rpx;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.comp-price {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+.comp-price-now {
+  font-size: 28rpx;
+  color: #000;
+  font-weight: bold;
+  margin-right: 15rpx;
+}
+.comp-price-history {
+  font-size: 20rpx;
+  color: #999;
+  text-decoration: line-through;
+}

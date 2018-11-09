@@ -1,0 +1,110 @@
+/**limit.wxss**/
+.limit-section {
+  width: 100%;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+.banner {
+  width: 100%;
+  display: block;
+}
+.time {
+  width: 100%;
+  height: 100rpx;
+  background: #f2e0c5;
+  white-space:nowrap;
+}
+.time-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+.time-item {
+  display: inline-block;
+  text-align: center;
+  width: 166rpx;
+  height: 100%;
+  padding-top: 18rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.time-item::after {
+  position: absolute;
+  right: 0;
+  top: 12rpx;
+  content: '';
+  width: 1rpx;
+  height: 76rpx;
+  background: #d0bea8;
+}
+.time-item text {
+  display: block;
+  line-height: 1;
+}
+.time-item-info {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 16rpx;
+}
+.time-item-status {
+  font-size: 24rpx;
+  color: #999;
+}
+.tip {
+  padding: 36rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  color: #333;
+  position: relative;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.time-active {
+  margin-top: 100rpx;
+}
+.tip::before,
+.tip::after {
+  position: absolute;
+  content: '';
+  background: #d9d9d9;
+  width: 168rpx;
+  height: 1rpx;
+  top: 56rpx;
+}
+.tip::before {
+  left: 28rpx;
+}
+.tip::after {
+  right: 28rpx;
+}
+.tip-time {
+  margin-left: 26rpx;
+  font-weight: bold;
+}
+.parent-pro {
+  background: #f4f4f4;
+}
+.parent-pro .comp-item {
+  border: 0;
+  margin-bottom: 20rpx;
+  background: #fff;
+  height: 290rpx;
+}
+.parent-pro .comp-price-now text {
+  font-size: 30rpx;
+  color: #b4282d;
+}
+.parent-pro .comp-stock {
+  height: 34rpx;
+}
+.parent-pro .comp-btn {
+  width: 166rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+}
+.parent-pro .comp-info {
+  padding-top: 36rpx;
+}

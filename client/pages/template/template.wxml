@@ -1,0 +1,10 @@
+<!-------------- 模板合集 -------------->
+
+<!-- 保障 -->
+<template name='promise'>
+  <view class='temp-promise'>
+    <text class='temp-promise-item'>网易自营品牌</text>
+    <text class='temp-promise-item'>30天无忧退货</text>
+    <text class='temp-promise-item'>48小时快速退款</text>
+  </view>
+</template>

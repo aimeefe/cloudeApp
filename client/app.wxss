@@ -1,0 +1,12 @@
+
+page {
+  box-sizing: border-box;
+}
+
+text {
+  display: block;
+}
+
+.navigator-hover {
+  background: none;
+}

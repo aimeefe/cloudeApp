@@ -1,0 +1,118 @@
+<!--welfare.wxml-->
+<view class='welfare-page'>
+  <view class='banner'>
+    <image src='https://yanxuan.nosdn.127.net/c49cab748f802a265b8bf50b527811c7.jpg'/>
+  </view>
+  <view class="menu {{fixed ? 'menu-fixed' : ''}}">
+    <text class="{{current === index ? 'menu-current' : null}}" wx:for="{{menus}}" wx:key="{{index}}" data-index="{{index}}" bindtap="getCurrentItem">{{item.title}}</text>
+  </view>
+  <view class="box {{fixed ? 'box-mt' : ''}}">
+    <view class='box-title'>领券中心</view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+    <view class='box-voucher'>
+      <view class='box-voucher-item'>
+        <image src='http://yanxuan.nosdn.127.net/7b94bab31adf03df9b7756b4ea02d5cd.png?imageView&quality=75'/>
+        <view class='box-voucher-right'>
+          <text class='box-voucher-name'>全场满199减20元</text>
+          <text class='box-voucher-rule'>全场商品</text>
+          <text class='box-voucher-date'>有效期：2018.10.04 - 2018.10.04</text>
+          <text class='box-voucher-btn'>立即领取</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='box' id='special'>
+    <view class="banner-type2 banner-special">
+      <view class='box-title'>今日特价</view>
+      <view class='box-desc'>汇聚每日新折扣</view>
+    </view>
+    <view class='box-rule'>仅限今日</view>
+    <my-product ex-class='box-special' data="{{product}}"/>
+  </view>
+  <view class='box' id='good'>
+    <view class="banner-type2 banner-good">
+      <view class='box-title'>优选好物</view>
+      <view class='box-desc'>一线大牌 为您甄选</view>
+    </view>
+    <my-product ex-class='box-special' data="{{product}}"/>
+  </view>
+  <view class='box' id='hot'>
+    <view class="banner-type2 banner-hot">
+      <view class='box-title'>人气推荐</view>
+      <view class='box-desc'>最hot好物 实时优选</view>
+    </view>
+    <my-product ex-class='box-special' data="{{product}}"/>
+  </view>
+  <view class='box' id='new'>
+    <view class="banner-type2 banner-new">
+      <view class='box-title'>新品首发</view>
+      <view class='box-desc'>一线大牌 最新最靓</view>
+    </view>
+    <my-product ex-class='box-special' data="{{product}}"/>
+  </view>
+</view>

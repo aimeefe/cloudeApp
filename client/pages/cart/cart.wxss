@@ -1,0 +1,102 @@
+/**cart.wxss**/
+
+@import "../template/template.wxss";
+
+.cart-section {
+  width: 100%;
+  background: #f4f4f4;
+}
+.cart-section .temp-promise {
+  padding: 30rpx;
+}
+.promise-section {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.empty {
+  background: #fff;
+  padding: 190rpx 0 150rpx;
+  margin-bottom: 35rpx;
+}
+.empty-icon {
+  height: 250rpx;
+  width: 250rpx;
+  display: block;
+  margin: 0 auto;
+}
+.desc {
+  text-align: center;
+  color: #999;
+  font-size: 30rpx;
+  margin-top: 35rpx;
+  display: block;
+}
+
+.recommend{
+  background: #fff;
+  padding: 0 30rpx;
+}
+.recommend .u-title {
+  text-align: center;
+  font-size: 30rpx;
+  padding: 40rpx 0;
+  display: block;
+}
+
+/* 公共产品 */
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-section .product-item {
+  width: 332rpx;
+  margin-bottom: 55rpx;
+}
+.product-section .product-item .product-pic {
+  height: 332rpx;
+  width: 100%;
+  border-radius: 8rpx;
+  background: #f4f4f4;
+}
+.product-section .product-item .product-info {
+  padding-top: 24rpx;
+}
+.product-section .product-item .product-info .label {
+  display: flex;
+}
+.product-section .product-item .product-info .label .label-item{
+  padding: 7rpx 20rpx;
+  margin-right: 5rpx;
+  line-height: 1;
+  font-size: 18rpx;
+  color: #fff;
+  background: #d7817d;
+  border-radius: 4rpx;
+  letter-spacing: 1rpx;
+}
+.product-section .product-item .product-info .product-title{
+  line-height: 1;
+  padding: 15rpx 0;
+  font-size: 26rpx;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.product-section .product-item .product-info .price {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+.product-section .product-item .product-info .price .price-now {
+  font-size: 24rpx;
+  color: #000;
+  font-weight: bold;
+  margin-right: 15rpx;
+}
+.product-section .product-item .product-info .price .price-history {
+  font-size: 20rpx;
+  color: #999;
+  text-decoration: line-through;
+}

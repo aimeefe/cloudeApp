@@ -1,0 +1,38 @@
+<!-- 购物车 -->
+<view class='limit-section'>
+  <image class='banner' mode="widthFix" src='http://yanxuan.nosdn.127.net/2bf05e3c4882a579934997ed5fbaf2b8.jpg'/>
+  <scroll-view class="time {{fixed ? 'time-fixed' : ''}}" scroll-x>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>11:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+    <view class='time-item'>
+      <text class='time-item-info'>10:00</text>
+      <text class='time-item-status'>抢购中</text>
+    </view>
+  </scroll-view>
+  <view class="tip {{fixed ? 'time-active' : ''}}">
+    本场还剩<text class='tip-time'>00：12：52</text>
+  </view>
+  <my-limit-product ex-class='parent-pro' data="{{limit}}"/>
+</view>

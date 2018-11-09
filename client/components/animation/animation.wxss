@@ -1,0 +1,70 @@
+/* components/animation/animation.wxss */
+.warp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.warp.top {
+    align-items: flex-start;
+}
+.warp.center {
+    align-items: center;
+}
+.warp.bottom {
+    align-items: flex-end;
+}
+
+.warpBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.warpBg.active {
+    opacity: 0.5;
+}
+
+.main {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.main.top {
+    width: calc(100% - 52rpx);
+    transform: translateY(-100%);
+    border-radius: 25%;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+.main.center {
+    transform: scale(0.3);
+}
+.main.bottom {
+  min-height: 500rpx;
+    transform: translateY(100%);
+    background-color: #fff;
+}
+image.close {
+    width: 30rpx;
+    height: 30rpx;
+    padding: 25rpx;
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+image.close.bottom {
+    display: block;
+}

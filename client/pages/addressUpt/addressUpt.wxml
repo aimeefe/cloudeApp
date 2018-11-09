@@ -1,0 +1,70 @@
+<!--miniprogram/pages/addressUpt/addressUpt.wxml-->
+<view class='upt-section'>
+  <form bindsubmit="formSubmit">
+    <view class='upt-item'>
+      <input class='upt-unit' name="name" placeholder="姓名" value="{{defaultInfo.name}}"/>
+    </view>
+    <view class='upt-item'>
+      <input class='upt-unit' name="phone" placeholder="手机号码" value="{{defaultInfo.phone}}"/>
+    </view>
+    <view class='upt-item'>
+      <input class='upt-unit' name="area" placeholder="省份、城市、区县" value="{{defaultInfo.area}}" disabled bindtap="showModal"/>
+    </view>
+    <view class='upt-item'>
+      <input class='upt-unit' name="address" placeholder="详细地址，如楼道、楼盘号等" value="{{defaultInfo.address}}"/>
+    </view>
+    <!-- <view class='upt-item'>
+      <radio-group class='upt-unit upt-default' name="radio-group">
+        <label>
+          <radio value="1"/>设为默认地址
+        </label>
+      </radio-group>
+    </view> -->
+    <view class='upt-btn'>
+      <button formType="submit">保存</button>
+    </view>
+  </form>
+
+  <!-- modal -->
+  <my-modal isType="bottom" isHide="{{!myModal.isShow}}">
+    <view class='area-modal'>
+      <view class='area-top'>
+        <view class='area-top-lt' bindtap="toBack">
+          <text class='{{current === 0 ? "area-select" : ""}}' data-current="0" >{{provinceName || '省份'}}</text>
+          <text class='{{current === 1 ? "area-select" : ""}}' data-current="1" wx:if="{{provinceName}}">{{cityName || '城市'}}</text>
+          <text class='{{current === 2 ? "area-select" : ""}}' data-current="2" wx:if="{{cityName}}">{{countryName || '区县'}}</text>
+        </view>
+        <view class='area-top-rt {{provinceName && cityName && countryName ? "area-top-confirm" : ""}}' bindtap="handleAreaSelect">确定</view>
+      </view>
+      <swiper class='area-content' current="{{current}}">
+
+        <!-- 省 -->
+        <swiper-item>
+          <scroll-view scroll-y class='area-content-item'>
+            <text class="{{provinceName === item ? 'area-content-item-select' : ''}}" wx:for="{{areas['86']}}" wx:key="{{index}}" data-province-id="{{index}}" data-province-name="{{item}}" bindtap="getProvinceSelected">
+              {{item}}
+            </text>
+          </scroll-view>
+        </swiper-item>
+
+        <!-- 市 -->
+        <swiper-item wx:if="{{provinceId}}">
+          <scroll-view scroll-y class='area-content-item'>
+            <text class="{{cityName === item ? 'area-content-item-select' : ''}}" wx:for="{{areas[provinceId]}}" wx:key="{{index}}" data-city-id="{{index}}"  data-city-name="{{item}}" bindtap="getCitySelected">
+              {{item}}
+            </text>
+          </scroll-view>
+        </swiper-item>
+
+        <!-- 区、县 -->
+        <swiper-item wx:if="{{cityId}}">
+          <scroll-view scroll-y class='area-content-item'>
+            <text class="{{countryName === item ? 'area-content-item-select' : ''}}" wx:for="{{areas[cityId]}}" wx:key="{{index}}" data-country-id="{{index}}" data-country-name="{{item}}" bindtap="getCountrySelected">
+              {{item}}
+            </text>
+          </scroll-view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </my-modal>
+</view>

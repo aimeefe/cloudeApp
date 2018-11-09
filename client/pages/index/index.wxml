@@ -1,0 +1,102 @@
+<!--index.wxml-->
+<import src='../template/template.wxml'/>
+
+<view class='index-page'>
+
+  <!-- 搜索 -->
+  <view class='search'>搜索商品，共13915款好物品</view>
+
+  <!-- banner -->
+  <view class='banner'>
+    <swiper class='banner-swiper' indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <swiper-item class='banner-item' wx:for="{{banners}}" wx:key="{{item.id}}}">
+        <image class='banner-image' mode="widthFix" src="{{item.imgUrl}}"/>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 保障 -->
+  <template is="promise"/>
+
+  <!-- 活动豆腐块 -->
+  <view class='hot'>
+    <view class='hot-r1'>
+      <navigator class='hot-r1-item' url="../welfare/welfare?index=2">
+        <text>好物优选</text>
+        <image src='http://yanxuan.nosdn.127.net/9411a2731a3ff5235b7d8d8603a79e2f.png'/>
+      </navigator>
+      <navigator class='hot-r1-item' url="../welfare/welfare?index=3">
+        <text>人气推荐</text>
+        <image src='http://yanxuan.nosdn.127.net/95cbd0fdea8d832cc87f2452e0a66fa0.png'/>
+      </navigator>
+      <navigator class='hot-r1-item' url="../welfare/welfare?index=4">
+        <text>新品首发</text>
+        <image src='http://yanxuan.nosdn.127.net/f0b40611925910ed232b1d5103b7f4ce.png'/>
+      </navigator>
+    </view>
+    <navigator class='hot-r2'  url="../welfare/welfare">
+      <image src='../../images/coupon-bar.png' mode="widthFix"/>
+    </navigator>
+    <view class='hot-r3'>
+      <navigator class='hot-r3-lt' url="../welfare/welfare?index=0">
+        <text class='hot-r3-title'>领券中心</text>
+        <view class='hot-r3-coupon'>
+          <text class='hot-r3-tit'>每满199减30</text>
+          <text class='hot-r3-btn'>马上去领取 ></text>
+        </view>
+      </navigator>
+      <navigator class='hot-r3-rt' url="../welfare/welfare?index=1">
+        <text class='hot-r3-title'>特价商品</text>
+        <view class='hot-r3-discount'>
+          <view class='hot-r3-info'>
+            <text class='hot-r3-price'>¥10</text>
+            <text class='hot-r3-history'>¥14</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <!-- 限时特价 -->
+  <view class='limit'>
+    <view class='title limit-title'>
+      <text class='title-name'>限时购</text>
+      <view class='title-limit'>
+        <text>本场还剩</text>
+        <view class='title-limit-time'>
+          <text>02</text>:
+          <text>38</text>:
+          <text>45</text>
+        </view>
+      </view>
+    </view>
+    <my-limit-product data="{{limit}}"/>
+    <navigator url="../limit/limit" class="more">
+      <view>查看更多 ></view>
+    </navigator>
+  </view>
+
+  <!-- 特价 -->
+  <view class='special'>
+    <view class='title special-title'>
+      <text class='title-name'>特价</text>
+      <view class='title-limit'>
+        <text>限时特价</text>
+        <view class='title-limit-time'>
+          <text>02</text>:
+          <text>38</text>:
+          <text>45</text>
+        </view>
+      </view>
+    </view>
+    <my-product data="{{special}}"/>
+  </view>
+
+  <!-- 推荐 -->
+  <view class='recommend'>
+    <view class='title recommend-title'>
+      <text class='title-name'>全部特价</text>
+    </view>
+    <my-product data="{{recommend}}"/>
+  </view>
+</view>

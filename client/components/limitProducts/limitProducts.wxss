@@ -1,0 +1,86 @@
+/* components/limitProducts/limitProducts.wxss */
+.comp-item {
+  height: 280rpx;
+  border: 1rpx solid #dadada;
+  border-radius: 8rpx;
+  display: flex;
+  margin-bottom: 17rpx;
+}
+.comp-pic {
+  width: 270rpx;
+  height: 100%;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.comp-info {
+  padding: 47rpx 22rpx 0 5rpx;
+  flex: 1;
+}
+.comp-name {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1;
+  display: block;
+}
+.comp-desc {
+  font-size: 24rpx;
+  line-height: 1;
+  color: #999;
+  margin: 17rpx 0 35rpx;
+  display: block;
+}
+.comp-price {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+  margin-bottom: 25rpx;
+}
+.comp-price-now {
+  color: #666;
+  display: flex;
+  align-items: flex-end;
+}
+.comp-price-now text {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #000;
+  padding-left: 3px;
+}
+.comp-price-history {
+  color: #999;
+  margin-left: 25rpx;
+  display: flex;
+  text-decoration: line-through;
+}
+.comp-price-history text {
+  padding-left: 3px;
+}
+.comp-opt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comp-stock {
+  width: 175rpx;
+  height: 30rpx;
+  border: 1rpx solid #e8933c;
+  background: #f9f0e0;
+  color: #e8933c;
+  border-radius: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+}
+.comp-btn {
+  width: 150rpx;
+  height: 42rpx;
+  background: #e8933c;
+  color: #fff;
+  font-size: 24rpx;
+  border-radius: 4rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 65rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-product": "/components/products/products",
+    "my-limit-product": "/components/limitProducts/limitProducts"
+  }
+}

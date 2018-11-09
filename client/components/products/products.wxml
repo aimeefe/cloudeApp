@@ -1,0 +1,16 @@
+<!--product.wxml-->
+<view class='comp-pro ex-class'>
+  <view class='comp-item' data-id="{{item.id}}" bindtap="linkToDetail" wx:for="{{data.list}}"  wx:key="{{item.id}}">
+    <image class='comp-pic' src="{{item.imgUrl}}"/>
+    <view class='comp-info'>
+      <view class='comp-label'>
+        <text wx:for="{{item.label}}" wx:for-item="_item" wx:key="{{index}}">{{_item}}</text>
+      </view>
+      <text class='comp-name'>{{item.name}}</text>
+      <view class='comp-price'>
+        <text class='comp-price-now'>¥ {{item.price}}</text>
+        <text class='comp-price-history' wx:if="{{item.discountPrice}}">¥ {{item.discountPrice}}</text>
+      </view>
+    </view>
+  </view>
+</view>

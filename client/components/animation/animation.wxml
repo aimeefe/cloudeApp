@@ -1,0 +1,8 @@
+<!--components/animation/animation.wxml-->
+<view class="warp {{isType}}" wx:if="{{show}}" catchtouchmove="touchmove">
+    <!-- <view  hidden="{{isCloseHide}}" class="warpBg {{!isHide && show?'active':''}}" bindtap="bindClose"></view> -->
+    <view  hidden="{{isCloseHide}}" class="warpBg {{showBg?'active':''}}" bindtap="bindClose"></view>
+    <view class="main {{isType}}" animation="{{animation}}">
+        <slot></slot>
+    </view>
+</view>
