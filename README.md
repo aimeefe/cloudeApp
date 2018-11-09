@@ -57,7 +57,7 @@
   2. 列表：UI（√），功能（×）
 
 #项目截图：
-
+![image](https://im4.ezgif.com/tmp/ezgif-4-fe2280c5f6d5.gif)
 #开发环境：
 微信web开发者工具
 
