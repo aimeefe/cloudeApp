@@ -58,9 +58,9 @@
 
 #项目截图：
 
-• 分类页面
+• 个人中心
 
-<img src="https://im4.ezgif.com/tmp/ezgif-4-fe2280c5f6d5.gif" width="375"/>
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>
 
 #开发环境：
 
