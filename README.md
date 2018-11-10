@@ -58,6 +58,10 @@
 
 #项目截图：
 
+• 首页 + 活动页
+
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.jpg" width="375"/>       <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/hd.jpg" width="375"/>    
+
 • 个人中心
 
 <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>
