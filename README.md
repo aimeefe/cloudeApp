@@ -3,11 +3,6 @@
 
 [素材来源] 网易严选：如发现不妥请告知删除，谢谢啦！
 
-[微信小程序手册地址] https://developers.weixin.qq.com/miniprogram/dev/
-
-
-[小程序云开发手册地址] https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
-
 
 # 目录结构：
 • client - 客户端
@@ -62,9 +57,13 @@
 
 <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.jpg" width="375"/>       <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/hd.jpg" width="375"/>    
 
-• 个人中心
+• 个人中心 + 分类页
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>         <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/category.gif" width="375"/>
+
+• 产品详情 + 评价页
+
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/detail.gif" width="375"/>        <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/pj.gif" width="375"/>
 
 #开发环境：
 
