@@ -53,17 +53,29 @@
 
 #项目截图：
 
-• 首页 + 活动页
+• 首页 
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.jpg" width="375"/>       <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/hd.jpg" width="375"/>    
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.jpg" width="375"/>       
 
-• 个人中心 + 分类页
+• 活动
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>         <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/category.gif" width="375"/>
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/hd.jpg" width="375"/>    
 
-• 产品详情 + 评价页
+• 个人中心 
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/detail.gif" width="375"/>        <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/pj.gif" width="375"/>
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>         
+
+• 分类页
+
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/category.gif" width="375"/>
+
+• 产品详情
+
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/detail.gif" width="375"/>        
+
+• 评价页
+
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/pj.gif" width="375"/>
 
 #开发环境：
 
