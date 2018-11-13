@@ -2,16 +2,18 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/address/address",
-    "pages/addressUpt/addressUpt",
+
+    "pages/cart/cart",
+    "pages/my_addr/my_addr",
+    "pages/my_addr_sub/my_addr_sub",
+    "pages/my_integral/my_integral",
     "pages/prodetail/prodetail",
-    "pages/personal/personal",
+    "pages/my/my",
     "pages/welfare/welfare",
     "pages/judge/judge",
     "pages/category/category",
     "pages/prolist/prolist",
-    "pages/limit/limit",
-    "pages/cart/cart"
+    "pages/limit/limit"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +24,8 @@
   "tabBar": {
     "color": "#666666",
     "selectedColor": "#b4282d",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "images/menu/home.png",
@@ -47,7 +50,7 @@
         "selectedIconPath": "images/menu/cart-select.png"
       },
       {
-        "pagePath": "pages/personal/personal",
+        "pagePath": "pages/my/my",
         "text": "个人",
         "iconPath": "images/menu/user.png",
         "selectedIconPath": "images/menu/user-select.png"

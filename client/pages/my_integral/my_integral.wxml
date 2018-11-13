@@ -1,0 +1,142 @@
+<!--client/pages/my_integral/my_integral.wxml-->
+<view class='integral-page'>
+  <view class='top'>
+    <view class='top-main'>
+      <view class='top-main-info'>可用积分<text>13</text></view>
+      <view class='top-main-link'>查看明细 ></view>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='row'>
+      <text class='row-title'>/ 小积分大作用 /</text>
+      <view class='row-main'>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/0a155a642620a20e448723f4442e93e6.png'/>
+            <text class='row-col-tit'>攒积分兑商品</text>
+            <text class='row-col-tit'>严选美物随心兑</text>
+            <text class='row-col-desc'>在主站或积分商城</text>
+            <text class='row-col-desc'>支付所需积分，轻松兑好礼</text>
+            <text class='row-col-desc'>每月上新， 百余款好物随你挑</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/f8e072a74bf8ca13b93d53a2b0407bdb.png'/>
+          </view>
+        </view>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/91900e6d179f3ed0fbee93a44c37b1a8.png'/>
+            <text class='row-col-tit'>小积分玩游戏</text>
+            <text class='row-col-tit'>高额实物大奖等你领</text>
+            <text class='row-col-desc'>支付少量积分</text>
+            <text class='row-col-desc'>参与严选小游戏</text>
+            <text class='row-col-desc'>高额实物大奖送给你</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/630bc87994fa774b5498477e79b4ae68.png'/>
+          </view>
+        </view>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/128a455a764a5e6ea2ebfc88ce8873ce.png'/>
+            <text class='row-col-tit'>站内超值活动</text>
+            <text class='row-col-tit'>积分换优先参与权</text>
+            <text class='row-col-desc'>站内超值活动</text>
+            <text class='row-col-desc'>花费一点积分</text>
+            <text class='row-col-desc'>参与就能快人一步</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/eee2b7c938bb309718606381c6fbfab6.png'/>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='row'>
+      <text class='row-title'>/ 积分从哪儿来 /</text>
+      <view class='row-main'>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/0a155a642620a20e448723f4442e93e6.png'/>
+            <text class='row-col-tit'>平台购物送积分</text>
+            <text class='row-col-tit'>买越多积分越多</text>
+            <text class='row-col-desc'>购物订单完成后</text>
+            <text class='row-col-desc'>积分发送到账</text>
+            <text class='row-col-desc'>购买金额越大 积分赠送越多</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/78baa951d6616a0da89a0f57009dc271.png'/>
+          </view>
+        </view>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/91900e6d179f3ed0fbee93a44c37b1a8.png'/>
+            <text class='row-col-tit'>每日签到领积分</text>
+            <text class='row-col-tit'>连续签到有惊喜</text>
+            <text class='row-col-desc'>每日登陆APP签到领积分</text>
+            <text class='row-col-desc'>连续签到获得积分赠送值越多</text>
+            <text class='row-col-desc'>连续签到有机会抽取惊喜奖励</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/ca0a15a83b4152c42cdeeab0157f9293.png'/>
+          </view>
+        </view>
+        <view class='row-col'>
+          <view class='row-col-lt'>
+            <image src='https://yanxuan.nosdn.127.net/128a455a764a5e6ea2ebfc88ce8873ce.png'/>
+            <text class='row-col-tit'>严选生日诚意礼</text>
+            <text class='row-col-tit'>生日周积分双倍</text>
+            <text class='row-col-desc'>生日周购物订单积分双倍送</text>
+            <text class='row-col-desc'>生日周签到积分双倍送</text>
+            <text class='row-col-desc'>最诚恳的祝福最耿直的方式表达</text>
+            <text class='row-col-tip'>请在网易严选APP中查看</text>
+          </view>
+          <view class='row-col-rt'>
+            <image src='https://yanxuan.nosdn.127.net/d6d7123b28ee21d5dd613f0c40fb81a4.png'/>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='row'>
+      <text class='row-title'>/ 积分日常答疑区 /</text>
+      <view class='row-qa'>
+        <text class='row-qa-q'>Q: 严选积分有有效期吗？</text>
+        <view class='row-qa-a'>
+          <text>积分有有效期。</text>
+          <text>用户6月30日24:00前获得积分，次年6月30日24：00过期，用户6月30日24:00后获得积分，次年12月31日24:00过期。已过期积分将分别在过期时点进行自动扣除，扣除情况将在积分明细中进行体现。</text>
+        </view>
+      </view>
+      <view class='row-qa'>
+        <text class='row-qa-q'>Q: 购买订单得到的积分是怎么算的呢</text>
+        <view class='row-qa-a'>
+          <text>用户在严选主站购物（除拼团商品、众筹商品、砍价商品、虚拟商品和礼品卡支付商品订单），在订单确认收货后，均可获得积分，积分的基准返点为商品售价的10%，积分数值精确到个位（小数点后全部舍弃，不进行四舍五入），如正常售价为556元的商品，返55个积分（556*10%=55.6）。</text>
+          <text>实付订单金额不包含邮费金额。</text>
+          <text>礼品卡购买订单积分不发放，对应的积分在礼品卡进行消费时，按照订单进行发放。</text>
+          <text>在订单完成之前，进行取消订单，或者进行退货，退款等原因导致订单未完成，该笔订单不发放积分；</text>
+          <text>在商品订单完成后，用户进行退货，在退货流程发起后24小时内将对该笔订单原发放的积分数进行扣除，如若退货失败，原扣除积分将退还至对应的扣除账户；如用户当前账户内无积分，则将进行预扣处理，当用户重新获得积分时，优先对需补足积分进行扣除；</text>
+          <text>商品兑换等未发生实际金额消费的订单，不进行积分返还。</text>
+          <text>在严选主站首次发生订单，可获得额外赠送积分数，具体赠送比例以实际活动为准。</text>
+          <text>具体的发放明细可在积分账单中查看。</text>
+        </view>
+      </view>
+      <view class='row-qa'>
+        <text class='row-qa-q'>Q: 签到积分是怎么发放的呢？</text>
+        <view class='row-qa-a'>
+          <text>用户在签到页面完成签到后，可根据签到规则获得对应签到积分。用户连续签到，将根据用户的连续签到情况获得对应积分累加。其中，连续签到7天为一个循环，即连续签到至第8天时，当日按照连续签到第1天进行积分发放。</text>
+        </view>
+      </view>
+      <view class='row-qa'>
+        <text class='row-qa-q'>Q: 积分兑换商品是否支持无理由退换？</text>
+        <view class='row-qa-a'>
+          <text>积分兑换商品不支持无理由退换。</text>
+          <text>退货订单完成后，用户支付积分会在订单完成24小时内返还至用户积分账户。</text>
+          <text>如原订单已支付运费，运费不予退还。</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

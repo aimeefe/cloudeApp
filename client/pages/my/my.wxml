@@ -17,9 +17,11 @@
       <image class='icon' src='../../images/personal/1.png'/>
       <text class='cate-name'>我的拼团</text>
     </view>
-    <view class='item' bindtap="showTipModal">
-      <image class='icon' src='../../images/personal/2.png'/>
-      <text class='cate-name'>我的积分</text>
+    <view class='item'>
+      <navigator  url="../my_integral/my_integral">
+        <image class='icon' src='../../images/personal/2.png'/>
+        <text class='cate-name'>我的积分</text>
+      </navigator>
     </view>
     <view class='item' bindtap="showTipModal">
       <image class='icon' src='../../images/personal/3.png'/>
@@ -33,10 +35,12 @@
       <image class='icon' src='../../images/personal/5.png'/>
       <text class='cate-name'>红包</text>
     </view>
-    <navigator url="../address/address" class='item'>
-      <image class='icon' src='../../images/personal/6.png'/>
-      <text class='cate-name'>地址管理</text>
-    </navigator>
+    <view class='item'>
+      <navigator url="../my_addr/my_addr">
+        <image class='icon' src='../../images/personal/6.png'/>
+        <text class='cate-name'>地址管理</text>
+      </navigator>
+  </view>
     <view class='item'>
       <image class='icon' src='../../images/personal/7.png'/>
       <text class='cate-name'>联系客服</text>

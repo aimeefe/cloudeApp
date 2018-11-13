@@ -1,0 +1,128 @@
+/* client/pages/my_integral/my_integral.wxss */
+.integral-page {
+  background: #f4f4f4;
+}
+.top {
+  background: url(https://yanxuan.nosdn.127.net/3a3a172481c3e0cb5872f83f77befe71.png) no-repeat center;
+  background-size: cover;
+  height: 295rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
+.top-main {
+  width: 484rpx;
+  height: 194rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.95);
+  outline: #fff solid 5rpx;
+  border: 1rpx solid #ccc;
+}
+.top-main-info {
+  font-size: 28rpx;
+  color: #a6a08f;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20rpx;
+  line-height: 1;
+}
+.top-main-info text {
+  font-size: 46rpx;
+  font-weight: 500;
+  line-height: 1;
+  margin-left: 5px;
+}
+.top-main-link {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1;
+}
+.row {
+  background: #fff;
+  margin-bottom: 20rpx;
+  padding: 0 40rpx;
+}
+.row-title {
+  color: #000;
+  font-size: 36rpx;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 120rpx;
+  padding-top: 60rpx;
+}
+.row-main {
+  display: flex;
+  flex-direction: column;
+}
+.row-col {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120rpx;
+}
+.row-col:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+.row-col-lt>image {
+  width: 130rpx;
+  height: 130rpx;
+  margin-bottom: 30rpx;
+}
+.row-col-tit {
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 20rpx;
+  color: #000;
+}
+.row-col-desc {
+  margin-bottom: 15rpx;
+  color: #999;
+  font-size: 25rpx;
+  line-height: 1;
+}
+.row-col-tip {
+  font-size: 28rpx;
+  line-height: 1;
+  color: #333;
+  padding-top: 15rpx;
+}
+.row-col-rt {
+  flex: none;
+  width: 325rpx;
+  height: 452rpx;
+}
+.row-col-rt>image {
+  width: 100%;
+  height: 100%;
+}
+.row-qa {
+  margin-bottom: 50rpx;
+}
+.row-qa-q {
+  color: #333;
+  font-size: 30rpx;
+  line-height: 1;
+  margin-bottom: 16rpx;
+}
+.row-qa-a text {
+  color: #7F7F7F;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  position: relative;
+  padding-left: 36rpx;
+}
+.row-qa-a text:before {
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 10rpx;
+  background: #7F7F7F;
+  position: absolute;
+  top: 15rpx;
+  left: 5rpx;
+  content: '';
+}

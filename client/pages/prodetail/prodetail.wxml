@@ -158,7 +158,7 @@
     <view class='footer-item footer-buy'>
       <text>立即购买</text>
     </view>
-    <view class='footer-item footer-add'>
+    <view class='footer-item footer-add' bindtap="linkToCart">
       <text>加入购物车</text>
     </view>
   </view>

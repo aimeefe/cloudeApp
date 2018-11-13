@@ -3,14 +3,104 @@
 
 <view class='cart-section'>
   <template is="promise"></template>
-  <view class='empty'>
-    <image class='empty-icon' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noCart-a8fe3f12e5.png'/>
-    <text class='desc'>去添加点什么吧</text>
-  </view>
-  <view class='recommend'>
-    <view class='recommend-title'>
-      <text class='u-title'>猜你喜欢</text>
+  <view>
+    <!-- <view class='empty'>
+      <image class='empty-icon' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noCart-a8fe3f12e5.png'/>
+      <text class='desc'>去添加点什么吧</text>
     </view>
-    <my-product data="{{recommend}}"/>
+    <view class='recommend'>
+      <view class='recommend-title'>
+        <text class='u-title'>猜你喜欢</text>
+      </view>
+      <my-product data="{{recommend}}"/>
+    </view> -->
+  </view>
+  <view class='main'>
+    <view class='top'></view>
+
+    <!-- 产品 -->
+    <view class='content'>
+      <view class='row'>
+        <view class='row-lt'>
+          <view class='check'></view>
+          <image class='row-lt-img' src='http://yanxuan.nosdn.127.net/16b936a40daf74eb36fdefdd361c88b3.png'/>
+        </view>
+        <view class='row-rt'>
+          <text class='row-rt-name'>多功能人体工学转椅</text>
+          <view class='row-rt-attr'>黑色</view>
+          <view class='row-rt-base'>
+            <text class='row-rt-base-price'>¥ 1449.00</text>
+            <view class='row-rt-base-num'>
+              <text class='num-item'>-</text>
+              <input class='num-item num-input' value='1'/>
+              <text class='num-item'>+</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='row'>
+        <view class='row-lt'>
+          <view class='check'></view>
+          <image class='row-lt-img' src='http://yanxuan.nosdn.127.net/16b936a40daf74eb36fdefdd361c88b3.png'/>
+        </view>
+        <view class='row-rt'>
+          <text class='row-rt-name'>多功能人体工学转椅</text>
+          <view class='row-rt-attr'>黑色</view>
+          <view class='row-rt-base'>
+            <text class='row-rt-base-price'>¥ 1449.00</text>
+            <view class='row-rt-base-num'>
+              <text class='num-item'>-</text>
+              <input class='num-item num-input' value='1'/>
+              <text class='num-item'>+</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='row'>
+        <view class='row-lt'>
+          <view class='check'></view>
+          <image class='row-lt-img' src='http://yanxuan.nosdn.127.net/16b936a40daf74eb36fdefdd361c88b3.png'/>
+        </view>
+        <view class='row-rt'>
+          <text class='row-rt-name'>多功能人体工学转椅</text>
+          <view class='row-rt-attr'>黑色</view>
+          <view class='row-rt-base'>
+            <text class='row-rt-base-price'>¥ 1449.00</text>
+            <view class='row-rt-base-num'>
+              <text class='num-item'>-</text>
+              <input class='num-item num-input' value='1'/>
+              <text class='num-item'>+</text>
+            </view>
+          </view>
+        </view>
+      </view><view class='row'>
+        <view class='row-lt'>
+          <view class='check'></view>
+          <image class='row-lt-img' src='http://yanxuan.nosdn.127.net/16b936a40daf74eb36fdefdd361c88b3.png'/>
+        </view>
+        <view class='row-rt'>
+          <text class='row-rt-name'>多功能人体工学转椅</text>
+          <view class='row-rt-attr'>黑色</view>
+          <view class='row-rt-base'>
+            <text class='row-rt-base-price'>¥ 1449.00</text>
+            <view class='row-rt-base-num'>
+              <text class='num-item'>-</text>
+              <input class='num-item num-input' value='1'/>
+              <text class='num-item'>+</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='bottom'>
+      <view class='bottom-lt'>
+        <view class='check'></view>
+        <text>已选（5）</text>
+      </view>
+      <view class='bottom-rt'>
+        <text class='total-price'>¥1890.20</text>
+        <view class='confirm'>下单</view>
+      </view>
+    </view>
   </view>
 </view>

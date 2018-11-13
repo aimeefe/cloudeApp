@@ -10,7 +10,7 @@
         <text class='addr-item-base-phone'>{{item.phone}}</text>
         <text class='addr-item-base-addr'>{{item.area + item.address}}</text>
       </view>
-      <navigator class='addr-item-edit' url='{{"../addressUpt/addressUpt?_id=" + item._id}}'>
+      <navigator class='addr-item-edit' url='{{"../my_addr_sub/my_addr_sub?_id=" + item._id}}'>
         <image src='../../images/edit.png'/>
       </navigator>
     </view>
@@ -19,7 +19,7 @@
     <image src='https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noAddress-26d570cefa.png'/>
     <text>收货地址在哪里</text>
   </view>
-  <navigator class='addr-add' url="../addressUpt/addressUpt">
+  <navigator class='addr-add' url="../my_addr_sub/my_addr_sub">
     <text>+ 新增地址</text>
   </navigator>
 </view>
