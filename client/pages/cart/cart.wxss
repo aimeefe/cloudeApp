@@ -1,6 +1,6 @@
 /**cart.wxss**/
 
-@import "../template/template.wxss";
+@import "../_template/template.wxss";
 
 .cart-section {
   width: 100%;

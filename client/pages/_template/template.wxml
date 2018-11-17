@@ -1,0 +1,34 @@
+<!-------------- 模板合集 -------------->
+
+<!-- 保障 -->
+<template name='promise'>
+  <view class='temp-promise'>
+    <text class='temp-promise-item'>网易自营品牌</text>
+    <text class='temp-promise-item'>30天无忧退货</text>
+    <text class='temp-promise-item'>48小时快速退款</text>
+  </view>
+</template>
+
+
+<!-- 产品列表 -->
+<template name='product'>
+  <view class='temp-pro'>
+    <block wx:for="{{data}}"  wx:key="{{item.id}}">
+      <navigator url="{{'../pro_detail/pro_detail?id='+item.id}}">
+        <view class='temp-pro-item'>
+          <image src="{{item.imgUrl}}" alt='{{item.name}}'/>
+          <view class='temp-pro-info'>
+            <view class='unit-label'>
+              <text wx:for="{{item.label}}" wx:for-item="_item" wx:key="{{index}}">{{_item}}</text>
+            </view>
+            <text class='temp-pro-name'>{{item.name}}</text>
+            <view class='temp-pro-price'>
+              <text class='temp-pro-price-now theme-color'>¥ {{item.price}}</text>
+              <!-- <text class='temp-pro-price-history' v-if="{{item.discountPrice}}">¥ {{item.discountPrice}}</text> -->
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </block>
+  </view>
+</template>

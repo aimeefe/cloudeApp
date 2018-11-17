@@ -1,0 +1,35 @@
+/* client/pages/hd_rmd/hd_rmd.wxss */
+@import "../_template/template.wxss";
+
+.rmd_page {
+  background: #fff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  border-bottom: 1rpx solid #f4f4f4;
+}
+.nav text {
+  padding: 18rpx 10rpx;
+  font-size: 25rpx;
+  line-height: 1;
+  color: #333;
+}
+.nav-cur {
+  color: #b4282d !important;
+  border-bottom: 5rpx solid #b4282d;
+}
+.main {
+  padding: 20rpx 30rpx;
+}
+.temp-pro-item {
+  width: 333rpx;
+}
+.temp-pro-item image {
+  width: 333rpx;
+  height: 333rpx;
+}
+.pro-swiper {
+  height: 92vh;
+}

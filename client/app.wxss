@@ -1,12 +1,48 @@
-
 page {
   box-sizing: border-box;
+  background: #f4f4f4;
 }
 
 text {
   display: block;
 }
 
+image {
+  display: block;
+}
+
 .navigator-hover {
   background: none;
+}
+
+.theme-color {
+  color: #b4282d;
+}
+
+.theme-bg {
+  color: #a83838;
+}
+
+.theme-body {
+  background: #f4f4f4;
+}
+
+.unit-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15rpx;
+}
+
+.unit-label text {
+  padding: 0 5rpx;
+  background: #e5686d;
+  color: #fff;
+  font-size: 20rpx;
+  margin-right: 8rpx;
+  border-radius: 2rpx;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center !important;
 }

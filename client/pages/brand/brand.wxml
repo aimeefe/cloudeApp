@@ -1,0 +1,16 @@
+<!--client/pages/brand/brand.wxml-->
+<view class='brand'>
+  <view class='item' wx:for="{{brands}}" wx:key="{{index}}">
+    <view class='bg' style="background: url({{item.appListPicUrl}}) no-repeat center"></view>
+    <view class='main'>
+      <view class='name-bar'>
+        <text class='name'>{{item.name}}</text>
+        <text class='price theme-color'>{{item.floorPrice}}元起</text>
+      </view>
+      <text class='desc'>{{item.simpleDesc}}</text>
+      <view class='pro'>
+        <image wx:for="{{item.showItemList}}" wx:key="{{index}}" src='{{item.listPicUrl}}'/>
+      </view>
+    </view>
+  </view>
+</view>

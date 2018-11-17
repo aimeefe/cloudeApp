@@ -1,0 +1,8 @@
+<!--components/swiper/swiper.wxml-->
+<view class='comp-swiper ex-class'>
+  <swiper indicator-dots='{{data.indicatorDots}}' autoplay='{{data.autoplay}}' interval='{{data.interval}}' circular='{{data.circular}}' >
+    <block wx:for="{{data.imgUrls}}" wx:key="{{index}}">
+      <swiper-item style='background: url({{item.imgUrl}}) no-repeat center'></swiper-item>
+    </block>
+  </swiper>
+</view>

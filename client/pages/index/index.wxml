@@ -1,102 +1,200 @@
-<!--index.wxml-->
-<import src='../template/template.wxml'/>
+<!--client/pages/index/index.wxml-->
+<import src='../_template/template.wxml' />
 
-<view class='index-page'>
-
-  <!-- 搜索 -->
-  <view class='search'>搜索商品，共13915款好物品</view>
-
-  <!-- banner -->
+<view class='index-page theme-body'>
+  <view class='search'>
+    <text>搜索商品，共19083款好物</text>
+  </view>
   <view class='banner'>
-    <swiper class='banner-swiper' indicator-dots="true" autoplay="true" interval="5000" duration="500">
-      <swiper-item class='banner-item' wx:for="{{banners}}" wx:key="{{item.id}}}">
-        <image class='banner-image' mode="widthFix" src="{{item.imgUrl}}"/>
-      </swiper-item>
-    </swiper>
+    <my-swiper class='banner-main' ex-class="banner-main" data="{{bannerProps}}" />
+  </view>
+  <view class='safe'>
+    <template is="promise"/>
   </view>
 
-  <!-- 保障 -->
-  <template is="promise"/>
-
-  <!-- 活动豆腐块 -->
-  <view class='hot'>
-    <view class='hot-r1'>
-      <navigator class='hot-r1-item' url="../welfare/welfare?index=2">
-        <text>好物优选</text>
-        <image src='http://yanxuan.nosdn.127.net/9411a2731a3ff5235b7d8d8603a79e2f.png'/>
-      </navigator>
-      <navigator class='hot-r1-item' url="../welfare/welfare?index=3">
-        <text>人气推荐</text>
-        <image src='http://yanxuan.nosdn.127.net/95cbd0fdea8d832cc87f2452e0a66fa0.png'/>
-      </navigator>
-      <navigator class='hot-r1-item' url="../welfare/welfare?index=4">
-        <text>新品首发</text>
-        <image src='http://yanxuan.nosdn.127.net/f0b40611925910ed232b1d5103b7f4ce.png'/>
-      </navigator>
-    </view>
-    <navigator class='hot-r2'  url="../welfare/welfare">
-      <image src='../../images/coupon-bar.png' mode="widthFix"/>
+  <!-- 品牌制造商 -->
+  <view class='brand'>
+    <navigator class='title' url="../brand/brand">
+      <view class='title-lt'>品牌制造商直供</view>
+      <view class='title-rt'>
+        <text>更多</text>
+        <image src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/index-titleArrow-219f348910.png'/>
+      </view>
     </navigator>
-    <view class='hot-r3'>
-      <navigator class='hot-r3-lt' url="../welfare/welfare?index=0">
-        <text class='hot-r3-title'>领券中心</text>
-        <view class='hot-r3-coupon'>
-          <text class='hot-r3-tit'>每满199减30</text>
-          <text class='hot-r3-btn'>马上去领取 ></text>
-        </view>
-      </navigator>
-      <navigator class='hot-r3-rt' url="../welfare/welfare?index=1">
-        <text class='hot-r3-title'>特价商品</text>
-        <view class='hot-r3-discount'>
-          <view class='hot-r3-info'>
-            <text class='hot-r3-price'>¥10</text>
-            <text class='hot-r3-history'>¥14</text>
+    <view class='brand-main'>
+      <view class='brand-item' style="background: url({{item.webIndexVerticalPicUrl}}) no-repeat center" wx:for="{{brands}}" wx:key="{{index}}">
+        <text class='brand-item-name'>{{item.name}}</text>
+        <view class='brand-item-price'>
+          <text>{{item.floorPrice}}元起</text>
+          <view class='unit-label'>
+            <text>上新</text>
           </view>
         </view>
-      </navigator>
+      </view>
     </view>
   </view>
 
-  <!-- 限时特价 -->
+  <!-- 限时购 -->
   <view class='limit'>
-    <view class='title limit-title'>
-      <text class='title-name'>限时购</text>
-      <view class='title-limit'>
-        <text>本场还剩</text>
-        <view class='title-limit-time'>
-          <text>02</text>:
-          <text>38</text>:
-          <text>45</text>
+    <navigator class='title' url="../hd_limit/hd_limit">
+      <view class='title-lt'>
+        限时购
+        <view class='limit-time'>
+          <text>01</text>:
+          <text>43</text>:
+          <text>57</text>
         </view>
       </view>
-    </view>
-    <my-limit-product data="{{limit}}"/>
-    <navigator url="../limit/limit" class="more">
-      <view>查看更多 ></view>
+      <view class='title-rt'>
+        <text>更多</text>
+        <image src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/index-titleArrow-219f348910.png'/>
+      </view>
     </navigator>
-  </view>
-
-  <!-- 特价 -->
-  <view class='special'>
-    <view class='title special-title'>
-      <text class='title-name'>特价</text>
-      <view class='title-limit'>
-        <text>限时特价</text>
-        <view class='title-limit-time'>
-          <text>02</text>:
-          <text>38</text>:
-          <text>45</text>
+    <view class='limit-main'>
+      <view class='limit-item'>
+        <image src='http://yanxuan.nosdn.127.net/17cde9b5d4c098aafc97c7a33501b246.png'/>
+        <view class='limit-price'>
+          <text class='theme-color'>¥ 98</text>
+          <text class='limit-price-original'>¥ 128</text>
+        </view>
+      </view>
+      <view class='limit-item'>
+        <image src='http://yanxuan.nosdn.127.net/17cde9b5d4c098aafc97c7a33501b246.png'/>
+        <view class='limit-price'>
+          <text class='theme-color'>¥ 98</text>
+          <text class='limit-price-original'>¥ 128</text>
+        </view>
+      </view>
+      <view class='limit-item'>
+        <image src='http://yanxuan.nosdn.127.net/17cde9b5d4c098aafc97c7a33501b246.png'/>
+        <view class='limit-price'>
+          <text class='theme-color'>¥ 98</text>
+          <text class='limit-price-original'>¥ 128</text>
         </view>
       </view>
     </view>
-    <my-product data="{{special}}"/>
   </view>
 
-  <!-- 推荐 -->
-  <view class='recommend'>
-    <view class='title recommend-title'>
-      <text class='title-name'>全部特价</text>
+  <!-- 人气推荐 -->
+  <view class='hot'>
+    <navigator class='title' url="../hd_rmd/hd_rmd">
+      <text class='title-lt'>人气推荐</text>
+      <view class='title-rt'>
+        <text>更多</text>
+        <image src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/index-titleArrow-219f348910.png'/>
+      </view>
+    </navigator>
+    <view class='hot-main'>
+      <view class='hot-rmd'>
+        <view class='hot-rmd-img'>
+          <image src='http://yanxuan.nosdn.127.net/362a8249b48d91d99604680b5471b507.png'/>
+        </view>
+        <view class='hot-rmd-info'>
+          <view class='unit-label'>
+            <text>爆品</text>
+            <text>狂欢特惠</text>
+          </view>
+          <text class='hot-rmd-name'>网易智造3D揉捏按摩肩带</text>
+          <text class='hot-rmd-desc'>肩颈部位全方位按摩放松</text>
+          <text class='hot-rmd-price theme-color'>¥ 389</text>
+        </view>
+      </view>
+      <view class='hot-normal'>
+        <view class='hot-normal-item'>
+          <image src='http://yanxuan.nosdn.127.net/73a065d6fc8c32197b54421808c54788.png'/>
+          <view class='hot-normal-info'>
+            <view class='unit-label'>
+              <text>爆品</text>
+              <text>狂欢特惠</text>
+            </view>
+            <text class='hot-normal-name'>网易智造3D揉捏...</text>
+            <text class='hot-normal-price theme-color'>¥ 1599</text>
+          </view>
+        </view>
+        <view class='hot-normal-item'>
+          <image src='http://yanxuan.nosdn.127.net/fb53b989d34b32366f138b5e563ccd0a.png'/>
+          <view class='hot-normal-info'>
+            <view class='unit-label'>
+              <text>爆品</text>
+              <text>狂欢特惠</text>
+            </view>
+            <text class='hot-normal-name'>升级款95%白鹅绒...</text>
+            <text class='hot-normal-price theme-color'>¥ 1149</text>
+          </view>
+        </view>
+        <view class='hot-normal-item'>
+          <image src='http://yanxuan.nosdn.127.net/de5d87c7cb0f5f0d92a3e5d52019b55e.png'/>
+          <view class='hot-normal-info'>
+            <view class='unit-label'>
+              <text>爆品</text>
+              <text>狂欢特惠</text>
+            </view>
+            <text class='hot-normal-name'>网易智造N520除...</text>
+            <text class='hot-normal-price theme-color'>¥ 499</text>
+          </view>
+        </view>
+      </view>
     </view>
-    <my-product data="{{recommend}}"/>
+  </view>
+
+  <!-- 热销榜 -->
+  <view class='hot-category'>
+    <view class='title'>
+      <text class='title-lt'>类目热销榜</text>
+    </view>
+    <view class='hotsale'>
+      <view class='hotsale-rmd'>
+        <view class='hotsale-rmd-item'>
+          <text>服装榜</text>
+          <image src='http://yanxuan.nosdn.127.net/7562a7cbfc293477544dbafd6b3caabe.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-rmd-item'>
+          <text>居家榜</text>
+          <image src='http://yanxuan.nosdn.127.net/2eb0624b89d2cce1a5fb13187a0c10d8.jpg?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+      </view>
+      <view class='hotsale-normal'>
+        <view class='hotsale-normal-item'>
+          <text>电器榜</text>
+          <image src='http://yanxuan.nosdn.127.net/e5474a8f4fd5748079e2ba2ead806b51.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>鞋包配饰榜</text>
+          <image src='http://yanxuan.nosdn.127.net/021188f19de55d4e146dee96b9a0e104.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>饮食榜</text>
+          <image src='http://yanxuan.nosdn.127.net/8b7bde0b395e2bda54505cf4c3b7880b.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>洗护榜</text>
+          <image src='http://yanxuan.nosdn.127.net/a07c82f8b26a4ed42b1d697eb9ea418f.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>文体榜</text>
+          <image src='http://yanxuan.nosdn.127.net/55425f24345d01992d61a1646325ac94.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>婴童榜</text>
+          <image src='http://yanxuan.nosdn.127.net/d53fb3ddd988b0c9c1e998b959b73113.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>餐厨榜</text>
+          <image src='http://yanxuan.nosdn.127.net/0bb087f9a846f2ea9828aaa66e49db1f.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+        <view class='hotsale-normal-item'>
+          <text>特色区榜</text>
+          <image src='http://yanxuan.nosdn.127.net/d85453ca5b9e6ff24cde180504f4c93e.png?imageView&quality=65&thumbnail=200x200'/>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 为你推荐 -->
+  <view class='rmd'>
+    <view class='title center'>
+      <text class='title-lt'>为你推荐</text>
+    </view>
+    <template is="product" data="{{data: recommends}}"/>
   </view>
 </view>

@@ -1,226 +1,361 @@
-/**index.wxss**/
-@import "../template/template.wxss";
+@import "../_template/template.wxss";
 
-.index-page {
-  height: 100%;
-  width: 100%;
-  padding: 0 29rpx;
-  box-sizing: border-box;
-  font-size: 24rpx;
-  overflow: hidden;
-}
-
-/* 公共 */
-text, image {
-  display: block;
-}
-
-.more {
-  padding: 25rpx 0 45rpx;
-  text-align: center;
-  font-size: 26rpx;
-  color: #666;
-  background: none;
-}
-
-
-/* 搜索 */
-.search {
-  margin-bottom: 20rpx;
-  width: 100%;
-  height: 55rpx;
-  line-height: 55rpx;
-  border: 1rpx solid #dadada;
-  border-radius: 30rpx;
-  font-size: 25rpx;
-  text-align: center;
-  background: #fafafa url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png") no-repeat 160rpx center;
-  background-size: 24rpx;
-  color: #999;
-}
-
-
-/* banner */
-.banner,
-.banner-swiper,
-.banner-item,
-.banner-image {
-  width: 100%;
-  height: 340rpx;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-
-/* 标题 */
 .title {
   display: flex;
   justify-content: space-between;
-  padding: 30rpx 0;
-}
-.title-name {
-  font-size: 30rpx;
-  color: #333;
-  font-weight: bold;
-}
-.title-more {
-  display: block;
-  width: 32rpx;
-  height: 32rpx;
-}
-.title-limit {
-  display: flex;
-  align-items: center;
-}
-.title-limit-time {
-  display: flex;
-  align-items: center;
-  font-size: 24rpx;
-  color: #333;
-  font-weight: bold;
-  align-items: center;
-}
-.title-limit-time text {
-  color: #fff;
-  width: 40rpx;
-  height: 40rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #333;
-  border-radius: 8rpx;
-  margin: 0 15rpx;
+  padding: 35rpx 0;
 }
 
-/* 活动豆腐块 */
-.hot {
-  padding: 30rpx 0;
-}
-.hot-r1 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30rpx;
-  padding-bottom: 30rpx;
-  border-bottom: 1rpx solid #dadada;
-}
-.hot-r1-item {
-  width: 225rpx;
-  height: 278rpx;
-  overflow: hidden;
-  position: relative;
-  border-radius: 8rpx;
-}
-.hot-r1-item:nth-of-type(1) {
-  background: #f5f9ff;
-}
-.hot-r1-item:nth-of-type(2) {
-  background: #fffaf9;
-}
-.hot-r1-item:nth-of-type(3) {
-  background: #fdfcf2;
-}
-.hot-r1-item image {
-  width: 100%;
-  height: 100%;
-  margin-top: -30rpx;
-}
-.hot-r1-item text {
-  position: absolute;
-  bottom: 30rpx;
-  width: 100%;
-  text-align: center;
-  z-index: 1;
-  font-size: 28rpx;
+.title-lt {
+  font-size: 32rpx;
   color: #333;
-  font-weight: bold;
-}
-.hot-r2 {
-  height: 125rpx;
-  margin-bottom: 10rpx;
-}
-.hot-r2 image {
-  width: 100%;
-}
-.hot-r3 {
-  display: flex;
-  justify-content: space-between;
-  height: 264rpx;
-  overflow: hidden;
-}
-.hot-r3-lt {
-  width: 432rpx;
-  height: 100%;
-  background: #fef8e7;
-  border-radius: 8rpx;
-}
-.hot-r3-title {
-  padding: 40rpx 32rpx;
-  font-size: 28rpx;
-  color: #333;
-  font-weight: bold;
-  display: block;
-}
-.hot-r3-coupon {
-  background: url(http://yanxuan.nosdn.127.net/c9b2668b0b4c5f41984569ddd1f62323.png?imageView&quality=75) no-repeat left center;
-  background-size: 186rpx;
-  padding-left: 186rpx;
-  padding-top: 10rpx;
-}
-.hot-r3-tit {
-  font-size: 30rpx;
-  color: #333;
-  margin-bottom: 15rpx;
   line-height: 1;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
-.hot-r3-btn {
-  font-size: 22rpx;
+
+.title-rt {
+  display: flex;
+  align-items: center;
+}
+
+.title-rt text {
+  font-size: 28rpx;
   color: #666;
+  margin-right: 8rpx;
 }
-.hot-r3-rt {
-  width: 254rpx;
-  height: 100%;
-  background: #fef8e7;
-  border-radius: 8rpx;
+
+.title-rt image {
+  height: 26rpx;
+  width: 18rpx;
 }
-.hot-r3-discount {
-  background: url(http://yanxuan.nosdn.127.net/cf3bf8a85532b4b893427405b24ee581.png) no-repeat 30rpx -50rpx;
-  background-size: 175rpx;
-  padding-top: 10rpx;
+
+/* 搜索 */
+.search {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
 }
-.hot-r3-info {
+
+.search text {
+  width: 690rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid #dadada;
+  text-align: center;
+  font-size: 26rpx;
+  color: #999;
+  background: #fafafa url("http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png") no-repeat 160rpx center;
+  background-size: 24rpx;
+  margin: 20rpx 0;
+}
+
+/* banner */
+.banner {
+  margin-top: 97rpx;
+  background: #fff;
+  padding: 0 30rpx;
+}
+
+.banner-main {
+  height: 342rpx;
+  width: 100%;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.banner-main swiper-item {
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+/* 服务保障 */
+.safe {
+  background: #fff;
+  padding: 0 30rpx;
+}
+
+/* 品牌制造商 */
+.brand {
+  margin-top: 20rpx;
+  background: #fff;
+  padding: 0 30rpx 22rpx;
+}
+.brand-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.brand-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #ef9134;
-  width: 90rpx;
-  height: 90rpx;
-  border-radius: 90rpx;
-  color: #fff;
-  margin-left: 142rpx;
+  margin-bottom: 8rpx;
+  width: 343rpx;
+  height: 260rpx;
+  padding: 28rpx;
+  box-sizing: border-box;
+  background-size: 100% 100% !important;
 }
-.hot-r3-price {
-  font-size: 24rpx;
+.brand-item-name {
+  font-size: 28rpx;
+  color: #333;
   font-weight: bold;
-  margin-bottom: 2rpx;
   line-height: 1;
+  margin-bottom: 15rpx;
+  text-align: center;
 }
-.hot-r3-history {
-  font-size: 18rpx;
-  text-decoration: line-through;
-}
-
-/* 特价商品 & 活动推荐标题 */
-.limit-title,
-.special-title {
-  border-top: 21rpx solid #f4f4f4;
-  margin: 0 -29rpx;
-  padding: 29rpx 15rpx 29rpx 29rpx;
-}
-
-/* 推荐标题 */
-.recommend-title {
+.brand-item-price {
+  font-size: 20rpx;
+  color: #999;
+  display: flex;
   justify-content: center;
-  border-top: 21rpx solid #f4f4f4;
-  margin: 0 -29rpx;
+}
+.brand-item-price>text {
+  margin-right: 10rpx;
+}
+
+/* 人气推荐 */
+.hot {
+  margin: 20rpx 0;
+  background: #fff;
+  padding: 0 30rpx;
+}
+
+.hot-rmd {
+  background: #fbefe1;
+  display: flex;
+  height: 280rpx;
+  margin-bottom: 20rpx;
+  border-radius: 8rpx;
+}
+
+.hot-rmd-img {
+  background: url(http://yanxuan.nosdn.127.net/3235bc71e70f134b5499316fc74337d4.png) no-repeat left top;
+  background-size: 100%;
+  width: 280rpx;
+  height: 100%;
+  margin-right: 27rpx;
+}
+
+.hot-rmd-img image {
+  width: 100%;
+  height: 100%;
+}
+
+.hot-rmd-info {
+  margin-top: 53rpx;
+}
+
+.hot-rmd-name {
+  color: #333;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 20rpx;
+}
+
+.hot-rmd-desc {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 1;
+  margin-bottom: 34rpx;
+}
+
+.hot-rmd-price {
+  font-size: 24rpx;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.hot-normal {
+  display: flex;
+  padding-bottom: 45rpx;
+}
+
+.hot-normal-item {
+  flex: 1;
+}
+
+.hot-normal-item:nth-of-type(2) {
+  margin: 0 20rpx;
+}
+
+.hot-normal-item image {
+  width: 216rpx;
+  height: 216rpx;
+  margin-bottom: 13rpx;
+  background: #f5f5f5;
+}
+
+.hot-normal-name {
+  font-size: 24rpx;
+  color: #333;
+  line-height: 1;
+  margin-bottom: 17rpx;
+}
+
+.hot-normal-price {
+  font-size: 22rpx;
+  line-height: 1;
+  font-weight: bold;
+}
+
+/* 热销品类榜 */
+.hot-category {
+  background: #fff;
+  padding: 0 30rpx 17rpx;
+}
+
+.hotsale-rmd {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13rpx;
+}
+
+.hotsale-rmd-item {
+  width: 340rpx;
+  height: 200rpx;
+  border-radius: 4rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hotsale-rmd-item:nth-of-type(1) {
+  background: #f8f2e5;
+}
+
+.hotsale-rmd-item:nth-of-type(2) {
+  background: #ebeff5;
+}
+
+.hotsale-rmd-item text {
+  font-size: 28rpx;
+  color: #333;
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.hotsale-rmd-item text::after {
+  content: '';
+  width: 50rpx;
+  height: 5rpx;
+  background: #333;
+  position: absolute;
+  top: 50rpx;
+  left: 23%;
+}
+
+.hotsale-rmd-item image {
+  width: 200rpx;
+  height: 200rpx;
+  flex: none;
+}
+
+.hotsale-normal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotsale-normal-item {
+  width: 164rpx;
+  height: 182rpx;
+  background: #f5f5f5;
+  margin-bottom: 13rpx;
+  border-radius: 4rpx;
+}
+
+.hotsale-normal-item text {
+  color: #333;
+  font-size: 26rpx;
+  margin-top: 14rpx;
+  line-height: 1;
+  text-align: center;
+}
+
+.hotsale-normal-item image {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 15rpx auto 0;
+  display: block;
+}
+
+/* 限时购 */
+.limit {
+  background: #fff;
+  padding: 0 30rpx;
+  margin-top: 20rpx;
+}
+
+.limit-time {
+  display: flex;
+  padding-left: 5rpx;
+}
+
+.limit-time text {
+  font-size: 22rpx;
+  color: #fff;
+  font-weight: bold;
+  background: #333;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 4rpx;
+  line-height: 32rpx;
+  text-align: center;
+  margin: 0 10rpx;
+}
+
+.limit-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.limit-item {
+  margin-bottom: 40rpx;
+  width: 216rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.limit-item image {
+  width: 216rpx;
+  height: 216rpx;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+}
+
+.limit-price {
+  display: flex;
+  margin-top: 20rpx;
+  line-height: 1;
+  font-size: 24rpx;
+  align-items: baseline;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.limit-price-original {
+  font-size: 20rpx;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 15rpx;
+  line-height: 1;
+  font-weight: normal;
+}
+
+/* 为你推荐 */
+.rmd {
+  background: #fff;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
 }

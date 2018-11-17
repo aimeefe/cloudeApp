@@ -1,0 +1,12 @@
+/* components/swiper/swiper.wxss */
+.comp-swiper {
+  width: inherit;
+  height: inherit;
+}
+.comp-swiper swiper {
+  width: inherit;
+  height: inherit;
+}
+.comp-swiper swiper-item {
+  background-size: cover !important;
+}

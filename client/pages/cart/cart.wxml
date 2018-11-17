@@ -1,5 +1,5 @@
 <!-- 购物车 -->
-<import src='../template/template.wxml'/>
+<import src='../_template/template.wxml'/>
 
 <view class='cart-section'>
   <template is="promise"></template>

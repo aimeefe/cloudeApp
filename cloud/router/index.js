@@ -125,5 +125,19 @@ exports.main = async (event, context) => {
     await next();
   });
 
+
+  /********************************** 品牌 **********************************/
+
+  // 品牌列表
+  app.router('brand/list', async (ctx, next) => {
+    ctx.data = await toGet('brand');
+    ctx.body = await toReturn(ctx);
+    await next();
+  });
+
+
+
+
+
   return app.serve();
 }

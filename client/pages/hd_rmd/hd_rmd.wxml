@@ -1,0 +1,34 @@
+<!--client/pages/hd_rmd/hd_rmd.wxml-->
+<import src='../_template/template.wxml' />
+
+<view class='rmd_page'>
+  <view class='nav'>
+    <text class='{{current === item.id ? "nav-cur" : null}}' wx:for="{{navs}}" wx:key="{{index}}" data-id="{{item.id}}" bindtap="changeItemById">
+      {{item.value}}
+    </text>
+  </view>
+  <view class='main'>
+    <swiper class='pro-swiper' bindchange="handleSwiper" current="{{current}}">
+      <swiper-item class='pro-item'>
+        <scroll-view scroll-y style='height: 100%'>
+          <template is="product" data="{{data: recommends}}"/>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class='pro-item'>
+        <scroll-view scroll-y style='height: 100%'>
+          <template is="product" data="{{data: recommends}}"/>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class='pro-item'>
+        <scroll-view scroll-y style='height: 100%'>
+          <template is="product" data="{{data: recommends}}"/>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class='pro-item'>
+        <scroll-view scroll-y style='height: 100%'>
+          <template is="product" data="{{data: recommends}}"/>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

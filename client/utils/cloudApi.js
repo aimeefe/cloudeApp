@@ -70,6 +70,12 @@ const getAddressList = (params) => {
   return request('address/list', params);
 }
 
+/*********************************************** 品牌 **************************************************/
+
+// 获取品牌列表
+const getBrandList = (params) => {
+  return request('brand/list', params);
+}
 
 module.exports = {
   getBanner,
@@ -79,5 +85,6 @@ module.exports = {
   getCategory,
   getJudge,
   updateAddress,
-  getAddressList
+  getAddressList,
+  getBrandList
 }

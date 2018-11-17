@@ -1,0 +1,65 @@
+/**************** 模板样式 ****************/
+/* 保障 */
+.temp-promise {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  padding: 25rpx 0;
+}
+
+.temp-promise-item {
+  background: url("http://yanxuan.nosdn.127.net/cae45612b8aae577d8bd73338e2fc02c.png") no-repeat left center;
+  background-size: 22rpx;
+  padding-left: 28rpx;
+  font-size: 24rpx;
+}
+
+/* 产品列表 */
+.temp-pro {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.temp-pro-item {
+  width: 345rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-pro-item image {
+  width: 345rpx;
+  height: 345rpx;
+  background: #f5f5f5;
+}
+
+.temp-pro-info {
+  padding: 20rpx 10rpx 45rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.temp-pro-name {
+  padding-bottom: 20rpx;
+  line-height: 1;
+  font-size: 27rpx;
+  color: #333;
+}
+
+.temp-pro-price {
+  display: flex;
+  line-height: 1;
+  align-items: baseline;
+}
+
+.temp-pro-price-now {
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-right: 25rpx;
+}
+
+.temp-pro-price-history {
+  font-size: 26rpx;
+  text-decoration: line-through;
+  color: #999;
+}
