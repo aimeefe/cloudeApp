@@ -24,6 +24,7 @@ npm install
   【utils】存放utils文件
 
 • cloud - [云函数]服务端
+
  【主入口】 /cloud/router/index.js，
   使用了tcb-router
 
