@@ -28,7 +28,7 @@ npm install
  【主入口】 /cloud/router/index.js，
   使用了tcb-router
 
-#功能模块：
+# 功能模块：
 
 • 首页
 
@@ -71,7 +71,7 @@ npm install
   
   【列表】UI（√），功能（×）
 
-#项目截图：
+# 项目截图：
 
 • 首页 
 
@@ -97,8 +97,8 @@ npm install
 
 <img src="https://github.com/aimeefe/cloudeApp/blob/master/images/pj.gif" width="375"/>
 
-#开发环境：
+# 开发环境：
 
 微信web开发者工具
 
-#项目地址：
+# 项目地址：
