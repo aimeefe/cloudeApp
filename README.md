@@ -12,10 +12,15 @@ npm install
 
 # 目录结构：
 • client - 客户端
+
   【components】存放组件
+  
   【images】存放图片
+  
   【jsonData】临时存放json结构，导入到云的集合用
+  
   【pages】页面的相关文件
+  
   【utils】存放utils文件
 
 • cloud - [云函数]服务端
@@ -69,7 +74,7 @@ npm install
 
 • 首页 
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.jpg" width="375"/>       
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/index.gif" width="375"/>       
 
 • 热门推荐
 
