@@ -2,8 +2,10 @@
 .category-page {
   display: flex;
   justify-content: space-between;
-  height: 1050rpx;
+  height: 100vh;
+  background: #fff;
 }
+
 .nav {
   width: 163rpx;
   display: flex;
@@ -19,6 +21,7 @@
   left: 0;
   bottom: 0;
 }
+
 .nav text {
   margin-bottom: 50rpx;
   display: block;
@@ -26,36 +29,42 @@
   border-left: 5rpx solid #fff;
   color: rgba(0, 0, 0, .7);
 }
+
 .nav-current {
   color: #9d3733 !important;
   border-left: 5rpx solid #9d3733 !important;
   font-size: 32rpx;
 }
+
 .main {
   flex: 1;
   margin-left: 163rpx;
   padding: 30rpx;
-  /* height: 100%; */
   height: 100vh;
   box-sizing: border-box;
 }
+
 .content {
   height: 100%;
 }
+
 .banner {
   height: 192rpx;
   width: 100%;
 }
+
 .bar {
   display: flex;
   flex-wrap: wrap;
 }
+
 .title {
   font-size: 28rpx;
   color: #333;
   padding: 40rpx 0 15rpx;
   border-bottom: 1rpx solid #f1f1f1;
 }
+
 .item {
   width: 33%;
   display: flex;
@@ -63,13 +72,18 @@
   flex-direction: column;
   margin-top: 30rpx;
 }
+
 .item image {
   width: 128rpx;
   height: 128rpx;
   align-self: center;
 }
+
 .item text {
   font-size: 24rpx;
   color: rgba(0, 0, 0, .7);
   text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

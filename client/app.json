@@ -2,6 +2,7 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
+    "pages/category/category",
     "pages/brand/brand",
     "pages/cart/cart",
     "pages/my/my",
@@ -10,7 +11,6 @@
     "pages/my_integral/my_integral",
     "pages/welfare/welfare",
     "pages/judge/judge",
-    "pages/category/category",
     "pages/prolist/prolist",
     "pages/pro_detail/pro_detail",
     "pages/hd_limit/hd_limit",
@@ -19,7 +19,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "网易严选",
+    "navigationBarTitleText": "小程序",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
