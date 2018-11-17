@@ -3,6 +3,12 @@
 
 [素材来源] 网易严选：如发现不妥请告知删除，谢谢啦！
 
+# 使用：
+云函数需要安装依赖
+
+cd cloudeApp/cloud/router/
+
+npm install
 
 # 目录结构：
 • client - 客户端
