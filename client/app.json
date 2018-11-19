@@ -10,9 +10,9 @@
     "pages/my_addr_sub/my_addr_sub",
     "pages/my_integral/my_integral",
     "pages/welfare/welfare",
-    "pages/judge/judge",
-    "pages/prolist/prolist",
+    "pages/pro_list/pro_list",
     "pages/pro_detail/pro_detail",
+    "pages/judge/judge",
     "pages/hd_limit/hd_limit",
     "pages/hd_rmd/hd_rmd"
   ],

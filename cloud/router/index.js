@@ -8,10 +8,9 @@ const db = cloud.database();
 /**
  * 查询处理
  * @param  {[type]} sheet      [数据表名称]
- * @param  {[type]} params     [参数]
  * @param  {Object} [limit={}] [查询条件]
  */
-const toGet = (sheet, params, limit={}) => {
+const toGet = (sheet, limit={}) => {
   try {
     return db.collection(sheet).where(limit.where).get();
   } catch(e) {
@@ -98,7 +97,7 @@ exports.main = async (event, context) => {
   // 获取地址列表
   app.router('address/list', async (ctx, next) => {
     let limit = event.params._id ? {where: {_id: event.params._id}} : {};
-    ctx.data = await toGet('address', {}, limit);
+    ctx.data = await toGet('address', limit);
     ctx.body = await toReturn(ctx);
     await next();
   });

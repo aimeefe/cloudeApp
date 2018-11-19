@@ -1,0 +1,24 @@
+<import src='../_template/template.wxml' />
+
+<view class='list_page'>
+  <view class='nav'>
+    <scroll-view class='nav-view' scroll-x>
+      <block wx:for="{{navs.subCateList}}" wx:key="{{index}}">
+        <text class='{{current == item.id ? "nav-cur" : null}}' wx:for='{{item.children}}' wx:key='{{index}}' data-id='{{item.id}}' bindtap="changeItemById">
+          {{item.name}}
+        </text>
+      </block>
+    </scroll-view>
+  </view>
+  <view class='main'>
+    <swiper class='pro-swiper' bindchange='handleSwiper' current-item-id='{{current}}'>
+      <block wx:for="{{navs.subCateList}}" wx:key="{{index}}">
+        <swiper-item wx:for='{{item.children}}' wx:key='{{index}}' item-id="{{item.id}}">
+          <scroll-view scroll-y style='height: 100%'>
+            <template is="product" data="{{data: recommends}}"/>
+          </scroll-view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

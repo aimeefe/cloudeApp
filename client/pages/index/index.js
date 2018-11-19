@@ -12,7 +12,9 @@ Page({
       autoplay: true,
       interval: 3000,
       circular: true,
-      imgUrls: []
+      imgUrls: [],
+      categoriesType1: [],
+      categoriesType2: []
     },
     recommends: []
   },
@@ -24,6 +26,7 @@ Page({
     this.getBannerList();
     this.getRecommendList();
     this.getBrandList();
+    this.getCategory();
   },
 
   /**
@@ -31,9 +34,11 @@ Page({
    */
   getBannerList() {
     app.store.cloudApi.getBanner({}).then(r => {
-      this.setData({
-        "bannerProps.imgUrls": r.data
-      })
+      if (r.code === 0) {
+        this.setData({
+          "bannerProps.imgUrls": r.data
+        })
+      }
     })
   },
 
@@ -43,10 +48,11 @@ Page({
    */
   getBrandList() {
     app.store.cloudApi.getBrandList({}).then(r => {
-      console.log(r);
-      this.setData({
-        brands: r.data && r.data.length ? r.data.slice(0, 4) : []
-      })
+      if (r.code === 0) {
+        this.setData({
+          brands: r.data && r.data.length ? r.data.slice(0, 4) : []
+        })
+      }
     })
   },
 
@@ -56,9 +62,37 @@ Page({
    */
   getRecommendList() {
     app.store.cloudApi.getRecommendProduct({}).then(r => {
-      this.setData({
-        recommends: r.data
-      })
+      if (r.code === 0) {
+        this.setData({
+          recommends: r.data,
+          hotType01: r.data[0],
+          hotType02: r.data.slice(2, 5)
+        })
+      }
     })
   },
+
+
+  /**
+   * 获取分类推荐
+   */
+  getCategory() {
+    app.store.cloudApi.getCategory({}).then(r => {
+      if (r.code === 0) {
+        this.setData({
+          categoriesType1: r.data && r.data.length ? r.data.slice(4, 6) : [],
+          categoriesType2: r.data && r.data.length ? r.data.slice(6) : [],
+        })
+      }
+    })
+  },
+
+  /**
+   * 根据分类跳转到产品列表
+   */
+  linkToProList(e) {
+    wx.navigateTo({
+      url: `/pages/pro_list/pro_list?categoryId=${e.currentTarget.dataset.categoryId}`
+    })
+  }
 })

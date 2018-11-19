@@ -584,6 +584,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/4885db0f06d2801a1823b34ed08d789f.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/7880da24e96f6e18916b16d0f1482369.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "居家",
@@ -743,6 +744,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/0efd82c4353e14ccc280e4430f0d4c0c.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/fe4e59525626df83d3875e45a1ad05fc.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "鞋包配饰",
@@ -935,6 +937,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/9545f529b91ed06092ca85a2b3594019.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/f319c6837f5d266082da494045ffecac.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "服装",
@@ -1198,6 +1201,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/57b6c260263d6e716ab7ed13e935fc8e.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/3e18c31adcdbb08cc69e46afb46d084e.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "电器",
@@ -1282,6 +1286,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/8aa5410d9d8fe87cf4da7715531c70b3.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/2d43d642d928240ef2013e8da1c133b2.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "洗护",
@@ -1434,6 +1439,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/6cd22321d2dac6cd6196b5e69d78d36d.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/dc3ea0bf6df2e75dd9ec7fa8987be25a.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "饮食",
@@ -1697,6 +1703,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/70e6dda08179a8df081d8a4f78b28e0a.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/d85e444fbc8be79e7c5dc02881c90152.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "餐厨",
@@ -1801,6 +1808,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/3520adf678d1c6bf0bb723fe156f310e.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/5bfc39701999e364361883746a229163.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "婴童",
@@ -2017,6 +2025,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/aa27b81f407a9b45727bae6e5fc96c2a.jpg",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/55425f24345d01992d61a1646325ac94.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "文体",
@@ -2276,6 +2285,7 @@
 
 {
   "imgUrl": "https://yanxuan.nosdn.127.net/d9f2d29a543a817a1af0bc682ba20ff2.png",
+  "miniImgUrl": "https://yanxuan.nosdn.127.net/ce8834131025a2d47bbb11fb1d272464.png?imageView&quality=65&thumbnail=200x200",
   "showIndex": 0,
   "superCategoryId": 0,
   "name": "特色区",

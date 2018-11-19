@@ -25,7 +25,7 @@ Page({
   linkToListPage(e) {
     const {categoryId, subCategoryId} = e.currentTarget.dataset;
     wx.navigateTo({
-      url: `/pages/prolist/prolist?categoryId=${categoryId}&subCategoryId=${subCategoryId}`
+      url: `/pages/pro_list/pro_list?categoryId=${categoryId}&subCategoryId=${subCategoryId}`
     })
   },
 
