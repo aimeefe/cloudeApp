@@ -118,7 +118,7 @@ Page({
     app.store.cloudApi.updateAddress(params).then(r => {
       if (r.code === 0) {
         wx.navigateBack({
-          delta: 2
+          delta: 1
         })
       }
     })
