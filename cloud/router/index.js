@@ -10,10 +10,10 @@ const db = cloud.database();
  * @param  {[type]} sheet      [数据表名称]
  * @param  {Object} [limit={}] [查询条件]
  */
-const toGet = (sheet, limit={}) => {
+const toGet = (sheet, limit = {}) => {
   try {
     return db.collection(sheet).where(limit.where).get();
-  } catch(e) {
+  } catch (e) {
     console.error(e);
   }
 }
@@ -25,8 +25,10 @@ const toGet = (sheet, limit={}) => {
  */
 const toAdd = (sheet, params) => {
   try {
-    return db.collection(sheet).add({data: params});
-  } catch(e) {
+    return db.collection(sheet).add({
+      data: params
+    });
+  } catch (e) {
     console.error(e);
   }
 }
@@ -37,14 +39,31 @@ const toAdd = (sheet, params) => {
  * @param  {[type]} params     [参数]
  * @param  {Object} [limit={}] [条件]
  */
-const toEdit = (sheet, params, limit={}) => {
+const toEdit = (sheet, params, limit = {}) => {
   delete params._id;
   try {
-    return db.collection(sheet).where(limit.where).update({data: params});
-  } catch(e) {
+    return db.collection(sheet).where(limit.where).update({
+      data: params
+    });
+  } catch (e) {
     console.error(e);
   }
 }
+
+/**
+ * 删除处理
+ * @param  {[type]} sheet      [数据表名称]
+ * @param  {[type]} params     [参数]
+ * @param  {Object} [limit={}] [条件]
+ */
+const toDelete = (sheet, params, limit = {}) => {
+  try {
+    return db.collection(sheet).where(limit.where).remove();
+  } catch (e) {
+    console.error(e);
+  }
+}
+
 
 // 返回值处理
 const toReturn = (ctx) => {
@@ -56,7 +75,9 @@ const toReturn = (ctx) => {
 }
 
 exports.main = async (event, context) => {
-  const app = new TcbRouter({event});
+  const app = new TcbRouter({
+    event
+  });
 
   // app.use 表示该中间件会适用于所有的路由
   app.use(async (ctx, next) => {
@@ -96,7 +117,11 @@ exports.main = async (event, context) => {
 
   // 获取地址列表
   app.router('address/list', async (ctx, next) => {
-    let limit = event.params._id ? {where: {_id: event.params._id}} : {};
+    let limit = event.params._id ? {
+      where: {
+        _id: event.params._id
+      }
+    } : {};
     ctx.data = await toGet('address', limit);
     ctx.body = await toReturn(ctx);
     await next();
@@ -106,10 +131,26 @@ exports.main = async (event, context) => {
   app.router('address/update', async (ctx, next) => {
     const params = event.params;
     if (params._id) {
-      ctx.data = await toEdit('address', params, {where: {_id: params._id}});
+      ctx.data = await toEdit('address', params, {
+        where: {
+          _id: params._id
+        }
+      });
     } else {
       ctx.data = await toAdd('address', params);
     }
+    ctx.body = await toReturn(ctx);
+    await next();
+  });
+
+  // 删除地址
+  app.router('address/delete', async (ctx, next) => {
+    const params = event.params;
+    ctx.data = await toDelete('address', params, {
+      where: {
+        _id: params._id
+      }
+    });
     ctx.body = await toReturn(ctx);
     await next();
   });

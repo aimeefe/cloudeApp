@@ -70,6 +70,10 @@ const getAddressList = (params) => {
   return request('address/list', params);
 }
 
+const deleteAddress = (params) => {
+  return request('address/delete', params);
+}
+
 /*********************************************** 品牌 **************************************************/
 
 // 获取品牌列表
@@ -86,5 +90,6 @@ module.exports = {
   getJudge,
   updateAddress,
   getAddressList,
-  getBrandList
+  getBrandList,
+  deleteAddress
 }

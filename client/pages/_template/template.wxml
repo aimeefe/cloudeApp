@@ -23,8 +23,8 @@
             </view>
             <text class='temp-pro-name'>{{item.name}}</text>
             <view class='temp-pro-price'>
-              <text class='temp-pro-price-now theme-color'>¥ {{item.price}}</text>
-              <!-- <text class='temp-pro-price-history' v-if="{{item.discountPrice}}">¥ {{item.discountPrice}}</text> -->
+              <text class='temp-pro-price-now theme-color'>¥ {{item.discountPrice}}</text>
+              <text class='temp-pro-price-history' v-if="{{item.discountPrice}}">¥ {{item.price}}</text>
             </view>
           </view>
         </view>

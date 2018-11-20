@@ -1,12 +1,13 @@
 {
   "cloud": true,
   "pages": [
+    "pages/my_addr/my_addr",
+    
     "pages/index/index",
     "pages/category/category",
     "pages/brand/brand",
     "pages/cart/cart",
     "pages/my/my",
-    "pages/my_addr/my_addr",
     "pages/my_addr_sub/my_addr_sub",
     "pages/my_integral/my_integral",
     "pages/welfare/welfare",

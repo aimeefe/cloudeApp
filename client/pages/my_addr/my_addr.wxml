@@ -1,25 +1,34 @@
 <!--miniprogram/pages/address/address.wxml-->
-<view class='addr-section'>
-  <view class='addr-list' wx:if="{{address.length}}">
-    <view class='addr-item' wx:for="{{address}}" wx:key="{{item._id}}">
-      <view class='addr-item-lt'>
-        <text class='addr-item-name'>{{item.name}}</text>
-        <!-- <text class='addr-item-default'>默认</text> -->
+<view class="addr-section">
+  <view class="addr-list" wx:if="{{address.length}}">
+    <view class="addr-item" wx:for="{{address}}" wx:key="{{item._id}}">
+      <movable-area>
+        <movable-view out-of-bounds="true" direction="horizontal" inertia="true" data-index="{{index}}" x="{{item.x}}" bindtouchstart="resetBeforeRowX" bindtouchend="handleTouchEnd">
+          <view class="addr-warp">
+            <view class="addr-item-lt">
+              <text class="addr-item-name">{{item.name}}</text>
+              <!-- <text class="addr-item-default">默认</text> -->
+            </view>
+            <view class="addr-item-base">
+              <text class="addr-item-base-phone">{{item.phone}}</text>
+              <text class="addr-item-base-addr">{{item.area + item.address}}</text>
+            </view>
+            <navigator class="addr-item-edit" url="{{'../my_addr_sub/my_addr_sub?_id=' + item._id}}">
+              <image src="../../images/edit.png" />
+            </navigator>
+          </view>
+        </movable-view>
+      </movable-area>
+      <view class="delete" data-index="{{index}}" bindtap="handleDelete">
+        <image src="../../images/delete.png" />
       </view>
-      <view class='addr-item-base'>
-        <text class='addr-item-base-phone'>{{item.phone}}</text>
-        <text class='addr-item-base-addr'>{{item.area + item.address}}</text>
-      </view>
-      <navigator class='addr-item-edit' url='{{"../my_addr_sub/my_addr_sub?_id=" + item._id}}'>
-        <image src='../../images/edit.png'/>
-      </navigator>
     </view>
   </view>
-  <view class='addr-not' wx:else>
-    <image src='https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noAddress-26d570cefa.png'/>
+  <view class="addr-not" wx:else>
+    <image src="https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/noAddress-26d570cefa.png" />
     <text>收货地址在哪里</text>
   </view>
-  <navigator class='addr-add' url="../my_addr_sub/my_addr_sub">
+  <navigator class="addr-add" url="../my_addr_sub/my_addr_sub">
     <text>+ 新增地址</text>
   </navigator>
 </view>
