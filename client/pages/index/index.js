@@ -94,5 +94,11 @@ Page({
     wx.navigateTo({
       url: `/pages/pro_list/pro_list?categoryId=${e.currentTarget.dataset.categoryId}`
     })
+  },
+
+  linkToProDetail(e) {
+    wx.navigateTo({
+      url: `../pro_detail/pro_detail?id=${e.currentTarget.dataset.id}`
+    })
   }
 })

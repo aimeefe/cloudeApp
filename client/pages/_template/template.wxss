@@ -45,6 +45,9 @@
   line-height: 1;
   font-size: 27rpx;
   color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .temp-pro-price {

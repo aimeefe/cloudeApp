@@ -95,14 +95,6 @@ exports.main = async (event, context) => {
   });
 
 
-  // 获取产品
-  app.router('product', async (ctx, next) => {
-    ctx.data = await toGet('product');
-    ctx.body = await toReturn(ctx);
-    await next();
-  });
-
-
   /********************************** 分类  *********************************/
 
   // 获取分类
@@ -176,6 +168,26 @@ exports.main = async (event, context) => {
   });
 
 
+  /********************************** 产品 **********************************/
+
+  // 产品列表
+  app.router('product', async (ctx, next) => {
+    ctx.data = await toGet('product');
+    ctx.body = await toReturn(ctx);
+    await next();
+  });
+
+  // 产品详情
+  app.router('product/detail', async (ctx, next) => {
+    let limit = event.params.id ? {
+      where: {
+        "id": parseInt(event.params.id)
+      }
+    } : {};
+    ctx.data = await toGet('product_detail', limit);
+    ctx.body = await toReturn(ctx);
+    await next();
+  });
 
 
 

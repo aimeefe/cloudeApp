@@ -142,6 +142,7 @@
   width: 280rpx;
   height: 100%;
   margin-right: 27rpx;
+  flex: none;
 }
 
 .hot-rmd-img image {
@@ -159,6 +160,10 @@
   font-weight: bold;
   line-height: 1;
   margin-bottom: 20rpx;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .hot-rmd-desc {

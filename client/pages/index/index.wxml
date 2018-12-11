@@ -51,11 +51,11 @@
       </view>
     </navigator>
     <view class='limit-main'>
-      <view class='limit-item' wx:for='{{hotType02}}' wx:key='{{index}}'>
-        <image src='{{item.imgUrl}}'/>
+      <view class='limit-item' wx:for='{{hotType02}}' wx:key='{{index}}' data-id="{{item.id}}" bindtap="linkToProDetail">
+        <image src='{{item.listPicUrl}}'/>
         <view class='limit-price'>
-          <text class='theme-color'>¥ {{item.discountPrice}}</text>
-          <text class='limit-price-original'>¥ {{item.price}}</text>
+          <text class='theme-color'>¥ {{item.retailPrice}}</text>
+          <text class='limit-price-original' wx:if="{{item.counterPrice > item.retailPrice}}">¥ {{item.counterPrice}}</text>
         </view>
       </view>
     </view>
@@ -71,28 +71,28 @@
       </view>
     </navigator>
     <view class='hot-main'>
-      <view class='hot-rmd'>
+      <view class='hot-rmd' data-id="{{hotType01.id}}" bindtap="linkToProDetail">
         <view class='hot-rmd-img'>
-          <image src='{{hotType01.imgUrl}}'/>
+          <image src='{{hotType01.listPicUrl}}'/>
         </view>
         <view class='hot-rmd-info'>
           <view class='unit-label'>
             <text wx:for='{{hotType01.label}}' wx:key='{{index}}'>{{item}}</text>
           </view>
           <text class='hot-rmd-name'>{{hotType01.name}}</text>
-          <text class='hot-rmd-desc'>{{hotType01.desc}}</text>
-          <text class='hot-rmd-price theme-color'>¥ {{hotType01.price}}</text>
+          <text class='hot-rmd-desc'>{{hotType01.simpleDesc}}</text>
+          <text class='hot-rmd-price theme-color'>¥ {{hotType01.retailPrice}}</text>
         </view>
       </view>
       <view class='hot-normal'>
-        <view class='hot-normal-item' wx:for='{{hotType02}}' wx:key='{{index}}'>
-          <image src='{{item.imgUrl}}'/>
+        <view class='hot-normal-item' wx:for='{{hotType02}}' wx:key='{{index}}' data-id="{{item.id}}" bindtap="linkToProDetail">
+          <image src='{{item.listPicUrl}}'/>
           <view class='hot-normal-info'>
             <view class='unit-label'>
               <text wx:for='{{item.label}}' wx:key='{{index}}'>{{item}}</text>
             </view>
             <text class='hot-normal-name'>{{item.name}}</text>
-            <text class='hot-normal-price theme-color'>¥ {{item.price}}</text>
+            <text class='hot-normal-price theme-color'>¥ {{item.retailPrice}}</text>
           </view>
         </view>
       </view>

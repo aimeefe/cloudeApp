@@ -1,0 +1,1922 @@
+
+
+{
+    "bannerImgs": [
+      "http://yanxuan.nosdn.127.net/05f24b9c74d01f963cc7d4f4c5e8da31.jpg?imageView&quality=75&thumbnail=750x0",
+      "http://yanxuan.nosdn.127.net/13c2aa6abf77dcd66d44c61abe3ef9c7.jpg?imageView&quality=75&thumbnail=750x0",
+      "http://yanxuan.nosdn.127.net/5427371818870bf08e1494c0f5ac6ed1.jpg?imageView&quality=75&thumbnail=750x0",
+      "http://yanxuan.nosdn.127.net/fb82f3389f445f6faf313e981b909ea5.jpg?imageView&quality=75&thumbnail=750x0"
+    ],
+    "characteristicList": [{
+      "picUrl": "http://yanxuan.nosdn.127.net/82de02ef109bfa0c870d3e84c65d345d.jpg",
+      "simpleDescList": ["临期特惠", "冷藏更佳"]
+    }, {
+      "picUrl": "http://yanxuan.nosdn.127.net/54c81eea9f4c9145daaec7d8faf022b2.jpg",
+      "simpleDescList": ["豆香清新", "两种口味"]
+    }, {
+      "picUrl": "http://yanxuan.nosdn.127.net/8f37518ffdc83068fb77fff984650aa2.jpg",
+      "simpleDescList": ["甜而不腻", "无防腐剂"]
+    }],
+    "layawayList": [],
+    "hdrkDetailVOList": [],
+    "showPoints": true,
+    "primarySkuPreSellPrice": 0,
+    "detailImgs": [
+      "http://yanxuan.nosdn.127.net/7bf4e852fccce5a2d1f2e3af9693c5d2.jpg",
+      "http://yanxuan.nosdn.127.net/0f22bcc260dcb4d201746f3b7f50d4d2.jpg",
+      "http://yanxuan.nosdn.127.net/c5e2de52a70efdcda2c23524f45b73d6.jpg",
+      "http://yanxuan.nosdn.127.net/80a037acf146e1706bf2d9af16c08632.jpg",
+      "http://yanxuan.nosdn.127.net/c64b802c3b297f8b380e9c54cbe5f0d7.jpg",
+      "http://yanxuan.nosdn.127.net/4b54651259dd0102c79d20a7aa55ceb5.jpg",
+      "http://yanxuan.nosdn.127.net/c97406a31efc40aa9342c983afaeb1d9.jpg",
+      "http://yanxuan.nosdn.127.net/a03267ac22fb92cae904ee53cfa9f15e.jpg",
+      "http://yanxuan.nosdn.127.net/f395763439d096afb08f8ab06bf9abb2.jpg",
+      "http://yanxuan.nosdn.127.net/95068ba480dedce7c86c955c914547e5.jpg",
+      "http://yanxuan.nosdn.127.net/5729e3919dba2442ff5ad20681d280a2.jpg",
+      "http://yanxuan.nosdn.127.net/0a04c41c746542c5dca2bf20170177e5.jpg",
+      "http://yanxuan.nosdn.127.net/1a9c60367503765cfb8487ec00e7cd52.jpg",
+      "http://yanxuan.nosdn.127.net/9aeb8d3813279e1f84b00b91595f60e4.jpg",
+      "http://yanxuan.nosdn.127.net/284c1c0962303c4845dc99323669a9e4.jpg",
+      "http://yanxuan.nosdn.127.net/80075a5e9984323a801f73d780551c44.jpg",
+      "http://yanxuan.nosdn.127.net/eb7e32f56ba3a32f329c782754de97c9.jpg",
+      "http://yanxuan.nosdn.127.net/d52bde8170aada45db05658935d719ce.jpg",
+      "http://yanxuan.nosdn.127.net/b6ff966cf3515e8c0621f6f2cbde9974.jpg",
+      "http://yanxuan.nosdn.127.net/b68aeeeab70385866a20644b87a73668.jpg",
+      "http://yanxuan.nosdn.127.net/2ee3d0f3f6111661b3e16d322007c548.jpg",
+      "http://yanxuan.nosdn.127.net/9991b78a506921a8e7f16196bcd08526.jpg",
+      "http://yanxuan.nosdn.127.net/1f36d32f055aca8c999fa3889f434d3f.jpg",
+      "http://yanxuan.nosdn.127.net/2e32469d3ae5a6fcaf16aaa8593b5d8c.jpg",
+      "http://yanxuan.nosdn.127.net/bb9c9ca1d082d5458abc039b0cb255fa.jpg",
+      "http://yanxuan.nosdn.127.net/3f230bb158984d3d13e8c8a11d46c6b6.jpg",
+      "http://yanxuan.nosdn.127.net/2d254a6a894fa3e8282837cbfef5b2cf.jpg",
+      "http://yanxuan.nosdn.127.net/211d9d3fc1d5f05cda2529cd6d1efe77.jpg",
+      "http://yanxuan.nosdn.127.net/f1570ca01b4e40fdaf58276f4a3a048d.jpg",
+      "http://yanxuan.nosdn.127.net/a46d81ba5f6e93989eb1f692ba8ae522.jpg",
+      "http://yanxuan.nosdn.127.net/1eb838f92720956c438ee1d0085d278e.jpg",
+      "http://yanxuan.nosdn.127.net/cc66ad938b71e21eb6ae7ac37257e1fb.jpg",
+      "http://yanxuan.nosdn.127.net/414f2a1930cf58631cffa62ae2e0ab6d.jpg",
+      "http://yanxuan.nosdn.127.net/f775fef487f00edde2e975bc170968c8.jpg",
+      "http://yanxuan.nosdn.127.net/c8a1892be1ca4e9529e866432f8a2e74.jpg",
+      "http://yanxuan.nosdn.127.net/c2485761d43a7719e0c95f6a89e21e6c.jpg",
+      "http://yanxuan.nosdn.127.net/85b43669515c8617efe505dfe8cc9774.jpg",
+      "http://yanxuan.nosdn.127.net/dffcdaea86f90380500d995d99c02307.jpg",
+      "http://yanxuan.nosdn.127.net/a67f99e15ae6e8428353fd9046b4d3d0.jpg",
+      "http://yanxuan.nosdn.127.net/e90223f096ff85ab35500ff9fbc3ba0a.jpg",
+      "http://yanxuan.nosdn.127.net/20dd02215e27ef63cf9191c1efb0134d.jpg",
+      "http://yanxuan.nosdn.127.net/e46656ea954ac44797e35bc5f0a25a30.jpg",
+      "http://yanxuan.nosdn.127.net/6ea1a04b1cb54294c94f264988590847.jpg",
+      "http://yanxuan.nosdn.127.net/d51d4d364078d07acb2a93f333e2a9e4.jpg",
+      "http://yanxuan.nosdn.127.net/295e5f498d04b6cc934b53c279189d25.jpg",
+      "http://yanxuan.nosdn.127.net/1c49dca4169dfb0947abd3071aa2128c.jpg",
+      "http://yanxuan.nosdn.127.net/be3002cf43aa64d66e4c46426b7a84d0.jpg",
+      "http://yanxuan.nosdn.127.net/34bb46af1a895cb9681a455d2fbe2966.jpg",
+      "http://yanxuan.nosdn.127.net/641ea739f1c4152946dcc1d62830de21.jpg",
+      "http://yanxuan.nosdn.127.net/228e77b049ecf1a417464122c92dc03a.jpg",
+      "http://yanxuan.nosdn.127.net/1c7e69d509f79734ff696aeff3f574d2.jpg",
+      "http://yanxuan.nosdn.127.net/8d584dc74a1e9625f0218373743aea7e.jpg"
+    ],
+    "preLimitFlag": 0,
+    "itemPromValid": true,
+    "source": 0,
+    "points": 10,
+    "itemTagList": [{
+      "itemId": 0,
+      "tagId": 0,
+      "name": "临期特惠",
+      "subType": 0,
+      "forbidJump": false,
+      "type": 2
+    }],
+    "primarySkuPreSellStatus": 0,
+    "flashPageLink": "",
+    "rank": 0,
+    "id": 1155015,
+    "autoOnsaleTimeLeft": 0,
+    "saleCenterSkuId": 0,
+    "sellVolume": 1600,
+    "adBanners": [{
+      "picUrl": "http://yanxuan.nosdn.127.net/b978eec64c2243a4a538b940b66c5f2f.jpg",
+      "targetUrl": "https://act.you.163.com/act/pub/2DeVr6XmtL.html"
+    }],
+    "pointsStatus": 0,
+    "extraPrice": "",
+    "colorNum": 0,
+    "itemLimit": "特价商品不可与优惠券叠加使用",
+    "primaryPicUrl": "http://yanxuan.nosdn.127.net/66b9f1638c0517d179262f14ed1345f9.png",
+    "showTime": 0,
+    "skuMap": {
+      "1318001": {
+        "calcPrice": 18.90,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "promotionDesc": "临期特惠",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+          "itemId": 0,
+          "tagId": 0,
+          "name": "临期特惠",
+          "subType": 0,
+          "forbidJump": false,
+          "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 1280000,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 326,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 14.9,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+          "skuSpec": {
+            "name": "规格",
+            "id": 1141020,
+            "type": 0,
+            "firstHideFlag": false
+          },
+          "skuSpecId": 1141020,
+          "id": 1263002,
+          "skuSpecValueId": 1318001,
+          "skuId": 1280000,
+          "skuSpecValue": {
+            "picUrl": "",
+            "skuSpecId": 1141020,
+            "id": 1318001,
+            "value": "原味"
+          }
+        }],
+        "primarySku": true,
+        "counterPrice": 18.90,
+        "retailPrice": 14.9,
+        "operationAttribute": 135168,
+        "desc": ""
+      },
+      "1317001": {
+        "calcPrice": 18.90,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "promotionDesc": "临期特惠",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+          "itemId": 0,
+          "tagId": 0,
+          "name": "临期特惠",
+          "subType": 0,
+          "forbidJump": false,
+          "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 1280001,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 1274,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 9.9,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+          "skuSpec": {
+            "name": "规格",
+            "id": 1141020,
+            "type": 0,
+            "firstHideFlag": false
+          },
+          "skuSpecId": 1141020,
+          "id": 1263003,
+          "skuSpecValueId": 1317001,
+          "skuId": 1280001,
+          "skuSpecValue": {
+            "picUrl": "",
+            "skuSpecId": 1141020,
+            "id": 1317001,
+            "value": "玫瑰味"
+          }
+        }],
+        "primarySku": false,
+        "counterPrice": 18.90,
+        "retailPrice": 9.9,
+        "operationAttribute": 135168,
+        "desc": ""
+      }
+    },
+    "autoOnsaleTime": 0,
+    "soldOut": false,
+    "sortFlag": 0,
+    "attrList": [{
+      "attrValue": "绿豆糕",
+      "attrName": "品名"
+    }, {
+      "attrValue": "160克（8枚入）",
+      "attrName": "净含量"
+    }, {
+      "attrValue": "原味：绿豆沙馅（脱皮绿豆、白砂糖、饮用水、精炼植物油、海藻糖、食用盐）\n玫瑰味：绿豆沙馅（脱皮绿豆、白砂糖、饮用水、精炼植物油、海藻糖、食用盐）、重瓣红玫瑰",
+      "attrName": "配料表"
+    }, {
+      "attrValue": "60天",
+      "attrName": "保质期"
+    }, {
+      "attrValue": "阴凉干燥处保存",
+      "attrName": "贮存条件"
+    }, {
+      "attrValue": "四川省乐山市",
+      "attrName": "产地"
+    }, {
+      "attrValue": "1、网易严选出售的食品，除明确质量问题外均不接受退换货\n2、本产品不添加防腐剂，开封后请尽快食用",
+      "attrName": "温馨提示"
+    }],
+    "preemptionStatus": 1,
+    "commentCount": 96589,
+    "isPreemption": 0,
+    "zcSearchFlag": false,
+    "onSaleTime": 1493863059606,
+    "name": "绿豆糕 160克（8枚入）",
+    "commentWithPicCount": 2826,
+    "underShelf": false,
+    "appExclusiveFlag": false,
+    "status": 2,
+    "couponConflict": true,
+    "itemType": 1,
+    "listPicUrl": "http://yanxuan.nosdn.127.net/66b9f1638c0517d179262f14ed1345f9.png",
+    "pointsPrice": 0,
+    "skuList": [{
+      "calcPrice": 18.90,
+      "pointsPrice": 0,
+      "hdrkDetailVOList": [],
+      "promValid": true,
+      "virtualFlag": false,
+      "preLimitFlag": 0,
+      "promotionDesc": "临期特惠",
+      "giftCardFlag": false,
+      "limitedFlag": 204,
+      "points": 10,
+      "accessoryFlag": false,
+      "itemTagList": [{
+        "itemId": 0,
+        "tagId": 0,
+        "name": "临期特惠",
+        "subType": 0,
+        "forbidJump": false,
+        "type": 2
+      }],
+      "valid": true,
+      "buttonType": 0,
+      "confineType": 0,
+      "id": 1280000,
+      "selected": false,
+      "isSatisfy": false,
+      "sellVolume": 326,
+      "preSellVolume": 0,
+      "cnt": 0,
+      "limitPurchaseCount": 0,
+      "preSellStatus": 0,
+      "preSellPrice": 14.9,
+      "preemptionStatus": 1,
+      "limitPurchaseFlag": false,
+      "limitPointCount": 0,
+      "purchaseAttribute": 0,
+      "skuLimit": "特价商品不可与优惠券叠加使用",
+      "itemSkuSpecValueList": [{
+        "skuSpec": {
+          "name": "规格",
+          "id": 1141020,
+          "type": 0,
+          "firstHideFlag": false
+        },
+        "skuSpecId": 1141020,
+        "id": 1263002,
+        "skuSpecValueId": 1318001,
+        "skuId": 1280000,
+        "skuSpecValue": {
+          "picUrl": "",
+          "skuSpecId": 1141020,
+          "id": 1318001,
+          "value": "原味"
+        }
+      }],
+      "primarySku": true,
+      "counterPrice": 18.90,
+      "retailPrice": 14.9,
+      "operationAttribute": 135168,
+      "desc": ""
+    }, {
+      "calcPrice": 18.90,
+      "pointsPrice": 0,
+      "hdrkDetailVOList": [],
+      "promValid": true,
+      "virtualFlag": false,
+      "preLimitFlag": 0,
+      "promotionDesc": "临期特惠",
+      "giftCardFlag": false,
+      "limitedFlag": 204,
+      "points": 10,
+      "accessoryFlag": false,
+      "itemTagList": [{
+        "itemId": 0,
+        "tagId": 0,
+        "name": "临期特惠",
+        "subType": 0,
+        "forbidJump": false,
+        "type": 2
+      }],
+      "valid": true,
+      "buttonType": 0,
+      "confineType": 0,
+      "id": 1280001,
+      "selected": false,
+      "isSatisfy": false,
+      "sellVolume": 1274,
+      "preSellVolume": 0,
+      "cnt": 0,
+      "limitPurchaseCount": 0,
+      "preSellStatus": 0,
+      "preSellPrice": 9.9,
+      "preemptionStatus": 1,
+      "limitPurchaseFlag": false,
+      "limitPointCount": 0,
+      "purchaseAttribute": 0,
+      "skuLimit": "特价商品不可与优惠券叠加使用",
+      "itemSkuSpecValueList": [{
+        "skuSpec": {
+          "name": "规格",
+          "id": 1141020,
+          "type": 0,
+          "firstHideFlag": false
+        },
+        "skuSpecId": 1141020,
+        "id": 1263003,
+        "skuSpecValueId": 1317001,
+        "skuId": 1280001,
+        "skuSpecValue": {
+          "picUrl": "",
+          "skuSpecId": 1141020,
+          "id": 1317001,
+          "value": "玫瑰味"
+        }
+      }],
+      "primarySku": false,
+      "counterPrice": 18.90,
+      "retailPrice": 9.9,
+      "operationAttribute": 135168,
+      "desc": ""
+    }],
+    "forbiddenBuy": false,
+    "simpleDesc": "清新豆味，临期特惠",
+    "promotionDesc": "临期特惠",
+    "seoTitle": "",
+    "limitedFlag": 204,
+    "newItemFlag": false,
+    "buttonType": 0,
+    "pieceNum": 0,
+    "skuSpecList": [{
+      "name": "规格",
+      "id": 1141020,
+      "type": 0,
+      "firstHideFlag": false,
+      "skuSpecValueList": [{
+        "picUrl": "",
+        "skuSpecId": 1141020,
+        "id": 1318001,
+        "value": "原味"
+      }, {
+        "picUrl": "",
+        "skuSpecId": 1141020,
+        "id": 1317001,
+        "value": "玫瑰味"
+      }]
+    }],
+    "categoryList": [{
+      "showIndex": 6,
+      "level": "L1",
+      "wapBannerUrl": "http://yanxuan.nosdn.127.net/fb670ff3511182833e5b035275e4ac09.png",
+      "bannerUrl": "http://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png",
+      "frontDesc": "好吃，高颜值美食",
+      "type": 0,
+      "frontName": "",
+      "superCategoryId": 0,
+      "name": "饮食",
+      "iconUrl": "http://yanxuan.nosdn.127.net/c9280327a3fd2374c000f6bf52dff6eb.png",
+      "id": 1005002,
+      "subCateList": []
+    }, {
+      "showIndex": 1,
+      "level": "L2",
+      "wapBannerUrl": "http://yanxuan.nosdn.127.net/f8d152f1f6f4b0072dcbf10dc2983fe6.png",
+      "bannerUrl": "",
+      "frontDesc": "无人工添加香精、防腐剂",
+      "type": 0,
+      "frontName": "四季糕点，用心烘焙",
+      "superCategoryId": 1005002,
+      "name": "饼干糕点",
+      "id": 1008015,
+      "subCateList": []
+    }],
+    "itemSizeTableDetailFlag": false,
+    "freightInfo": "",
+    "primarySkuId": 1280000,
+    "comments": [{
+      "star": 0,
+      "frontUserAvatar": "",
+      "memberLevel": 2,
+      "deleteOption": false,
+      "packageId": 0,
+      "content": "这些年，\n他一直在寻找妈妈的味道，\n那是甜甜的、香香的，\n带着一点点清凉的绿豆味道，\n每当他调皮被爸爸打，\n妈妈只要用这个就可以让他破涕为笑，\n而现在，\n在这个偌大的城市里，\n失意失恋失业的他，\n竟不知道要到哪里去寻找这样的安慰。",
+      "itemId": 1155015,
+      "itemName": "绿豆糕 80克（4枚入）",
+      "createTime": 1506654157277,
+      "picList": [],
+      "autoGood": false,
+      "itemIconUrl": "http://yanxuan.nosdn.127.net/66b9f1638c0517d179262f14ed1345f9.png",
+      "id": 33417388,
+      "skuInfo": ["规格:玫瑰味"],
+      "skuId": 1162102,
+      "frontUserName": "发****"
+    }],
+    "bonusBanner": {
+      "schemeUrl": "https://act.you.163.com/act/pub/35lg3M4T9f.html?anchor=money",
+      "tag": "双12购物津贴",
+      "desc": "领津贴每满400减20"
+    },
+    "forbidExclusiveCal": false,
+    "issueList": [{
+      "answer": "为了维护消费者的权益，网易严选出售的食品除明确质量问题外均不接受退换货，敬请谅解。",
+      "question": "食品类商品什么情况下支持退换货？"
+    }, {
+      "answer": "单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。\n(港澳台地区需满500元免邮费；不满500元，每单收取30元运费)",
+      "question": "购买运费如何收取？"
+    }, {
+      "answer": "网易严选会根据商品所在地、顾客所在地和商品的尺寸重量优选物流配送商，确保优质用户体验。目前暂不支持自选快递，具体物流信息可在下单成功后“我的订单-追踪物流”中查看。",
+      "question": "网易严选的订单如何配送？"
+    }, {
+      "answer": "1.自收到商品之日起30日内，顾客可申请无忧退货；如果是退货，退款将原路返还，不同的银行处理时间不同，预计1-5个工作日到账；\n2.内裤和食品等特殊商品无质量问题不支持退换货；\n3.退货流程：\n确认收货-申请退货-客服审核通过-用户寄回商品-仓库签收验货-退款审核-退款完成；\n4.换货流程：\n确认收货-申请换货-客服审核通过-用户寄回商品-仓库签收验货-客服确认-换货完成；\n5.退换货运费由网易严选承担（大件商品除外）。上门取件费用由网易严选统一与快递服务商结算，顾客只需将退换货商品交给上门取件快递员寄回。如顾客选择自行寄回商品，请先垫付运费，到货验证商品后，严选将以现金券形式为用户报销运费，不接受单方面到付件。",
+      "question": "如何申请退换货？"
+    }, {
+      "answer": "1.请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以上版本）。开具增值税专用发票需在下单时填写增票资质信息。温馨提示：请确保增票资质信息与贵司税务登记证信息一致，避免因开票信息错误给贵司带来损失。 \n2.可选开票内容：\n\t依照国税总局开票法规，严选订单开具纸质发票、电子发票，开票内容为明细；礼品卡开票内容为预付卡；增值税专用发票开票内容为明细。",
+      "question": "如何开具发票？"
+    }, {
+      "answer": "1.划线价、指导价：商品展示的划线价或指导价可能是商品制造厂商的零售市场指导价、品牌专柜价、商品吊牌价或该商品在严选上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。\n2.活动价：如无特殊说明，促销价是商家在划线价、指导价基础上给予的优惠价格。如有疑问，您可以在购买前与客服联系。\n3.严选价：严选非会员用户购买的商品详情页显示的售价。\n4.会员价：在严选价的基础上给予不同类型会员用户的优惠价格，仅该类会员用户可以以会员价购买该商品。\n5.价格异常：因可能存在系统缓存、页面更新延迟等不确定性情况，导致价格显示异常，商品具体售价请以订单结算页价格为准。如您发现异常情况出现，请立即联系我们补正，以便您能顺利购物。",
+      "question": "关于严选相关价格说明？"
+    }],
+    "updateTime": 1543385976924,
+    "displaySkuId": 1280001,
+    "tagList": [],
+    "pieceUnitDesc": "件",
+    "specialPromTag": "",
+    "gradientPrice": {
+      "isSatisfy": false,
+      "restDay": 0,
+      "limitPrice": 9.9,
+      "confineType": 0,
+      "isActived": true,
+      "leftTime": 475601252
+    },
+    "productPlace": "2个口味",
+    "reportPicList": ["http://yanxuan.nosdn.127.net/e061bfbb50d97ece1b7fd82170701d77.jpg", "http://yanxuan.nosdn.127.net/86d4334212a0673f22fe8cd26d483037.jpg", "http://yanxuan.nosdn.127.net/0b3f6bfbc99fa73761a93f1a87a5917e.jpg"],
+    "counterPrice": 18.90,
+    "retailPrice": 9.9,
+    "itemSizeTableFlag": false
+  }
+
+
+{
+  "bannerImgs": [
+    "http://yanxuan.nosdn.127.net/03663bb3e7ee3080143d5ebd77a292a9.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/cc621263efb91c5ae856b2d6f9663516.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/ec7b09e935e864a48c9fec7f599d641f.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/7595d44c8d8b609dff784b584d2996bf.jpg?imageView&quality=75&thumbnail=750x0"
+  ],
+    "characteristicList": [{
+        "picUrl": "http://yanxuan.nosdn.127.net/d9b47863152bac2d55b3ea276d7e7f07.jpg",
+        "simpleDescList": ["9款美食", "精心搭配"]
+    },
+    {
+        "picUrl": "http://yanxuan.nosdn.127.net/d5055c13d086069e89fb071ffc79c3de.jpg",
+        "simpleDescList": ["严选工艺", "咸甜有味"]
+    },
+    {
+        "picUrl": "http://yanxuan.nosdn.127.net/a063618496e9d9bbf1c1e10a4b5e0509.jpg",
+        "simpleDescList": ["精美礼盒", "馈赠佳品"]
+    }],
+    "layawayList": [],
+    "hdrkDetailVOList": [],
+    "showPoints": true,
+    "primarySkuPreSellPrice": 168.00,
+    "detailImgs": [
+
+		"http://yanxuan.nosdn.127.net/0617e1bb4e5a0ab108467d541ec003e0.jpg",
+		"http://yanxuan.nosdn.127.net/9c3c9a943bfcff2ef1ebdecb4e35fdbb.jpg",
+		"http://yanxuan.nosdn.127.net/c25958bd4bdec5dca27bc05c52161575.jpg",
+		"http://yanxuan.nosdn.127.net/41c5a9ce68783f5543352675722ba4a2.gif",
+		"http://yanxuan.nosdn.127.net/8dbb08e081a163da2221be573ae72a41.jpg",
+		"http://yanxuan.nosdn.127.net/20ba0b1e65e6b9bf4fb6e47efbb72faf.jpg",
+		"http://yanxuan.nosdn.127.net/28488a5068f8563283304a02163f92b0.jpg",
+		"http://yanxuan.nosdn.127.net/a18c9548d89bbe0742714e53ab76234d.jpg",
+		"http://yanxuan.nosdn.127.net/e46d8584fd3f212a29755e673e9d3cb7.jpg",
+		"http://yanxuan.nosdn.127.net/35f535bd01f39d0345c904e18f725c67.jpg",
+		"http://yanxuan.nosdn.127.net/4c40cb7e9aaaf74320d2e89a52c23baf.jpg",
+		"http://yanxuan.nosdn.127.net/ba529337f7e0208afa85d4d33a3c7a8c.jpg",
+		"http://yanxuan.nosdn.127.net/96f9ce8aff67cad44285ad507907cd08.jpg",
+		"http://yanxuan.nosdn.127.net/24b1c32b316ea8047f92fe901e3166e9.jpg",
+		"http://yanxuan.nosdn.127.net/234cab5f1da68c58868bb43bac686536.jpg",
+		"http://yanxuan.nosdn.127.net/0d659e90eb87725af5457c0cc44bee82.jpg",
+		"http://yanxuan.nosdn.127.net/a9b22509ac9d806fe6cc6543cea8780f.jpg",
+		"http://yanxuan.nosdn.127.net/f46aead5912233553f67e320bb8f4852.jpg",
+		"http://yanxuan.nosdn.127.net/abd67104653ff3d0b09f362b83195449.jpg",
+		"http://yanxuan.nosdn.127.net/548ea43ef48e310cc5ec7088488095a9.jpg",
+		"http://yanxuan.nosdn.127.net/03171e73968d2d431d4e62e3bb5d54d9.jpg",
+		"http://yanxuan.nosdn.127.net/4507f9dce93d3ee1836688abe79c8a52.jpg",
+		"http://yanxuan.nosdn.127.net/35014f31ebfbdc7b5ed7f6e8875ec110.jpg",
+		"http://yanxuan.nosdn.127.net/befd14d2edc676c3a2a01692b3e57b5c.jpg",
+		"http://yanxuan.nosdn.127.net/75069447a611ed2da0db553b7cd4e5d7.jpg",
+		"http://yanxuan.nosdn.127.net/f467361e155b60d78eff2c6509eed248.jpg",
+		"http://yanxuan.nosdn.127.net/7410f961950ab59fa76642fc2665cbe1.jpg",
+		"http://yanxuan.nosdn.127.net/0459118130b7bbb704391e7c50238939.jpg",
+		"http://yanxuan.nosdn.127.net/edd6de2bd54ee05dd61fb6da5de10919.jpg",
+		"http://yanxuan.nosdn.127.net/3fb99353e7aa836d34aba42d96eb8c76.jpg",
+		"http://yanxuan.nosdn.127.net/375786395783247ce65d96f4fb259c7a.jpg",
+		"http://yanxuan.nosdn.127.net/ea993036f672d1eef1ed87b001c4bdaa.jpg",
+		"http://yanxuan.nosdn.127.net/e66e80f71b67a1bed299ae3cda2f4ced.jpg",
+		"http://yanxuan.nosdn.127.net/fcba9ff952c1da5f26f93e973777d881.jpg",
+		"http://yanxuan.nosdn.127.net/5ab6def78815eb3ffaad7a4798e0f515.jpg",
+		"http://yanxuan.nosdn.127.net/d3fa541759725353be018e24197931bf.jpg",
+		"http://yanxuan.nosdn.127.net/7925e1553e45f14c2b6690ea7a3b8086.jpg",
+		"http://yanxuan.nosdn.127.net/c03fe5464e25c3dd690f5562beb20da6.jpg",
+		"http://yanxuan.nosdn.127.net/13bfdccd0792adc79e5490d54d1fe299.jpg",
+		"http://yanxuan.nosdn.127.net/1a568768cf2d47ac227eb1b088a14879.jpg",
+		"http://yanxuan.nosdn.127.net/529af3e57dfce0906901bfebbb6cd0a3.jpg",
+		"http://yanxuan.nosdn.127.net/7ccf37d140e9e8a788b6f9915151f299.jpg",
+		"http://yanxuan.nosdn.127.net/910dbcc893d9985b0ed8de3c39c03498.jpg",
+		"http://yanxuan.nosdn.127.net/c06abc38d089fed1cf0ba7d6a3338b39.jpg",
+		"http://yanxuan.nosdn.127.net/175f31c8eb829a3d75ab35b2620c5306.jpg",
+		"http://yanxuan.nosdn.127.net/1b53c347d26896d523ea903e77fbf01f.jpg",
+		"http://yanxuan.nosdn.127.net/f6935eb5257ea5f7975f0448d8d6f4af.jpg",
+		"http://yanxuan.nosdn.127.net/1fdf3c46e22a29c6ba127e0274eaae08.jpg",
+		"http://yanxuan.nosdn.127.net/e20a393c33682ed9de77ca4b46323158.jpg",
+		"http://yanxuan.nosdn.127.net/7870dc840fb76495d7be6c8f9ec09db6.jpg",
+		"http://yanxuan.nosdn.127.net/3ce7b41a3969c6a51e43f07f72b51669.jpg",
+		"http://yanxuan.nosdn.127.net/b77f722cb9df50148ee4428f85419401.jpg",
+		"http://yanxuan.nosdn.127.net/dbedcff94908ef33cc14c3ba43472f92.jpg",
+		"http://yanxuan.nosdn.127.net/010350175b25839372eadf76f42cdcdb.jpg",
+		"http://yanxuan.nosdn.127.net/6bdc81c3143480d04a8f663ecfbf61b9.jpg",
+		"http://yanxuan.nosdn.127.net/c22af67f0e8d04e8008a7b534ecc2880.jpg",
+		"http://yanxuan.nosdn.127.net/cad309c5d04e81444dccb91c283e2f7a.jpg",
+		"http://yanxuan.nosdn.127.net/ec7565449176058d9408f1588aaa8f92.jpg",
+		"http://yanxuan.nosdn.127.net/1eb04a0f0a2fded94103969a08617523.jpg",
+		"http://yanxuan.nosdn.127.net/b18250976d88935d8abb73478c957b02.jpg",
+		"http://yanxuan.nosdn.127.net/a774395f23928c8605d679cb8c9db9a9.jpg",
+		"http://yanxuan.nosdn.127.net/d205a225461b048a14f985d82ca5b15f.jpg",
+		"http://yanxuan.nosdn.127.net/e037529b19f4090b9f9ff2862b4df322.jpg",
+		"http://yanxuan.nosdn.127.net/bb580c5da80a3dcc5c78855495e73cef.jpg",
+		"http://yanxuan.nosdn.127.net/66044d8dca99a4b27b623ae6291bd041.jpg",
+		"http://yanxuan.nosdn.127.net/f83225fade43e96db47d747d3a4da37b.jpg",
+		"http://yanxuan.nosdn.127.net/f48ea346f890ddf9864b2e39f5d7c318.jpg",
+		"http://yanxuan.nosdn.127.net/d5b0a2e6b5b367e4a233b6639ac18be4.jpg",
+		"http://yanxuan.nosdn.127.net/a373b50f6b8a1bb31c313cd57ade90aa.jpg",
+		"http://yanxuan.nosdn.127.net/984cb7fdcede11aeb0a7a1a33c6cc9e5.jpg",
+		"http://yanxuan.nosdn.127.net/8cc0f0cc4b6f2555a1465a7f42ca4f5e.jpg",
+		"http://yanxuan.nosdn.127.net/109381744d35aa07eb889694aede6582.jpg",
+		"http://yanxuan.nosdn.127.net/725a193723f2422ab3b7ed4cdd083143.jpg",
+		"http://yanxuan.nosdn.127.net/688fa20ee14e080579b3c9a91c69eb52.jpg",
+		"http://yanxuan.nosdn.127.net/fde645cbb7d214f418df9c1a34c62b6b.jpg",
+		"http://yanxuan.nosdn.127.net/9ee3a9535b510e0fef3cc8319eaf2a6c.jpg",
+		"http://yanxuan.nosdn.127.net/d697cf598717e13035093fc97b028d41.jpg",
+		"http://yanxuan.nosdn.127.net/f6b06a0e27acf624b8e8e9e26e756cb4.jpg",
+		"http://yanxuan.nosdn.127.net/bc3da68475f8f80978e502e6eeb99f2a.jpg",
+		"http://yanxuan.nosdn.127.net/c68ffd9ccd20f87bf6f9556813f3e640.jpg",
+		"http://yanxuan.nosdn.127.net/7bfb992dd551357657337e113e529226.jpg",
+		"http://yanxuan.nosdn.127.net/53e4bac572f38c62a23789643f0d2273.jpg",
+		"http://yanxuan.nosdn.127.net/30ecea58769e81198f26f65185761bd2.jpg",
+		"http://yanxuan.nosdn.127.net/2aaacb80876c010866f762db754261b6.jpg",
+		"http://yanxuan.nosdn.127.net/c9d3a56ba370b29fef600ad24dee7a55.jpg",
+		"http://yanxuan.nosdn.127.net/a5705ffe22f8384239460d8dbd618879.jpg",
+		"http://yanxuan.nosdn.127.net/0c493713ca9019253072f026193acad3.jpg",
+		"http://yanxuan.nosdn.127.net/8a247f3a98c303c8b1d8e223bf17c522.jpg",
+		"http://yanxuan.nosdn.127.net/ffce8a9f161e9fbca2802d37563783fb.jpg",
+		"http://yanxuan.nosdn.127.net/ac02265b2248aa5b51422a2282d52817.jpg",
+		"http://yanxuan.nosdn.127.net/34831ac3ac8a4707ce119757b5cf5e3a.jpg",
+		"http://yanxuan.nosdn.127.net/6a87f7f5aa20ec1e4315d22db735e5ec.jpg",
+		"http://yanxuan.nosdn.127.net/e51293fa8f1036b8380c927019e68715.jpg",
+		"http://yanxuan.nosdn.127.net/c56ab9e33112e6a64694f101e3d4f542.jpg",
+		"http://yanxuan.nosdn.127.net/e90b1e194acdb4f1a396868892717880.jpg",
+		"http://yanxuan.nosdn.127.net/186e8643447bc1adf5f217435a970e2e.jpg",
+		"http://yanxuan.nosdn.127.net/1ab3847ab8cb6139c8fb72aa450ab935.jpg",
+		"http://yanxuan.nosdn.127.net/c1f97eb7a8abc624ded6dcc36c53740c.jpg",
+		"http://yanxuan.nosdn.127.net/e2f75b7383e7469b616887e6b07e101f.jpg",
+		"http://yanxuan.nosdn.127.net/229daad20a48a40b441ee8d57e7c0b57.jpg",
+		"http://yanxuan.nosdn.127.net/7381f6737afb9ce824b0e0a7d479dce7.jpg",
+		"http://yanxuan.nosdn.127.net/2cd20401ffb9de32f99bc0f6532b3db5.jpg",
+		"http://yanxuan.nosdn.127.net/511bedea1ea2976c121187a19cfbe6b0.jpg",
+		"http://yanxuan.nosdn.127.net/bdae3418dbb64987632e1739588b2af4.jpg",
+		"http://yanxuan.nosdn.127.net/d880a084a446e2d7a6b1a8cc3d1aef2e.jpg",
+		"http://yanxuan.nosdn.127.net/cba6d6facb78c2416f80aaa20e7b7555.jpg",
+		"http://yanxuan.nosdn.127.net/2096244e96cba0b9f7687f4d96e7fc7f.jpg",
+		"http://yanxuan.nosdn.127.net/a8e53afb5557cc9c6a3d1722f17c3584.jpg",
+		"http://yanxuan.nosdn.127.net/5bcdbe91b9f25951782bb66adb6ea2db.jpg",
+		"http://yanxuan.nosdn.127.net/c1228e8a29bf6f9245548e25f8254e1b.jpg",
+		"http://yanxuan.nosdn.127.net/a91e26f8fcceec299a20d0f2b1393193.jpg",
+		"http://yanxuan.nosdn.127.net/07e50ffee62ab5d4db09bd1d53dabd23.jpg",
+		"http://yanxuan.nosdn.127.net/8bb06384165e6b03f19c7fa7d87e1be8.jpg"
+		],
+    "preLimitFlag": 0,
+    "itemPromValid": true,
+    "source": 0,
+    "points": 10,
+    "itemTagList": [{
+        "itemId": 0,
+        "tagId": 0,
+        "name": "新品",
+        "subType": 0,
+        "forbidJump": false,
+        "type": 1
+    },
+    {
+        "itemId": 0,
+        "tagId": 0,
+        "name": "美食狂欢",
+        "subType": 0,
+        "forbidJump": false,
+        "type": 2
+    }],
+    "primarySkuPreSellStatus": 1,
+    "flashPageLink": "",
+    "rank": 0,
+    "id": 3445017,
+    "autoOnsaleTimeLeft": 0,
+    "saleCenterSkuId": 0,
+    "sellVolume": 7934,
+    "adBanners": [{
+        "picUrl": "http://yanxuan.nosdn.127.net/b978eec64c2243a4a538b940b66c5f2f.jpg",
+        "extra": {
+            "taskType": 0,
+            "resourcesId": 0,
+            "customAdPicUrl": "http://yanxuan.nosdn.127.net/b978eec64c2243a4a538b940b66c5f2f.jpg",
+            "customAdLinkUrl": "https://act.you.163.com/act/pub/2DeVr6XmtL.html"
+        },
+        "targetUrl": "https://act.you.163.com/act/pub/2DeVr6XmtL.html"
+    }],
+    "pointsStatus": 0,
+    "extraPrice": "",
+    "colorNum": 0,
+    "itemLimit": "特价商品不可与优惠券叠加使用",
+    "primaryPicUrl": "http://yanxuan.nosdn.127.net/3390eaca2f9255ea09ea0e22682e04b9.png",
+    "showTime": 0,
+    "skuMap": {
+        "3721148": {
+            "calcPrice": 168.00,
+            "pointsPrice": 0,
+            "hdrkDetailVOList": [],
+            "promValid": true,
+            "virtualFlag": false,
+            "preLimitFlag": 0,
+            "pic": "http://yanxuan.nosdn.127.net/11cd9638a6a7749e8326ad5bf3bd870f.png",
+            "promotionDesc": "美食狂欢",
+            "giftCardFlag": false,
+            "limitedFlag": 204,
+            "points": 10,
+            "accessoryFlag": false,
+            "itemTagList": [{
+                "itemId": 0,
+                "tagId": 0,
+                "name": "新品",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 1
+            },
+            {
+                "itemId": 0,
+                "tagId": 0,
+                "name": "美食狂欢",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }],
+            "valid": true,
+            "buttonType": 0,
+            "confineType": 0,
+            "id": 3639251,
+            "selected": false,
+            "isSatisfy": false,
+            "sellVolume": 0,
+            "preSellVolume": 7934,
+            "cnt": 0,
+            "limitPurchaseCount": 0,
+            "preSellStatus": 1,
+            "preSellPrice": 145,
+            "preemptionStatus": 1,
+            "limitPurchaseFlag": false,
+            "preSellDesc": "预计12月10日开始发货",
+            "limitPointCount": 0,
+            "purchaseAttribute": 0,
+            "skuLimit": "特价商品不可与优惠券叠加使用",
+            "itemSkuSpecValueList": [{
+                "skuSpec": {
+                    "name": "规格",
+                    "id": 3554048,
+                    "type": 1,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 3554048,
+                "id": 3618629,
+                "skuSpecValueId": 3721148,
+                "skuId": 3639251,
+                "skuSpecValue": {
+                    "picUrl": "http://yanxuan.nosdn.127.net/11cd9638a6a7749e8326ad5bf3bd870f.png",
+                    "skuSpecId": 3554048,
+                    "id": 3721148,
+                    "value": "2018圣诞限定款"
+                }
+            }],
+            "primarySku": true,
+            "counterPrice": 168.00,
+            "retailPrice": 145,
+            "operationAttribute": 135168,
+            "desc": ""
+        }
+    },
+    "autoOnsaleTime": 0,
+    "soldOut": false,
+    "sortFlag": 0,
+    "attrList": [{
+        "attrValue": "星诞奇遇 圣诞赏味礼盒 1.146千克",
+        "attrName": "品名"
+    },
+    {
+        "attrValue": "1.146千克",
+        "attrName": "规格"
+    },
+    {
+        "attrValue": "开口松子 180克；咸蛋黄饼干 160克；炭火烤肠 150克；红杏干 180克；青梅饼 56克；黑加仑葡萄干 180克；意式挂耳咖啡 100克；薯条 100克；鲜虾片 40克",
+        "attrName": "内容物"
+    },
+    {
+        "attrValue": "请置于阴凉干燥处，开袋即食",
+        "attrName": "贮存条件"
+    },
+    {
+        "attrValue": "1.本商品不支持无理由拒收\n2.网易严选出售的食品，除明确质量问题外均不接受退换货\n3.本品属预售商品，请放心下单，预计12月10日发货",
+        "attrName": "温馨提示"
+    }],
+    "preemptionStatus": 1,
+    "commentCount": 0,
+    "isPreemption": 0,
+    "zcSearchFlag": false,
+    "onSaleTime": 1543574227469,
+    "name": "星诞奇遇 圣诞赏味礼盒 1.146千克",
+    "commentWithPicCount": 0,
+    "underShelf": false,
+    "appExclusiveFlag": false,
+    "status": 2,
+    "couponConflict": true,
+    "itemType": 1,
+    "listPicUrl": "http://yanxuan.nosdn.127.net/c3e0d9a17e010accf020d12b299a2227.png",
+    "pointsPrice": 0,
+    "skuList": [{
+        "calcPrice": 168.00,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "pic": "http://yanxuan.nosdn.127.net/11cd9638a6a7749e8326ad5bf3bd870f.png",
+        "promotionDesc": "美食狂欢",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+            "itemId": 0,
+            "tagId": 0,
+            "name": "新品",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 1
+        },
+        {
+            "itemId": 0,
+            "tagId": 0,
+            "name": "美食狂欢",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 3639251,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 0,
+        "preSellVolume": 7934,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 1,
+        "preSellPrice": 145,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "preSellDesc": "预计12月10日开始发货",
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+            "skuSpec": {
+                "name": "规格",
+                "id": 3554048,
+                "type": 1,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 3554048,
+            "id": 3618629,
+            "skuSpecValueId": 3721148,
+            "skuId": 3639251,
+            "skuSpecValue": {
+                "picUrl": "http://yanxuan.nosdn.127.net/11cd9638a6a7749e8326ad5bf3bd870f.png",
+                "skuSpecId": 3554048,
+                "id": 3721148,
+                "value": "2018圣诞限定款"
+            }
+        }],
+        "primarySku": true,
+        "counterPrice": 168.00,
+        "retailPrice": 145,
+        "operationAttribute": 135168,
+        "desc": ""
+    }],
+    "forbiddenBuy": false,
+    "simpleDesc": "9款严选爆品美食集结，暖心圣诞",
+    "promotionDesc": "美食狂欢",
+    "seoTitle": "",
+    "limitedFlag": 204,
+    "newItemFlag": true,
+    "buttonType": 0,
+    "pieceNum": 0,
+    "skuSpecList": [{
+        "name": "规格",
+        "id": 3554048,
+        "type": 1,
+        "firstHideFlag": false,
+        "skuSpecValueList": [{
+            "picUrl": "http://yanxuan.nosdn.127.net/11cd9638a6a7749e8326ad5bf3bd870f.png",
+            "skuSpecId": 3554048,
+            "id": 3721148,
+            "value": "2018圣诞限定款"
+        }]
+    }],
+    "categoryList": [{
+        "showIndex": 6,
+        "level": "L1",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/fb670ff3511182833e5b035275e4ac09.png",
+        "bannerUrl": "http://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png",
+        "frontDesc": "好吃，高颜值美食",
+        "type": 0,
+        "frontName": "",
+        "superCategoryId": 0,
+        "name": "饮食",
+        "iconUrl": "http://yanxuan.nosdn.127.net/c9280327a3fd2374c000f6bf52dff6eb.png",
+        "id": 1005002,
+        "subCateList": []
+    },
+    {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f8d152f1f6f4b0072dcbf10dc2983fe6.png",
+        "bannerUrl": "",
+        "frontDesc": "无人工添加香精、防腐剂",
+        "type": 0,
+        "frontName": "四季糕点，用心烘焙",
+        "superCategoryId": 1005002,
+        "name": "饼干糕点",
+        "id": 1008015,
+        "subCateList": []
+    }],
+    "itemSizeTableDetailFlag": false,
+    "freightInfo": "",
+    "primarySkuId": 3639251,
+    "comments": [],
+    "bonusBanner": {
+        "schemeUrl": "https://act.you.163.com/act/pub/35lg3M4T9f.html?anchor=money",
+        "tag": "双12购物津贴",
+        "desc": "领津贴每满400减20"
+    },
+    "forbidExclusiveCal": false,
+    "issueList": [{
+        "answer": "单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。\n(港澳台地区需满500元免邮费；不满500元，每单收取30元运费)",
+        "question": "购买运费如何收取？"
+    },
+    {
+        "answer": "网易严选会根据商品所在地、顾客所在地和商品的尺寸重量优选物流配送商，确保优质用户体验。目前暂不支持自选快递，具体物流信息可在下单成功后“我的订单-追踪物流”中查看。",
+        "question": "网易严选的订单如何配送？"
+    },
+    {
+        "answer": "1.自收到商品之日起30日内，顾客可申请无忧退货；如果是退货，退款将原路返还，不同的银行处理时间不同，预计1-5个工作日到账；\n2.内裤和食品等特殊商品无质量问题不支持退换货；\n3.退货流程：\n确认收货-申请退货-客服审核通过-用户寄回商品-仓库签收验货-退款审核-退款完成；\n4.换货流程：\n确认收货-申请换货-客服审核通过-用户寄回商品-仓库签收验货-客服确认-换货完成；\n5.退换货运费由网易严选承担（大件商品除外）。上门取件费用由网易严选统一与快递服务商结算，顾客只需将退换货商品交给上门取件快递员寄回。如顾客选择自行寄回商品，请先垫付运费，到货验证商品后，严选将以现金券形式为用户报销运费，不接受单方面到付件。",
+        "question": "如何申请退换货？"
+    },
+    {
+        "answer": "1.请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以上版本）。开具增值税专用发票需在下单时填写增票资质信息。温馨提示：请确保增票资质信息与贵司税务登记证信息一致，避免因开票信息错误给贵司带来损失。 \n2.可选开票内容：\n\t依照国税总局开票法规，严选订单开具纸质发票、电子发票，开票内容为明细；礼品卡开票内容为预付卡；增值税专用发票开票内容为明细。",
+        "question": "如何开具发票？"
+    },
+    {
+        "answer": "1.划线价、指导价：商品展示的划线价或指导价可能是商品制造厂商的零售市场指导价、品牌专柜价、商品吊牌价或该商品在严选上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。\n2.活动价：如无特殊说明，促销价是商家在划线价、指导价基础上给予的优惠价格。如有疑问，您可以在购买前与客服联系。\n3.严选价：严选非会员用户购买的商品详情页显示的售价。\n4.会员价：在严选价的基础上给予不同类型会员用户的优惠价格，仅该类会员用户可以以会员价购买该商品。\n5.价格异常：因可能存在系统缓存、页面更新延迟等不确定性情况，导致价格显示异常，商品具体售价请以订单结算页价格为准。如您发现异常情况出现，请立即联系我们补正，以便您能顺利购物。",
+        "question": "关于严选相关价格说明？"
+    }],
+    "updateTime": 1543990588203,
+    "displaySkuId": 3639251,
+    "tagList": [],
+    "pieceUnitDesc": "件",
+    "specialPromTag": "",
+    "gradientPrice": {
+        "isSatisfy": false,
+        "restDay": 0,
+        "limitPrice": 145,
+        "confineType": 0,
+        "isActived": true,
+        "leftTime": 26444131
+    },
+    "productPlace": "",
+    "counterPrice": 168.00,
+    "retailPrice": 145,
+    "itemSizeTableFlag": false
+}
+
+{
+  "bannerImgs": [
+    "http://yanxuan.nosdn.127.net/65cdfc53aac6f5e20025bb26c76d2789.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/57d95beab4c0b0476b2f72b7a119756c.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/c9378850b3d7cc21ce2aa7fb4371dd81.jpg?imageView&quality=75&thumbnail=750x0",
+    "http://yanxuan.nosdn.127.net/f5de3972aaa3a4e0196d58319860e96f.jpg?imageView&quality=75&thumbnail=750x0"
+  ],
+    "characteristicList": [{
+        "picUrl": "http://yanxuan.nosdn.127.net/03a49118836d3cec2e6bd6467b988f70.jpg",
+        "simpleDescList": ["规格升级", "奶香浓郁"]
+    },
+    {
+        "picUrl": "http://yanxuan.nosdn.127.net/119dfa887d04d4dfe6a152440af4b6f4.jpg",
+        "simpleDescList": ["精心烘烤", "松软香甜"]
+    },
+    {
+        "picUrl": "http://yanxuan.nosdn.127.net/c6d9845c26b6a73553542c72b7eb1794.jpg",
+        "simpleDescList": ["天然酵母", "口感细腻"]
+    }],
+    "layawayList": [],
+    "hdrkDetailVOList": [],
+    "showPoints": true,
+    "primarySkuPreSellPrice": 0,
+    "detailImgs": [
+		"http://yanxuan.nosdn.127.net/17681df3eba9a7169fa0d29307fb86c1.jpg",
+		"http://yanxuan.nosdn.127.net/8ae0458f03761cc27ed7b464d7763de3.jpg",
+		"http://yanxuan.nosdn.127.net/b75f5c00dfc3ad8a40cc4986b41d6b93.jpg",
+		"http://yanxuan.nosdn.127.net/deaaaa5c143bbe6891b62ffd34c41d0b.jpg",
+		"http://yanxuan.nosdn.127.net/d68e6d8ed8e3f8a473f1a6c681512352.jpg",
+		"http://yanxuan.nosdn.127.net/a83ebe392148b263e8c214912d2980c6.jpg",
+		"http://yanxuan.nosdn.127.net/81d605079933f64636851b937ca86eed.jpg",
+		"http://yanxuan.nosdn.127.net/6d52d6c94c251c01b07ba6fa9cc3ba57.jpg",
+		"http://yanxuan.nosdn.127.net/7794a92fe7045f2c428b668c396c9fc9.jpg",
+		"http://yanxuan.nosdn.127.net/8f9acb34d28ce67e2f5675e9437a1441.jpg",
+		"http://yanxuan.nosdn.127.net/2543a184b9e35e61a533d2b8d9873689.jpg",
+		"http://yanxuan.nosdn.127.net/25f1a8665ee3849d20d60e12e8755539.jpg",
+		"http://yanxuan.nosdn.127.net/f133f2fbb279f10d5f5d4f19dd82999c.jpg",
+		"http://yanxuan.nosdn.127.net/38fc7e728e979b905a7d56bb28442e47.jpg",
+		"http://yanxuan.nosdn.127.net/ea79b2683a8e37fff075b1ae1e616bf3.jpg",
+		"http://yanxuan.nosdn.127.net/2071eafa4e01022eb0efd35a63127d5f.jpg",
+		"http://yanxuan.nosdn.127.net/b70422b7b8f94c714c370ca08198f838.jpg",
+		"http://yanxuan.nosdn.127.net/b4f9632fb637e6db77fa2ad4418e1dc0.jpg",
+		"http://yanxuan.nosdn.127.net/1955fb0cac56a20247911d63feb2328f.jpg",
+		"http://yanxuan.nosdn.127.net/c22d7cd9ef01f222e23fef053b67d367.jpg",
+		"http://yanxuan.nosdn.127.net/642c97b859b1efdb67f664d2fdc85e84.jpg",
+		"http://yanxuan.nosdn.127.net/8e9adb5588a16590050f4c97862f2115.jpg",
+		"http://yanxuan.nosdn.127.net/c693812917aeab4840b475ff404ad029.jpg",
+		"http://yanxuan.nosdn.127.net/60469563ee2a9feb39458903d4e1a3dd.jpg",
+		"http://yanxuan.nosdn.127.net/cd8517df0851ba496ca70943ba610feb.jpg",
+		"http://yanxuan.nosdn.127.net/3f1556b0eeb5e26e3cf43110beb02bbe.jpg",
+		"http://yanxuan.nosdn.127.net/1f1165e20854f387a2888f0b0f4da6c3.jpg",
+		"http://yanxuan.nosdn.127.net/88abf8df92256a712ccc9a99dc7ef1aa.jpg",
+		"http://yanxuan.nosdn.127.net/8c71af3cedba93588c369f89ec31216e.jpg",
+		"http://yanxuan.nosdn.127.net/0325620327ac204356752900f148b656.jpg",
+		"http://yanxuan.nosdn.127.net/d0e2d1ec98c0237dbb8d6f08681d4c49.jpg",
+		"http://yanxuan.nosdn.127.net/182f33446929b81c64b5dc3e974e9943.jpg",
+		"http://yanxuan.nosdn.127.net/e7621b8fc0800026e69100d0be9eec6c.jpg",
+		"http://yanxuan.nosdn.127.net/24c515ac73d249ea28c06944e3fa2a4f.jpg",
+		"http://yanxuan.nosdn.127.net/52489951bd565d7315bf94509a430378.jpg",
+		"http://yanxuan.nosdn.127.net/dc421bf113d048154b8c700e7ec46095.jpg",
+		"http://yanxuan.nosdn.127.net/b4b8d4e9cd2ceaa0fa210cdc8af748ec.jpg",
+		"http://yanxuan.nosdn.127.net/0811e608bef387e811a00b889e9fcc34.jpg",
+		"http://yanxuan.nosdn.127.net/737d98ea7f1cd2b6f7d55ea44f6a24df.jpg",
+		"http://yanxuan.nosdn.127.net/9e0c379fca6dd50be6fd21b6dd5bdafd.jpg",
+		"http://yanxuan.nosdn.127.net/759f6a6626aa8b3cc7692904f9b3b0f0.jpg",
+		"http://yanxuan.nosdn.127.net/851d000d3b7643e74f5332908d61a34c.jpg",
+		"http://yanxuan.nosdn.127.net/742569a7b634ebc713943b8a66d93e1b.jpg",
+		"http://yanxuan.nosdn.127.net/1d4ac4622a5c0062700e2b182e0dca39.jpg",
+		"http://yanxuan.nosdn.127.net/29b9c4d654abca00ddb71def668ae5b2.jpg",
+		"http://yanxuan.nosdn.127.net/365e9fe837daf73657ae14d1c67d0a1b.jpg",
+		"http://yanxuan.nosdn.127.net/efee6b077bdb53350e22821a23bfdc97.jpg",
+		"http://yanxuan.nosdn.127.net/3d7c54629a518ac824ab907b1e62f911.jpg",
+		"http://yanxuan.nosdn.127.net/45215d2f0ae03e96a75749ab327bb30e.jpg",
+		"http://yanxuan.nosdn.127.net/900139d86a7af1bea913eab337deb448.jpg",
+		"http://yanxuan.nosdn.127.net/4d73e24479d07cea12f5bf34ceb8943e.jpg",
+		"http://yanxuan.nosdn.127.net/fa34fd67fccf2c3fab7112331c79450c.jpg",
+		"http://yanxuan.nosdn.127.net/b19ff8adcf849c243d1093156c727d77.jpg",
+		"http://yanxuan.nosdn.127.net/7af6a1a8a6c5e397499f184dcdca0335.jpg",
+		"http://yanxuan.nosdn.127.net/0196295d40676a2a340e1389abc39d5b.jpg",
+		"http://yanxuan.nosdn.127.net/3f005205913e8855dccd49fbd09e648b.jpg",
+		"http://yanxuan.nosdn.127.net/77d3dbd0a9b6a80b1af1112da456eb4d.jpg",
+		"http://yanxuan.nosdn.127.net/830905e29b2097e3f62243d721ae14ab.jpg",
+		"http://yanxuan.nosdn.127.net/cd22ee02fe087aea171c4281a3e0563a.jpg",
+		"http://yanxuan.nosdn.127.net/e4b72287e4f24ec6a48cd12ca9053baf.jpg",
+		"http://yanxuan.nosdn.127.net/e354ba8343dc0910cf758627c272b70b.jpg",
+		"http://yanxuan.nosdn.127.net/5afab12c937668bb3aee79aa45855df3.jpg",
+		"http://yanxuan.nosdn.127.net/05569bcf7b009826353fe71f6a3f2ce6.jpg",
+		"http://yanxuan.nosdn.127.net/a39407ee9fdca7454d4940b4f391f0f2.jpg",
+		"http://yanxuan.nosdn.127.net/b52714055215c8771d3fdfb7bc2e9ebd.jpg",
+		"http://yanxuan.nosdn.127.net/74b89cdd0edc4731f8409569dca1dc56.jpg",
+		"http://yanxuan.nosdn.127.net/607e8ee1fdfb114c0de8d4bc1ceeb383.jpg",
+		"http://yanxuan.nosdn.127.net/26338147a4b73303605983eb2f6813f9.jpg",
+		"http://yanxuan.nosdn.127.net/86f2c536f8d4502627898e684f7558b5.jpg",
+		"http://yanxuan.nosdn.127.net/5c5f2dfbc559aeb9cea796f4f0286bf0.jpg"
+
+
+
+		],
+    "preLimitFlag": 0,
+    "itemPromValid": true,
+    "source": 0,
+    "points": 10,
+    "itemTagList": [{
+        "itemId": 0,
+        "tagId": 0,
+        "name": "美食狂欢",
+        "subType": 0,
+        "forbidJump": false,
+        "type": 2
+    }],
+    "primarySkuPreSellStatus": 0,
+    "flashPageLink": "",
+    "rank": 0,
+    "id": 1666060,
+    "autoOnsaleTimeLeft": 0,
+    "saleCenterSkuId": 0,
+    "sellVolume": 50252,
+    "adBanners": [{
+        "picUrl": "http://yanxuan.nosdn.127.net/b978eec64c2243a4a538b940b66c5f2f.jpg",
+        "extra": {
+            "taskType": 0,
+            "resourcesId": 0,
+            "customAdPicUrl": "http://yanxuan.nosdn.127.net/b978eec64c2243a4a538b940b66c5f2f.jpg",
+            "customAdLinkUrl": "https://act.you.163.com/act/pub/2DeVr6XmtL.html"
+        },
+        "targetUrl": "https://act.you.163.com/act/pub/2DeVr6XmtL.html"
+    }],
+    "pointsStatus": 0,
+    "extraPrice": "",
+    "colorNum": 0,
+    "itemLimit": "特价商品不可与优惠券叠加使用",
+    "primaryPicUrl": "http://yanxuan.nosdn.127.net/355e0781cabbdfa084bf947aabceacf0.png",
+    "showTime": 0,
+    "skuMap": {
+        "1778031;3682150": {
+            "calcPrice": 16.00,
+            "pointsPrice": 0,
+            "hdrkDetailVOList": [],
+            "promValid": true,
+            "virtualFlag": false,
+            "preLimitFlag": 0,
+            "pic": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+            "promotionDesc": "美食狂欢",
+            "giftCardFlag": false,
+            "limitedFlag": 204,
+            "points": 10,
+            "accessoryFlag": false,
+            "itemTagList": [{
+                "itemId": 0,
+                "tagId": 0,
+                "name": "美食狂欢",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }],
+            "valid": true,
+            "buttonType": 0,
+            "confineType": 0,
+            "id": 3594252,
+            "selected": false,
+            "isSatisfy": false,
+            "sellVolume": 14402,
+            "preSellVolume": 0,
+            "cnt": 0,
+            "limitPurchaseCount": 0,
+            "preSellStatus": 0,
+            "preSellPrice": 14.5,
+            "preemptionStatus": 1,
+            "limitPurchaseFlag": false,
+            "limitPointCount": 0,
+            "purchaseAttribute": 0,
+            "skuLimit": "特价商品不可与优惠券叠加使用",
+            "itemSkuSpecValueList": [{
+                "skuSpec": {
+                    "name": "规格",
+                    "id": 1709008,
+                    "type": 1,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709008,
+                "id": 3603022,
+                "skuSpecValueId": 1778031,
+                "skuId": 3594252,
+                "skuSpecValue": {
+                    "picUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+                    "skuSpecId": 1709008,
+                    "id": 1778031,
+                    "value": "北海道牛奶风味"
+                }
+            },
+            {
+                "skuSpec": {
+                    "name": "重量",
+                    "id": 1709009,
+                    "type": 0,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709009,
+                "id": 3603023,
+                "skuSpecValueId": 3682150,
+                "skuId": 3594252,
+                "skuSpecValue": {
+                    "picUrl": "",
+                    "skuSpecId": 1709009,
+                    "id": 3682150,
+                    "value": "270克"
+                }
+            }],
+            "primarySku": true,
+            "counterPrice": 16.00,
+            "retailPrice": 14.5,
+            "operationAttribute": 135168,
+            "desc": ""
+        },
+        "1778032;3682150": {
+            "calcPrice": 16.00,
+            "pointsPrice": 0,
+            "hdrkDetailVOList": [],
+            "promValid": true,
+            "virtualFlag": false,
+            "preLimitFlag": 0,
+            "pic": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+            "promotionDesc": "美食狂欢",
+            "giftCardFlag": false,
+            "limitedFlag": 204,
+            "points": 10,
+            "accessoryFlag": false,
+            "itemTagList": [{
+                "itemId": 0,
+                "tagId": 0,
+                "name": "美食狂欢",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }],
+            "valid": true,
+            "buttonType": 0,
+            "confineType": 0,
+            "id": 3594253,
+            "selected": false,
+            "isSatisfy": false,
+            "sellVolume": 21138,
+            "preSellVolume": 0,
+            "cnt": 0,
+            "limitPurchaseCount": 0,
+            "preSellStatus": 0,
+            "preSellPrice": 14.5,
+            "preemptionStatus": 1,
+            "limitPurchaseFlag": false,
+            "limitPointCount": 0,
+            "purchaseAttribute": 0,
+            "skuLimit": "特价商品不可与优惠券叠加使用",
+            "itemSkuSpecValueList": [{
+                "skuSpec": {
+                    "name": "规格",
+                    "id": 1709008,
+                    "type": 1,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709008,
+                "id": 3603024,
+                "skuSpecValueId": 1778032,
+                "skuId": 3594253,
+                "skuSpecValue": {
+                    "picUrl": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+                    "skuSpecId": 1709008,
+                    "id": 1778032,
+                    "value": "香蕉牛奶风味"
+                }
+            },
+            {
+                "skuSpec": {
+                    "name": "重量",
+                    "id": 1709009,
+                    "type": 0,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709009,
+                "id": 3603025,
+                "skuSpecValueId": 3682150,
+                "skuId": 3594253,
+                "skuSpecValue": {
+                    "picUrl": "",
+                    "skuSpecId": 1709009,
+                    "id": 3682150,
+                    "value": "270克"
+                }
+            }],
+            "primarySku": false,
+            "counterPrice": 16.00,
+            "retailPrice": 14.5,
+            "operationAttribute": 135168,
+            "desc": ""
+        },
+        "1778031;1778033": {
+            "calcPrice": 48.00,
+            "pointsPrice": 0,
+            "hdrkDetailVOList": [],
+            "promValid": true,
+            "virtualFlag": false,
+            "preLimitFlag": 0,
+            "pic": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+            "promotionDesc": "美食狂欢",
+            "giftCardFlag": false,
+            "limitedFlag": 204,
+            "points": 10,
+            "accessoryFlag": false,
+            "itemTagList": [{
+                "itemId": 0,
+                "tagId": 0,
+                "name": "美食狂欢",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }],
+            "valid": true,
+            "buttonType": 0,
+            "confineType": 0,
+            "id": 1739030,
+            "selected": false,
+            "isSatisfy": false,
+            "sellVolume": 9716,
+            "preSellVolume": 0,
+            "cnt": 0,
+            "limitPurchaseCount": 0,
+            "preSellStatus": 0,
+            "preSellPrice": 42,
+            "preemptionStatus": 1,
+            "limitPurchaseFlag": false,
+            "limitPointCount": 0,
+            "purchaseAttribute": 0,
+            "skuLimit": "特价商品不可与优惠券叠加使用",
+            "itemSkuSpecValueList": [{
+                "skuSpec": {
+                    "name": "规格",
+                    "id": 1709008,
+                    "type": 1,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709008,
+                "id": 3603026,
+                "skuSpecValueId": 1778031,
+                "skuId": 1739030,
+                "skuSpecValue": {
+                    "picUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+                    "skuSpecId": 1709008,
+                    "id": 1778031,
+                    "value": "北海道牛奶风味"
+                }
+            },
+            {
+                "skuSpec": {
+                    "name": "重量",
+                    "id": 1709009,
+                    "type": 0,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709009,
+                "id": 3603027,
+                "skuSpecValueId": 1778033,
+                "skuId": 1739030,
+                "skuSpecValue": {
+                    "picUrl": "",
+                    "skuSpecId": 1709009,
+                    "id": 1778033,
+                    "value": "1千克"
+                }
+            }],
+            "primarySku": false,
+            "counterPrice": 48.00,
+            "retailPrice": 42,
+            "operationAttribute": 135168,
+            "desc": ""
+        },
+        "1778032;1778033": {
+            "calcPrice": 48.00,
+            "pointsPrice": 0,
+            "hdrkDetailVOList": [],
+            "promValid": true,
+            "virtualFlag": false,
+            "preLimitFlag": 0,
+            "pic": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+            "promotionDesc": "美食狂欢",
+            "giftCardFlag": false,
+            "limitedFlag": 204,
+            "points": 10,
+            "accessoryFlag": false,
+            "itemTagList": [{
+                "itemId": 0,
+                "tagId": 0,
+                "name": "美食狂欢",
+                "subType": 0,
+                "forbidJump": false,
+                "type": 2
+            }],
+            "valid": true,
+            "buttonType": 0,
+            "confineType": 0,
+            "id": 1739031,
+            "selected": false,
+            "isSatisfy": false,
+            "sellVolume": 4996,
+            "preSellVolume": 0,
+            "cnt": 0,
+            "limitPurchaseCount": 0,
+            "preSellStatus": 0,
+            "preSellPrice": 42,
+            "preemptionStatus": 1,
+            "limitPurchaseFlag": false,
+            "limitPointCount": 0,
+            "purchaseAttribute": 0,
+            "skuLimit": "特价商品不可与优惠券叠加使用",
+            "itemSkuSpecValueList": [{
+                "skuSpec": {
+                    "name": "规格",
+                    "id": 1709008,
+                    "type": 1,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709008,
+                "id": 3603028,
+                "skuSpecValueId": 1778032,
+                "skuId": 1739031,
+                "skuSpecValue": {
+                    "picUrl": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+                    "skuSpecId": 1709008,
+                    "id": 1778032,
+                    "value": "香蕉牛奶风味"
+                }
+            },
+            {
+                "skuSpec": {
+                    "name": "重量",
+                    "id": 1709009,
+                    "type": 0,
+                    "firstHideFlag": false
+                },
+                "skuSpecId": 1709009,
+                "id": 3603029,
+                "skuSpecValueId": 1778033,
+                "skuId": 1739031,
+                "skuSpecValue": {
+                    "picUrl": "",
+                    "skuSpecId": 1709009,
+                    "id": 1778033,
+                    "value": "1千克"
+                }
+            }],
+            "primarySku": false,
+            "counterPrice": 48.00,
+            "retailPrice": 42,
+            "operationAttribute": 135168,
+            "desc": ""
+        }
+    },
+    "autoOnsaleTime": 0,
+    "soldOut": false,
+    "sortFlag": 0,
+    "attrList": [{
+        "attrValue": "天然酵母面包",
+        "attrName": "品名"
+    },
+    {
+        "attrValue": "北海道牛奶风味：小麦粉、水、牛奶蛋羹味片状花蓓丝馅（水、白砂糖、起酥油、食品添加剂（羟丙基二淀粉磷酸酯、明胶、卡拉胶、山梨酸钾、乳酸、β-胡萝卜素）、精炼植物油、乳清蛋白粉、鸡蛋蛋白粉、50%加糖蛋黄液（鸡蛋、白砂糖）、食用香精）、精炼植物油、白砂糖、鸡蛋、麦芽糖浆、天然酵母面包预拌粉（小麦粉、大米粉、葡萄糖、天然酵母、玉米淀粉）、全脂乳粉、食用盐、食品添加剂（山梨酸醇液、甘油、柠檬酸、山梨酸钾、脱氢乙酸钠、葡萄糖酸-δ-内脂）\n香蕉牛奶风味：小麦粉、水、香蕉味片状花蓓丝馅（水、白砂糖、起酥油、食品添加剂（羟丙基二淀粉磷酸酯、明胶、卡拉胶、山梨酸钾、乳酸、β-胡萝卜素）、精炼植物油、乳清蛋白粉、香蕉原粉、鸡蛋蛋白粉、食用香精）、精炼植物油、白砂糖、鸡蛋、麦芽糖浆、天然酵母面包预拌粉（小麦粉、大米粉、葡萄糖、天然酵母、玉米淀粉）、全脂乳粉、食用盐、食品添加剂（山梨酸醇液、甘油、柠檬酸、山梨酸钾、脱氢乙酸钠、葡萄糖酸-δ-内脂）",
+        "attrName": "配料"
+    },
+    {
+        "attrValue": "福建省漳州市",
+        "attrName": "产地"
+    },
+    {
+        "attrValue": "90天",
+        "attrName": "保质期"
+    },
+    {
+        "attrValue": "常温保存、阴凉避光",
+        "attrName": "贮存条件"
+    },
+    {
+        "attrValue": "1、网易严选出售的食品，除明确质量问题外均不接受退换货\n2、请置于阴凉避光、通风、干燥处\n3、本产品不人工添加防腐剂，赏味期短，拆封后请尽快食用\n4、本产品属迭代升级款，请放心购买\n5、单枚小面包净含量约45克，1kg装规格内含22-23枚。箱装数量以实际收货为准，请您放心购买，总净含量保证1kg",
+        "attrName": "温馨提示"
+    }],
+    "preemptionStatus": 1,
+    "commentCount": 3051,
+    "isPreemption": 0,
+    "zcSearchFlag": false,
+    "onSaleTime": 1540209459076,
+    "name": "天然酵母面包",
+    "commentWithPicCount": 222,
+    "underShelf": false,
+    "appExclusiveFlag": false,
+    "status": 2,
+    "couponConflict": true,
+    "itemType": 1,
+    "listPicUrl": "http://yanxuan.nosdn.127.net/33fd21d0d6f7d16a5eda72c5ec9d1504.png",
+    "pointsPrice": 0,
+    "skuList": [{
+        "calcPrice": 48.00,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "pic": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+        "promotionDesc": "美食狂欢",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+            "itemId": 0,
+            "tagId": 0,
+            "name": "美食狂欢",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 1739030,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 9716,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 42,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+            "skuSpec": {
+                "name": "规格",
+                "id": 1709008,
+                "type": 1,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709008,
+            "id": 3603026,
+            "skuSpecValueId": 1778031,
+            "skuId": 1739030,
+            "skuSpecValue": {
+                "picUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+                "skuSpecId": 1709008,
+                "id": 1778031,
+                "value": "北海道牛奶风味"
+            }
+        },
+        {
+            "skuSpec": {
+                "name": "重量",
+                "id": 1709009,
+                "type": 0,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709009,
+            "id": 3603027,
+            "skuSpecValueId": 1778033,
+            "skuId": 1739030,
+            "skuSpecValue": {
+                "picUrl": "",
+                "skuSpecId": 1709009,
+                "id": 1778033,
+                "value": "1千克"
+            }
+        }],
+        "primarySku": false,
+        "counterPrice": 48.00,
+        "retailPrice": 42,
+        "operationAttribute": 135168,
+        "desc": ""
+    },
+    {
+        "calcPrice": 48.00,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "pic": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+        "promotionDesc": "美食狂欢",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+            "itemId": 0,
+            "tagId": 0,
+            "name": "美食狂欢",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 1739031,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 4996,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 42,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+            "skuSpec": {
+                "name": "规格",
+                "id": 1709008,
+                "type": 1,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709008,
+            "id": 3603028,
+            "skuSpecValueId": 1778032,
+            "skuId": 1739031,
+            "skuSpecValue": {
+                "picUrl": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+                "skuSpecId": 1709008,
+                "id": 1778032,
+                "value": "香蕉牛奶风味"
+            }
+        },
+        {
+            "skuSpec": {
+                "name": "重量",
+                "id": 1709009,
+                "type": 0,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709009,
+            "id": 3603029,
+            "skuSpecValueId": 1778033,
+            "skuId": 1739031,
+            "skuSpecValue": {
+                "picUrl": "",
+                "skuSpecId": 1709009,
+                "id": 1778033,
+                "value": "1千克"
+            }
+        }],
+        "primarySku": false,
+        "counterPrice": 48.00,
+        "retailPrice": 42,
+        "operationAttribute": 135168,
+        "desc": ""
+    },
+    {
+        "calcPrice": 16.00,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "pic": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+        "promotionDesc": "美食狂欢",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+            "itemId": 0,
+            "tagId": 0,
+            "name": "美食狂欢",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 3594252,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 14402,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 14.5,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+            "skuSpec": {
+                "name": "规格",
+                "id": 1709008,
+                "type": 1,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709008,
+            "id": 3603022,
+            "skuSpecValueId": 1778031,
+            "skuId": 3594252,
+            "skuSpecValue": {
+                "picUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+                "skuSpecId": 1709008,
+                "id": 1778031,
+                "value": "北海道牛奶风味"
+            }
+        },
+        {
+            "skuSpec": {
+                "name": "重量",
+                "id": 1709009,
+                "type": 0,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709009,
+            "id": 3603023,
+            "skuSpecValueId": 3682150,
+            "skuId": 3594252,
+            "skuSpecValue": {
+                "picUrl": "",
+                "skuSpecId": 1709009,
+                "id": 3682150,
+                "value": "270克"
+            }
+        }],
+        "primarySku": true,
+        "counterPrice": 16.00,
+        "retailPrice": 14.5,
+        "operationAttribute": 135168,
+        "desc": ""
+    },
+    {
+        "calcPrice": 16.00,
+        "pointsPrice": 0,
+        "hdrkDetailVOList": [],
+        "promValid": true,
+        "virtualFlag": false,
+        "preLimitFlag": 0,
+        "pic": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+        "promotionDesc": "美食狂欢",
+        "giftCardFlag": false,
+        "limitedFlag": 204,
+        "points": 10,
+        "accessoryFlag": false,
+        "itemTagList": [{
+            "itemId": 0,
+            "tagId": 0,
+            "name": "美食狂欢",
+            "subType": 0,
+            "forbidJump": false,
+            "type": 2
+        }],
+        "valid": true,
+        "buttonType": 0,
+        "confineType": 0,
+        "id": 3594253,
+        "selected": false,
+        "isSatisfy": false,
+        "sellVolume": 21138,
+        "preSellVolume": 0,
+        "cnt": 0,
+        "limitPurchaseCount": 0,
+        "preSellStatus": 0,
+        "preSellPrice": 14.5,
+        "preemptionStatus": 1,
+        "limitPurchaseFlag": false,
+        "limitPointCount": 0,
+        "purchaseAttribute": 0,
+        "skuLimit": "特价商品不可与优惠券叠加使用",
+        "itemSkuSpecValueList": [{
+            "skuSpec": {
+                "name": "规格",
+                "id": 1709008,
+                "type": 1,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709008,
+            "id": 3603024,
+            "skuSpecValueId": 1778032,
+            "skuId": 3594253,
+            "skuSpecValue": {
+                "picUrl": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+                "skuSpecId": 1709008,
+                "id": 1778032,
+                "value": "香蕉牛奶风味"
+            }
+        },
+        {
+            "skuSpec": {
+                "name": "重量",
+                "id": 1709009,
+                "type": 0,
+                "firstHideFlag": false
+            },
+            "skuSpecId": 1709009,
+            "id": 3603025,
+            "skuSpecValueId": 3682150,
+            "skuId": 3594253,
+            "skuSpecValue": {
+                "picUrl": "",
+                "skuSpecId": 1709009,
+                "id": 3682150,
+                "value": "270克"
+            }
+        }],
+        "primarySku": false,
+        "counterPrice": 16.00,
+        "retailPrice": 14.5,
+        "operationAttribute": 135168,
+        "desc": ""
+    }],
+    "forbiddenBuy": false,
+    "simpleDesc": "浓郁奶香，松软香甜",
+    "promotionDesc": "美食狂欢",
+    "seoTitle": "",
+    "limitedFlag": 204,
+    "newItemFlag": false,
+    "buttonType": 0,
+    "pieceNum": 0,
+    "skuSpecList": [{
+        "name": "规格",
+        "id": 1709008,
+        "type": 1,
+        "firstHideFlag": false,
+        "skuSpecValueList": [{
+            "picUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+            "skuSpecId": 1709008,
+            "id": 1778031,
+            "value": "北海道牛奶风味"
+        },
+        {
+            "picUrl": "http://yanxuan.nosdn.127.net/dbafafb1e5168b9425b2c2338d1406ce.png",
+            "skuSpecId": 1709008,
+            "id": 1778032,
+            "value": "香蕉牛奶风味"
+        }]
+    },
+    {
+        "name": "重量",
+        "id": 1709009,
+        "type": 0,
+        "firstHideFlag": false,
+        "skuSpecValueList": [{
+            "picUrl": "",
+            "skuSpecId": 1709009,
+            "id": 1778033,
+            "value": "1千克"
+        },
+        {
+            "picUrl": "",
+            "skuSpecId": 1709009,
+            "id": 3682150,
+            "value": "270克"
+        }]
+    }],
+    "categoryList": [{
+        "showIndex": 6,
+        "level": "L1",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/fb670ff3511182833e5b035275e4ac09.png",
+        "bannerUrl": "http://yanxuan.nosdn.127.net/e71c18948044771a7ebd4c9cc551ce8a.png",
+        "frontDesc": "好吃，高颜值美食",
+        "type": 0,
+        "frontName": "",
+        "superCategoryId": 0,
+        "name": "饮食",
+        "iconUrl": "http://yanxuan.nosdn.127.net/c9280327a3fd2374c000f6bf52dff6eb.png",
+        "id": 1005002,
+        "subCateList": []
+    },
+    {
+        "showIndex": 1,
+        "level": "L2",
+        "wapBannerUrl": "http://yanxuan.nosdn.127.net/f8d152f1f6f4b0072dcbf10dc2983fe6.png",
+        "bannerUrl": "",
+        "frontDesc": "无人工添加香精、防腐剂",
+        "type": 0,
+        "frontName": "四季糕点，用心烘焙",
+        "superCategoryId": 1005002,
+        "name": "饼干糕点",
+        "id": 1008015,
+        "subCateList": []
+    }],
+    "itemSizeTableDetailFlag": false,
+    "freightInfo": "",
+    "primarySkuId": 3594252,
+    "comments": [{
+        "star": 5,
+        "frontUserAvatar": "https://yanxuan.nosdn.127.net/38fa7fcaed63d95e035147c0633830af.jpg",
+        "memberLevel": 1,
+        "starVO": {
+            "star": 5
+        },
+        "deleteOption": false,
+        "packageId": 75777420,
+        "content": "忘记评价了，还剩下半个松饼，实在是好吃极了，一下就被分完了，下次还会再买",
+        "itemId": 1666060,
+        "itemName": "天然酵母面包",
+        "createTime": 1543985347329,
+        "picList": ["https://yanxuan.nosdn.127.net/5a503cef6d97931dcd446a8607ea3451.jpg", "https://yanxuan.nosdn.127.net/aeab1cd6d13a8b0b31c125c43e61daa4.jpg"],
+        "autoGood": false,
+        "itemIconUrl": "http://yanxuan.nosdn.127.net/ca762b409f3e843d59d04bc451bdc4c6.png",
+        "id": 57636995,
+        "skuInfo": ["规格:北海道牛奶风味", "重量:270克"],
+        "skuId": 3594252,
+        "frontUserName": "a****o"
+    }],
+    "bonusBanner": {
+        "schemeUrl": "https://act.you.163.com/act/pub/35lg3M4T9f.html?anchor=money",
+        "tag": "双12购物津贴",
+        "desc": "领津贴每满400减20"
+    },
+    "forbidExclusiveCal": false,
+    "issueList": [{
+        "answer": "单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。\n(港澳台地区需满500元免邮费；不满500元，每单收取30元运费)",
+        "question": "购买运费如何收取？"
+    },
+    {
+        "answer": "网易严选会根据商品所在地、顾客所在地和商品的尺寸重量优选物流配送商，确保优质用户体验。目前暂不支持自选快递，具体物流信息可在下单成功后“我的订单-追踪物流”中查看。",
+        "question": "网易严选的订单如何配送？"
+    },
+    {
+        "answer": "1.自收到商品之日起30日内，顾客可申请无忧退货；如果是退货，退款将原路返还，不同的银行处理时间不同，预计1-5个工作日到账；\n2.内裤和食品等特殊商品无质量问题不支持退换货；\n3.退货流程：\n确认收货-申请退货-客服审核通过-用户寄回商品-仓库签收验货-退款审核-退款完成；\n4.换货流程：\n确认收货-申请换货-客服审核通过-用户寄回商品-仓库签收验货-客服确认-换货完成；\n5.退换货运费由网易严选承担（大件商品除外）。上门取件费用由网易严选统一与快递服务商结算，顾客只需将退换货商品交给上门取件快递员寄回。如顾客选择自行寄回商品，请先垫付运费，到货验证商品后，严选将以现金券形式为用户报销运费，不接受单方面到付件。",
+        "question": "如何申请退换货？"
+    },
+    {
+        "answer": "1.请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以上版本）。开具增值税专用发票需在下单时填写增票资质信息。温馨提示：请确保增票资质信息与贵司税务登记证信息一致，避免因开票信息错误给贵司带来损失。 \n2.可选开票内容：\n\t依照国税总局开票法规，严选订单开具纸质发票、电子发票，开票内容为明细；礼品卡开票内容为预付卡；增值税专用发票开票内容为明细。",
+        "question": "如何开具发票？"
+    },
+    {
+        "answer": "1.划线价、指导价：商品展示的划线价或指导价可能是商品制造厂商的零售市场指导价、品牌专柜价、商品吊牌价或该商品在严选上曾经展示过的销售价；由于地区、时间的差异性和市场行情波动，品牌专柜标价、商品吊牌价等可能会与您购物时展示的不一致，该价格仅供您参考。\n2.活动价：如无特殊说明，促销价是商家在划线价、指导价基础上给予的优惠价格。如有疑问，您可以在购买前与客服联系。\n3.严选价：严选非会员用户购买的商品详情页显示的售价。\n4.会员价：在严选价的基础上给予不同类型会员用户的优惠价格，仅该类会员用户可以以会员价购买该商品。\n5.价格异常：因可能存在系统缓存、页面更新延迟等不确定性情况，导致价格显示异常，商品具体售价请以订单结算页价格为准。如您发现异常情况出现，请立即联系我们补正，以便您能顺利购物。",
+        "question": "关于严选相关价格说明？"
+    }],
+    "updateTime": 1543835868556,
+    "displaySkuId": 3594252,
+    "tagList": [],
+    "pieceUnitDesc": "件",
+    "specialPromTag": "",
+    "gradientPrice": {
+        "isSatisfy": false,
+        "restDay": 0,
+        "limitPrice": 14.5,
+        "confineType": 0,
+        "isActived": true,
+        "leftTime": 26207899
+    },
+    "productPlace": "2个口味",
+    "counterPrice": 16.00,
+    "retailPrice": 14.5,
+    "itemSizeTableFlag": false
+}

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "my-modal": "/components/animation/animation"
+    "my-modal": "/components/animation/animation",
+    "my-pro-attr": "/components/proAttr/proAttr"
   }
 }

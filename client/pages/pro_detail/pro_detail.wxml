@@ -1,198 +1,135 @@
 <!-- 产品详情 -->
-<view class='prodetail-section'>
-  <view class='pics'>
-    <swiper class='pics-content' indicator-dots autoplay interval="{{5000}}" duration="{{500}}">
-      <swiper-item>
-        <image class='pro-pic' mode="widthFix" src="http://yanxuan.nosdn.127.net/a1faa937f56310293e5ab4470983dcba.jpg"/>
-      </swiper-item>
-      <swiper-item>
-        <image class='pro-pic' mode="widthFix" src="http://yanxuan.nosdn.127.net/07e1d8d8cc162d53eca9efeba2cd5db9.jpg"/>
-      </swiper-item>
-      <swiper-item>
-        <image class='pro-pic' mode="widthFix" src="http://yanxuan.nosdn.127.net/9894d328782c534a24278e04235b4d3b.jpg"/>
+<view class="prodetail-section">
+  <view class="pics">
+    <swiper class="pics-content" indicator-dots autoplay interval="{{5000}}" duration="{{500}}">
+      <swiper-item wx:for="{{detail.bannerImgs}}" wx:key="{{index}}">
+        <image class="pro-pic" mode="widthFix" src="{{item}}"/>
       </swiper-item>
     </swiper>
   </view>
-  <view class='pro-base'>
-    <view class='top'>
-      <view class='pro-info'>
-        <text class='name'>鲜果冻</text>
-        <text class='desc'>果冻里面有真果粒</text>
+
+  <!-- base -->
+  <view class="pro-base">
+    <view class="top">
+      <view class="pro-info">
+        <text class="name">{{detail.name}}</text>
+        <text class="desc">{{detail.simpleDesc}}</text>
       </view>
-      <view class='judge-info'>
-        <text class='judge-num'>99.4%</text>
-        <text class='judge-btn'>好评率 ></text>
+      <view class="judge-info">
+        <text class="judge-num">99.4%</text>
+        <text class="judge-btn">好评率 ></text>
       </view>
     </view>
-    <view class='bottom'>
-      <view class='price'><text class='unit'>¥</text>14</view>
-      <view class='hd'>
-        <text class='hd-item'>全场加价购 ></text>
+    <view class="bottom">
+      <view class="price"><text class="unit">¥</text>{{detail.retailPrice}}</view>
+      <view class="hd">
+        <text class="hd-item" wx:for="{{detail.itemTagList}}"  wx:key="{{index}}">{{item.name}}</text>
       </view>
     </view>
   </view>
-  <view class='pro-opt'>
-    <view class='opt-item num-bar' data-modal="attrs" bindtap="showModal">
+
+  <!-- 数量选择 -->
+  <view class="pro-opt">
+    <view class="opt-item num-bar" data-modal="attrs" bindtap="showModal">
       <text>数量规格选择</text>
-      <image class='arrow' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png'/>
+      <image class="arrow" src="http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png"/>
     </view>
-    <view class='opt-item service-bar' data-modal="service" bindtap="showModal">
-      <view class='service-main'>
-        <text class='opt-title'>服务：</text>
-        <view class='service-info'>
-          <text class='service-item'>网易自营品牌</text>
-          <text class='service-item'>48小时快速退款</text>
-          <text class='service-item'>满88元满运费</text>
-          <text class='service-item'>部分地区无法配送</text>
+
+    <!-- 服务 -->
+    <view class="opt-item service-bar" data-modal="service" bindtap="showModal">
+      <view class="service-main">
+        <text class="opt-title">服务：</text>
+        <view class="service-info">
+          <text class="service-item" wx:for="{{service}}" wx:key="{{index}}">{{item.title}}</text>
         </view>
       </view>
-      <image class='arrow' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png'/>
+      <image class="arrow" src="http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png"/>
     </view>
   </view>
-  <view class='judge'>
-    <view class='judge-title'>
-      <text class='judge-title-lt'>用户评价（122222）</text>
-      <view class='judge-title-rt'>
+
+  <!-- 评价 -->
+  <view class="judge">
+    <view class="judge-title">
+      <text class="judge-title-lt">用户评价（122222）</text>
+      <view class="judge-title-rt">
         <text>99.4% 好评</text>
-        <image class='arrow' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png'/>
+        <image class="arrow" src="http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/address-right-596d39df1e.png"/>
       </view>
     </view>
-    <view class='judge-item'>
-      <view class='user-bar'>
-        <view class='user'>
-          <image class='portait' src='http://img1.imgtn.bdimg.com/it/u=1741423493,1850285000&fm=26&gp=0.jpg'/>
-          <text>丸子</text>
+    <view class="judge-item" wx:if="{{detail.comments && detail.comments.length}}">
+      <view class="user-bar">
+        <view class="user">
+          <image class="portait" src="{{detail.comments[0].frontUserAvatar}}"/>
+          <text>{{detail.comments[0].frontUserName}}</text>
         </view>
-        <view class='score'>
-          <image class='score-item' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
-          <image class='score-item' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
-          <image class='score-item' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
-          <image class='score-item' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
-          <image class='score-item' src='http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png'/>
+        <view class="score">
+          <block wx:for="{{detail.comments[0].star}}" wx:key="{{index}}">
+            <image class="score-item" src="http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/star-smallYellow-34fe945be9.png"/>
+          </block>
         </view>
       </view>
-      <view class='info-bar'>
-        <text>2018-08-27 12:45</text>
-        <text>黄桃鲜果冻</text>
+      <view class="info-bar">
+        <text>{{detail.comments[0].createTime}}</text>
+        <text wx:for="{{detail.comments[0].skuInfo}}" wx:key="{{index}}">{{item}}</text>
       </view>
-      <view class='judge-desc'>
-        超喜欢这个包装 而且拼团价还包邮 真的是四舍五入不要钱诶 喜欢喜欢💖
+      <view class="judge-desc">
+        {{detail.comments[0].content}}
       </view>
-      <view class='judge-pic'>
-        <image src='https://yanxuan.nosdn.127.net/6a1c2fe7a0888f586cf31b885f9c07ab.jpg'/>
-        <image src='https://yanxuan.nosdn.127.net/6a1c2fe7a0888f586cf31b885f9c07ab.jpg'/>
-        <image src='https://yanxuan.nosdn.127.net/6a1c2fe7a0888f586cf31b885f9c07ab.jpg'/>
-      </view>
-      <view class='reply'>
-        小选回复：<text>感谢您对我们的支持，祝您每天都能拥有阳光般的好心情~</text>
+      <view class="judge-pic">
+        <image wx:for="{{detail.comments[0].picList}}" wx:key="{{index}}" src="{{item}}"/>
       </view>
     </view>
   </view>
-  <view class='detail'>
-    <view class='params'>
-      <text class='params-title'>商品参数</text>
-      <view class='params-item'>
-        <text class='params-lt'>品名</text>
-        <text class='params-rt'>鲜果冻</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>规格</text>
-        <text class='params-rt'>青梅味 雪梨味 黄桃味 菠萝味</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>产地</text>
-        <text class='params-rt'>上海市松江区</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>保质期</text>
-        <text class='params-rt'>180天</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>配料表1</text>
-        <text class='params-rt'>青梅鲜果冻：水，果葡糖浆，糖水梅子（梅子，水，白砂糖，食盐，柠檬酸，甜蜜素，阿斯巴甜（含苯丙氨酸），甜菊糖苷，乙基麦芽酚，山梨酸钾，亮蓝，柠檬黄），酸梅膏（山楂，乌梅，白砂糖，果葡糖浆，水，柠檬酸，安赛蜜，焦糖色，山梨酸钾，食品用香精），白砂糖，食品添加剂（复配增稠剂（卡拉胶，柠檬酸，氯化钾，魔芋粉，麦芽糊精），柠檬酸，柠檬酸钠，山梨酸钾），食品用香精。</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>配料表2</text>
-        <text class='params-rt'>黄桃鲜果冻：水，果葡糖浆，白砂糖，水蜜桃饮料浓浆（白砂糖，水，水蜜桃浆，柠檬酸，黄原胶，柠檬酸钠，六偏磷酸钠，阿斯巴甜（含苯丙氨酸），β-胡萝卜素，安赛蜜，食品用香精），糖水黄桃罐头（黄桃肉，水，白砂糖，柠檬酸，D-异抗坏血酸钠，三氯蔗糖），食品添加剂（复配增稠剂（卡拉胶，柠檬酸，氯化钾，魔芋粉，麦芽糊精），柠檬酸，柠檬酸钠，山梨酸钾）。</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>净含量</text>
-        <text class='params-rt'>180克（6粒入）</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>贮存条件</text>
-        <text class='params-rt'>请置于阴凉干燥处</text>
-      </view>
-      <view class='params-item'>
-        <text class='params-lt'>温馨提示</text>
-        <text class='params-rt'>网易严选出售的食品，除明确质量问题外均不接受退换货</text>
+
+  <!-- 详情 -->
+  <view class="detail">
+    <view class="params">
+      <text class="params-title">商品参数</text>
+      <view class="params-item" wx:for="{{detail.attrList}}" wx:key="{{index}}">
+        <text class="params-lt">{{item.attrName}}</text>
+        <text class="params-rt">{{item.attrValue}}</text>
       </view>
     </view>
-    <image src='http://yanxuan.nosdn.127.net/20013980c5ae312c0f4f195c6dbfbac0.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/0090a9d0472f18f0a25febb4db724e04.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/37132589f39f802c0cf89106d61f780f.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/fda484d04629f563275830c65405c3d5.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/69f360a5b748f8f2bd3db5c1ddcce344.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/bc172fefc2ffbd63dea51b22dff458a9.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/0153a9f5c2a67debb8e40721f25c98dd.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/95b24d6c9225e17fdc627e03fa7c5cc7.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/54b17a2dcb1b11f76be5d57d3f396b5b.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/0aa1110f1574fdc966e889da26d84ac9.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/173113ecba045733246e06dd6e81e5ca.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/6700f2feca83edafac4287c577e66aa6.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/8a6e1c1cb5dbba5e341c4a10f9e4c1df.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/25079a97c4ae039357af95866e304be2.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/5311ec0b8664c9b62b00cae7880882e4.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/4ef09d50a15c210fffc316f0746b15ec.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/16d350a3feb7815b81d035d5546a76d3.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/6a8991ba713350d1ec7ceae32b93be0e.jpg' mode="widthFix"/>
-    <image src='http://yanxuan.nosdn.127.net/05c0e30b9217c055c9ab7e2d811f9691.jpg' mode="widthFix"/>
+    <image wx:for="{{detail.detailImgs}}" wx:key="{{index}}" src="{{item}}" mode="widthFix"/>
+    <view class="issue">
+      <text class="issue-tit">- 常见问题 -</text>
+      <view class="issue-item" wx:for="{{detail.issueList}}" wx:key="{{index}}">
+        <text class="issue-q">{{item.question}}</text>
+        <text class="issue-a">{{item.answer}}</text>
+      </view>
+    </view>
   </view>
-  <view class='footer'>
-    <view class='footer-item footer-home' bindtap="linkToHome">
-      <image src='../../images/menu/home.png'/>
+
+  <!-- 底部 -->
+  <view class="footer">
+    <view class="footer-item footer-home" bindtap="linkToHome">
+      <image src="../../images/menu/home.png"/>
     </view>
-    <view class='footer-item footer-cart' bindtap="linkToCart">
-      <image src='../../images/menu/cart.png'/>
+    <view class="footer-item footer-cart" bindtap="linkToCart">
+      <image src="../../images/menu/cart.png"/>
     </view>
-    <view class='footer-item footer-buy'>
+    <view class="footer-item footer-buy">
       <text>立即购买</text>
     </view>
-    <view class='footer-item footer-add' bindtap="linkToCart">
+    <view class="footer-item footer-add" bindtap="linkToCart">
       <text>加入购物车</text>
     </view>
   </view>
 
-  <!-- modal -->
+  <!-- 弹框 -->
   <my-modal isType="bottom" isHide="{{!myModal.isShow}}">
     <view style="background: #fff;">
-      <view class='sm-modal' wx:if="{{modal==='service'}}">
-        <text class='sm-title'>服务</text>
-        <view class='sm-content'>
-          <view class='sm-item'>
-            <text class='sm-item-title'>支持30天无忧退换货</text>
-            <text class='sm-item-info'>自收到商品之日起30天内，可在线申请无忧退换货服务（食品、贴身衣物、积分兑换等特殊商品除外）。</text>
-          </view>
-          <view class='sm-item'>
-            <text class='sm-item-title'>48小时快速退款</text>
-            <text class='sm-item-info'>收到退货包裹并确认无误后，将在48小时内办理退款，退款将原路返回，不同银行处理时间不同，预计1-5个工作日到账。</text>
-          </view>
-          <view class='sm-item'>
-            <text class='sm-item-title'>满88元免邮费</text>
-            <text class='sm-item-info'>单笔订单金额（不含运费），大陆地区满88元免邮，不满88元收取10元邮费；港澳台地区满500元免邮，不满500元收取30元运费；海外地区以下单页提示运费为准。</text>
-          </view>
-          <view class='sm-item'>
-            <text class='sm-item-title'>网易自营品牌</text>
-            <text class='sm-item-info'>网易原创生活类电商品牌，所有商品均为网易自营，品质保证。</text>
-          </view>
-          <view class='sm-item'>
-            <text class='sm-item-title'>国内部分地区无法配送</text>
-            <text class='sm-item-info'>不支持省份: 新疆、台湾、香港、澳门</text>
+      <view class="sm-modal" wx:if="{{modal==='service'}}">
+        <text class="sm-title">服务</text>
+        <view class="sm-content">
+          <view class="sm-item" wx:for="{{service}}" wx:key="{{index}}">
+            <text class="sm-item-title">{{item.title}}</text>
+            <text class="sm-item-info">{{item.content}}</text>
           </view>
         </view>
       </view>
       <view wx:if="{{modal==='attrs'}}">
-      属性选择框
+        <my-pro-attr attrs="{{attrs}}"/>
       </view>
     </view>
   </my-modal>

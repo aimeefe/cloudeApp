@@ -16,15 +16,15 @@
     <block wx:for="{{data}}"  wx:key="{{item.id}}">
       <navigator url="{{'../pro_detail/pro_detail?id='+item.id}}">
         <view class='temp-pro-item'>
-          <image src="{{item.imgUrl}}" alt='{{item.name}}'/>
+          <image src="{{item.listPicUrl}}" alt='{{item.name}}'/>
           <view class='temp-pro-info'>
             <view class='unit-label'>
               <text wx:for="{{item.label}}" wx:for-item="_item" wx:key="{{index}}">{{_item}}</text>
             </view>
             <text class='temp-pro-name'>{{item.name}}</text>
             <view class='temp-pro-price'>
-              <text class='temp-pro-price-now theme-color'>¥ {{item.discountPrice}}</text>
-              <text class='temp-pro-price-history' v-if="{{item.discountPrice}}">¥ {{item.price}}</text>
+              <text class='temp-pro-price-now theme-color'>¥ {{item.retailPrice}}</text>
+              <text class='temp-pro-price-history' wx:if="{{item.counterPrice > item.retailPrice}}">¥ {{item.counterPrice}}</text>
             </view>
           </view>
         </view>

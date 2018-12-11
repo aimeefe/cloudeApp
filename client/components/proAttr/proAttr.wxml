@@ -1,0 +1,27 @@
+<!--components/proAttr/proAttr.wxml-->
+<view class="attr-box">
+  <view class="attr-close">×</view>
+  <view class="attr-pro">
+    <image class="attr-pro-img" src="{{attrs.listPicUrl}}"></image>
+    <view class="attr-pro-base">
+      <text>价格：¥{{attrs.retailPrice}}</text>
+      <text>请选择属性规格</text>
+    </view>
+  </view>
+  <view class="attr-spec" wx:for="{{attrs.skuSpecList}}" wx:key="{{index}}">
+    <text class="attr-tit">{{item.name}}</text>
+    <view class="attr-spec-list">
+      <text class="attr-spec-item" wx:for="{{item.skuSpecValueList}}" wx:key="{{index}}">{{item.value}}</text>
+    </view>
+  </view>
+  <view class="attr-nums">
+    <text class="attr-tit">数量</text>
+    <view class="attr-nums-bar">
+      <view class="attr-nums-dec">-</view>
+      <view class="attr-nums-input">
+        <input value="1"/>
+      </view>
+      <view class="attr-nums-inc">+</view>
+    </view>
+  </view>
+</view>

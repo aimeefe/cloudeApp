@@ -81,6 +81,15 @@ const getBrandList = (params) => {
   return request('brand/list', params);
 }
 
+
+/*********************************************** 产品 **************************************************/
+
+// 获取产品详情
+const getProductDetail = (params) => {
+  return request('product/detail', params);
+}
+
+
 module.exports = {
   getBanner,
   getLimitProduct,
@@ -91,5 +100,6 @@ module.exports = {
   updateAddress,
   getAddressList,
   getBrandList,
-  deleteAddress
+  deleteAddress,
+  getProductDetail
 }

@@ -73,6 +73,7 @@
   border: 1rpx solid #e8a336;
   line-height: 1;
   padding: 10rpx;
+  margin-right: 10rpx;
 }
 .pro-opt {
   padding: 0 30rpx;
@@ -180,6 +181,7 @@
   height: 65rpx;
   border-radius: 65rpx;
   margin-right: 15rpx;
+  border: 1rpx solid #f0f0f0;
 }
 .info-bar {
   color: #999;
@@ -252,6 +254,7 @@
 }
 .params-rt {
   color: #666;
+  line-height: 1.8;
 }
 .detail {
   margin-bottom: 100rpx;
@@ -310,7 +313,7 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1111;
   display: flex;
   justify-content: space-between;
 }
@@ -356,4 +359,40 @@
   line-height: 36rpx;
   border-radius: 36rpx;
   font-size: 20rpx;
+}
+.issue {
+  padding: 30rpx 30rpx 120rpx;
+  background: #fff;
+}
+.issue-tit {
+  padding: 45rpx 0;
+  text-align: center;
+  color: #333;
+  font-size: 30rpx;
+}
+.issue-item {
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.issue-q {
+  color: #303030;
+  line-height: 1.5;
+  margin-bottom: 10rpx;
+  position: relative;
+  padding-left: 20rpx;
+}
+.issue-q::before {
+  content: '';
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 10rpx;
+  background: #b4292d;
+  position: absolute;
+  top: 12rpx;
+  left: 0;
+}
+.issue-a {
+  color: #787878;
+  line-height: 1.5;
+  padding-left: 25rpx;
 }
