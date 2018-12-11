@@ -277,7 +277,7 @@
 .sm-content {
   height: 632rpx;
   overflow-y: auto;
-  padding-bottom: 80rpx;
+  padding-bottom: 180rpx;
 }
 .sm-item {
   padding: 60rpx 30rpx 0;

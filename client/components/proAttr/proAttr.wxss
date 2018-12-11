@@ -60,11 +60,11 @@
 }
 .attr-nums-bar {
   margin-top: 22rpx;
-  border: 1px solid #333;
+  border: 1rpx solid #333;
   width: 320rpx;
   height: 70rpx;
   display: flex;
-  border-radius: 8rpx;
+  border-radius: 4rpx;
   margin-bottom: 198rpx;
 }
 .attr-nums-inc,
