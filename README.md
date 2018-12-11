@@ -83,7 +83,7 @@ npm install
 
 • 个人中心 
 
-<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/my.gif" width="375"/>         
+<img src="https://github.com/aimeefe/cloudeApp/blob/master/images/address.gif" width="375"/>         
 
 • 分类页
 
