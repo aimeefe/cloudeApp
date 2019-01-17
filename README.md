@@ -6,9 +6,11 @@
 # 使用：
 云函数需要安装依赖
 
-cd cloudeApp/cloud/router/
+1. 微信开发者工具中点击 cloud/router --> 右键 --> 终端中打开
 
-npm install
+2. npm install
+
+3. 微信开发者工具中点击 cloud/router  --> 右键 --> 上传并部署
 
 # 目录结构：
 • client - 客户端
